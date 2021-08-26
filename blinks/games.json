@@ -3,15 +3,15 @@
         "identifier": "astro",
         "appStoreProductIdentifier": "com.move38.blinks.test_game_1",
         "categories": ["all", "popular"],
-        "name": "Puzzle 101",
-        "description": "It’s your first day attending Alabaster’s School of Alchemy and Potions. Can you mix and match the potions to create the most magical brew?",
+        "name": "Astro",
+        "description": "Astro is a real-time action game for 2-8 players. An asteroid field rich with rare space ore awaits you. Can you collect enough to fill your cargo hold before your competition does? This action-packed space adventure will get your jets going.",
         "duration": "5-10 Mins",
         "numPlayers": "1",
         "headerImageURL": "http://app.move38.com/blinks/games/astro/images/header-image.png",
         "romImageURL": "http://app.move38.com/blinks/games/astro/images/rom-art.png",
         "imageURLs": ["http://app.move38.com/blinks/games/astro/images/image-1.png", "http://app.move38.com/blinks/games/astro/images/image-2.png"],
         "videoURL": "https://www.youtube.com/watch?v=ZHi60qAy2mc",
-        "detailsHtmlURL": "http://app.move38.com/blinks/astro/details.html",
+        "detailsHtmlURL": "http://app.move38.com/blinks/games/astro/details.html",
         "url": "https://move38.com/pages/astro"
     }
 ]
