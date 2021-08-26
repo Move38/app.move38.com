@@ -13,5 +13,20 @@
         "videoURL": "https://www.youtube.com/embed/omJUh8d9GPA?playsinline=1",
         "detailsHtmlURL": "http://app.move38.com/blinks/games/astro/details.html",
         "url": "https://move38.com/pages/astro"
-    }
+    },
+    {
+        "identifier": "darkball",
+        "appStoreProductIdentifier": "com.move38.blinks.test_game_4",
+        "categories": ["all", "new", "exclusive"],
+        "name": "Darkball",
+        "description": "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+        "duration": "5-10 Mins",
+        "numPlayers": "1",
+        "headerImageURL": "http://app.move38.com/blinks/games/darkball/images/header.png",
+        "romImageURL": "http://app.move38.com/blinks/games/darkball/images/rom-art.png",
+        "imageURLs": ["http://app.move38.com/blinks/games/darkball/images/image-1.jpg", "http://app.move38.com/blinks/games/darkball/images/image-2.png"],
+        "videoURL": "https://www.youtube.com/watch?v=WX0xjDb2iyY?playsinline=1",
+        "detailsHtmlURL": "http://app.move38.com/blinks/games/darkball/details.html",
+        "url": "https://move38.com/pages/darkball"
+    },
 ]
