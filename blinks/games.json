@@ -1,0 +1,17 @@
+[
+    {
+        "identifier": "astro",
+        "appStoreProductIdentifier": "com.move38.blinks.test_game_1",
+        "categories": ["all", "popular"],
+        "name": "Puzzle 101",
+        "description": "It’s your first day attending Alabaster’s School of Alchemy and Potions. Can you mix and match the potions to create the most magical brew?",
+        "duration": "5-10 Mins",
+        "numPlayers": "1",
+        "headerImageURL": "http://app.move38.com/blinks/games/astro/images/header-image.png",
+        "romImageURL": "http://app.move38.com/blinks/games/astro/images/rom-art.png",
+        "imageURLs": ["http://app.move38.com/blinks/games/astro/images/image-1.png", "http://app.move38.com/blinks/games/astro/images/image-2.png"],
+        "videoURL": "https://www.youtube.com/watch?v=ZHi60qAy2mc",
+        "detailsHtmlURL": "http://app.move38.com/blinks/astro/details.html",
+        "url": "https://move38.com/pages/astro"
+    }
+]

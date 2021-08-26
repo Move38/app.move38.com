@@ -10,7 +10,7 @@
       - source.hex
       - /images
         - rom-art.png
-        - background.png
+        - header.png
         - image-1.png
         - image-2.png
    - /features

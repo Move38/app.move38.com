@@ -1,0 +1,35 @@
+{
+    "feedbackURL": "https://move38.com/pages/blinks-support",
+    "gamesJsonURL": "http://app.move38.com/blinks/games.json",
+    "supportURL": "https://move38.com/pages/blinks-support",
+    "categories":
+    [
+        {
+            "identifier": "popular",
+            "name": "Most Popular",
+        },
+        {
+            "identifier": "new",
+            "name": "Newest",
+        },
+        {
+            "identifier": "exclusive",
+            "name": "App Exclusives",
+        },
+        {
+            "identifier": "all",
+            "name": "All Games",
+        }
+    ],
+    "featuredProducts":
+    [
+        {
+            "imageURL": "http://app.move38.com/blinks/features/sakura-hero.png",
+            "url": "https://move38.com/collections/coming-soon/products/blinks-sakura-strategy-pack"
+        },
+        {
+            "imageURL": "http://app.move38.com/blinks/features/astro-hero.png",
+            "url": "blinks://games/astro"
+        }
+    ]
+}
