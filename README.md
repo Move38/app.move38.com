@@ -1,13 +1,18 @@
 # app.move38.com
 
 ### Folder Structure
-- blinks
-  - games
-    - game-title
-      - ROM_art.png
-      - Background.png
-      - Image_1.png       
-- ios
+- /blinks
+  - config.json
+  - /games
+    - games.json
+    - /game-title
+      - details.html
+      - source.hex
+      - /images
+        - rom-art.png
+        - background.png
+        - image-1.png       
+- /ios
   - landing page for NFC
-- android
+- /android
   - landing page for NFC
