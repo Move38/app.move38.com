@@ -25,7 +25,7 @@
         "headerImageURL": "http://app.move38.com/blinks/games/darkball/images/header.png",
         "romImageURL": "http://app.move38.com/blinks/games/darkball/images/rom-art.png",
         "imageURLs": ["http://app.move38.com/blinks/games/darkball/images/image-1.jpg", "http://app.move38.com/blinks/games/darkball/images/image-2.png"],
-        "videoURL": "https://www.youtube.com/watch?v=WX0xjDb2iyY?playsinline=1",
+        "videoURL": "https://www.youtube.com/embed/WX0xjDb2iyY?playsinline=1",
         "detailsHtmlURL": "http://app.move38.com/blinks/games/darkball/details.html",
         "url": "https://move38.com/pages/darkball"
     },
