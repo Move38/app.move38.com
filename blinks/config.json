@@ -28,8 +28,12 @@
             "url": "https://move38.com/collections/coming-soon/products/blinks-sakura-strategy-pack"
         },
         {
-            "imageURL": "http://app.move38.com/blinks/features/astro-hero.png",
-            "url": "blinks://games/astro"
+            "imageURL": "http://app.move38.com/blinks/features/puzzle-wizard-hero.png",
+            "url": "https://move38.com/collections/coming-soon/products/blinks-puzzle-wizard-pack"
+        },
+        {
+            "imageURL": "http://app.move38.com/blinks/features/coming-soon-hero.png",
+            "url": "https://move38.com/"
         }
     ]
 }
