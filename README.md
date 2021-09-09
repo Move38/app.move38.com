@@ -7,7 +7,6 @@
     - games.json
     - /game-title
       - details.html
-      - source.hex
       - /images
         - rom-art.png
         - header.png
