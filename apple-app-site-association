@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["SQFU5W3NZU.com.move38.blinks"],
+        "components": [
+          {
+            "/": "/blinks/games/*",
+            "comment": "Opened in app if the user has the app installed."
+          }
+        ]
+      }
+    ]
+  }
+}
