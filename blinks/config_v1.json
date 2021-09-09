@@ -1,6 +1,6 @@
 {
     "feedbackURL": "https://move38.com/pages/blinks-support",
-    "gamesJsonURL": "http://app.move38.com/blinks/games.json",
+    "gamesJsonURL": "https://app.move38.com/blinks/games.json",
     "supportURL": "https://move38.com/pages/blinks-support",
     "categories":
     [
@@ -24,15 +24,15 @@
     "featuredProducts":
     [
         {
-            "imageURL": "http://app.move38.com/blinks/features/sakura-hero.png",
+            "imageURL": "https://app.move38.com/blinks/features/sakura-hero.png",
             "url": "https://move38.com/collections/coming-soon/products/blinks-sakura-strategy-pack"
         },
         {
-            "imageURL": "http://app.move38.com/blinks/features/puzzle-wizard-hero.png",
+            "imageURL": "https://app.move38.com/blinks/features/puzzle-wizard-hero.png",
             "url": "https://move38.com/collections/coming-soon/products/blinks-puzzle-wizard-pack"
         },
         {
-            "imageURL": "http://app.move38.com/blinks/features/coming-soon-hero.png",
+            "imageURL": "https://app.move38.com/blinks/features/coming-soon-hero.png",
             "url": "https://move38.com/"
         }
     ]
