@@ -1,8 +1,9 @@
 {
   "applinks": {
+    "apps": [],
     "details": [
       {
-        "appIDs": ["1580464781.com.move38.blinks"],
+        "appIDs": ["SQFU5W3NZU.com.move38.blinks"],
         "components": [
           {
             "/": "/blinks/games/*",
