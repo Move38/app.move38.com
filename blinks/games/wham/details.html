@@ -72,7 +72,65 @@
                         display: inline-block;
                         max-width: 289px;
                     }
+
+
+                    .level {
+                        font-weight: bold;
+                        font-size: 8em;
+                    }
+
+                    button {
+                        padding: 10px 20px;
+                        border-radius: 20px;
+                        border-style: none;
+                    }
+
+                    .green {
+                        color: #FFF;
+                        font-weight: bold;
+                        background-color: #4CB64F;
+                    }
                     
+                    .red {
+                        color: #FFF;
+                        font-weight: bold;
+                        background-color: #EB4A23;
+                    }
+
+                    #wham-timer {
+                        font-family: "Helvetica Neue";
+                        background-color: #27783D;
+                        margin: 30px;
+                        padding: 10px 10px;
+                        border-radius: 30px;
+                        color: #FFF;
+                    }
+
+                    #wham-timer h1 {
+                        color: #FFF;
+                        font-size: 2em;                        
+                    }
+
+                    #clockDisplay{
+                        color: #98CA53;
+                        font-weight: bold;
+                        font-size: 1.4em;
+                    }
+
+                    .timeLabel {
+                        margin-bottom: -20px;
+                    }
+
+                    .time {
+                        font-size: 1.6em;
+                    }
+
+                    .levelLabel {
+                        font-weight: bold;
+                        font-size: 2em;
+                        margin-bottom: -30px;
+                    }
+
                 </style>
     </head>
     <body>
@@ -81,7 +139,7 @@
             Game Designer
             </p>
             <p class="right cell">
-            Brett Taylor
+            Daniel King
             </p>
         </div>
         <div class="row">
@@ -89,7 +147,7 @@
             Artist
             </p>
             <p style="float:right">
-            Elizabeth Yuan
+            Jonathan Bobrow
             </p>
         </div>
         <div style="clear:left">
@@ -97,108 +155,122 @@
                 Instructions
             </h1>
             <p align="center">
-            Each turn, you rearrange your Blinks in an attempt to create matches. A match is made by positioning 3 or more Blinks of the same color in a cluster. When you do this, they Blinks will swirl down to darkness, before being replaced by new colors. Sometimes, new colors will immediately create a match, and these matches can cascade one after the other if you position your Blinks correctly.      </p>
+            Set up your garden in any size and shape, then defend it from pesky moles who are up to no good. How long can you keep the increasingly aggressive pests at bay? Show them who's garden it really is. This board can be arranged any number of ways for variable difficulties.</p>
             <div align="center" class="image">
-                <img src="https://cdn.shopify.com/s/files/1/2127/8629/t/16/assets/DragonsLairSticker-1606860577666.png"/>
+                <img src="https://app.move38.com/blinks/games/wham/images/wham2.png"/>
                 <p class="caption">
-                Three Yellow Blinks Makes a Match then regenerates with new colors
+                Hit the red moles before they time out
                 </p>
             </div>
-            <p align="center">
-            You’ll notice as you make matches that your Blinks will begin bubbling - this shows how alchemically activated each Blink is. Each time a Blink is matched, it powers up. Eventually, after 10 matches, a Blink can become a Bomb. Bombs appear as spinning points of color. To activate a Bomb, click the Blink. This will cause an alchemical explosion, turning all adjacent Blinks to the color of the bomb, and automatically creating a huge matching cluster.      </p>
             <div align="center" class="image">
-                <img src="https://cdn.shopify.com/s/files/1/2127/8629/t/16/assets/DragonsLairSticker-1606860577666.png"/>
+                <img src="https://app.move38.com/blinks/games/wham/images/wham3.png"/>
                 <p class="caption">
-                Click a bomb to set off an explosion!    </p>
-            </div>
-            <p align="center">
-            But be careful - Bombs only last a few seconds before they revert back to their basic form. If you miss it, you’ll have to power up that Blink again. If you are playing with 12 or fewer Blinks, it is possible to end up in a situation where no matches are possible. If this happens, simply triple-click a single Blink to change its color, potentially creating a match.
-            </p>
-            <div align="center" class="image">
-                <img src="https://cdn.shopify.com/s/files/1/2127/8629/t/16/assets/DragonsLairSticker-1606860577666.png"/>
-                <p class="caption">
-                Triple-click a Blink to change its color    </p>
-            </div>
-            <h1 align="center">
-                Win Conditions
-            </h1>
-            <p align="center">
-            Alchematch has no explicit goal, and can be played endlessly!
-            </p>
-            <h1>
-                More Information
-            </h1>
-            <p>
-            Alchematch is part of the Epic Adventure Set.
-            </p>
-            <div>
-                <p>
-                <a href="https://move38.com/pages/astro">BUY PHYSICAL HERE</a>
+                Miss hit and you get a strike. Three strikes and you're out!
                 </p>
             </div>
-            
         </div>
         <div id="wham-timer">
-            <div id="clockdiv" align='center'>
+            <h1 align="center">
+                SCORE CARD
+            </h1>
+            <div id="levelDisplay" align="center">
                 <div>
-                  <span class="days"></span>
-                  <div class="smalltext">Days</div>
-                </div>
-                <div>
-                  <span class="hours"></span>
-                  <div class="smalltext">Hours</div>
-                </div>
-                <div>
-                  <span class="minutes"></span>
-                  <div class="smalltext">Minutes</div>
-                </div>
-                <div>
-                  <span class="seconds"></span>
-                  <div class="smalltext">Seconds</div>
+                    <div class="levelLabel">Level</div>
+                    <span class="level">--</span>
                 </div>
             </div>
+            <div id="clockDisplay" align='center'>
+              <div class="timeLabel">Elapsed time</div>
+              <div class="time"><span class="minutes">00</span>:<span class="seconds">00</span>:<span class="hundredths">00</div>
+            </div>
+            <button onClick="startScorecard()" class="green">Start</button>
+            <button onClick="stopAndResetClock()" class="red"><span id="stopResetButton">Stop</span></button>
             <script type="text/javascript">
-                function getTimeRemaining(endtime) {
-                  var t = Date.parse(endtime) - Date.parse(new Date());
+                var startTimes = [0,7807,15293,22458,29302,35825,42027,47908,53466,58702,63617,68211,72484,76436,80067,83375,86361,89347,92333,95319,98305,101291,104277,107263,110249,113235,116221,119207,122193,125179,128165];
+
+                function getLevelBasedOnTimeElapsed(timeElapsed) {
+                    for(var i=1; i<startTimes.length; i++) {
+                        if(timeElapsed > startTimes[i-1] && timeElapsed <= startTimes[i]) {
+                            return i;
+                        }
+                    }
+                    if(timeElapsed > startTimes[startTimes.length-1]) {
+                        return startTimes.length;
+                    }
+
+                    console.log("time elapsed is not in any of these windows")    
+                }
+
+                function getElapsedTime(startTime) {
+                  var t = Date.now() - Date.parse(startTime);
+                  var millis = t % 1000;
                   var seconds = Math.floor((t / 1000) % 60);
                   var minutes = Math.floor((t / 1000 / 60) % 60);
-                  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-                  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+
                   return {
-                    'total': t,
-                    'days': days,
-                    'hours': hours,
                     'minutes': minutes,
-                    'seconds': seconds
+                    'seconds': seconds,
+                    'milliseconds': millis,
+                    'total': t
                   };
                 }
 
-                function initializeClock(id, endtime) {
-                  var clock = document.getElementById(id);
-                  var daysSpan = clock.querySelector('.days');
-                  var hoursSpan = clock.querySelector('.hours');
-                  var minutesSpan = clock.querySelector('.minutes');
-                  var secondsSpan = clock.querySelector('.seconds');
+                var timeinterval;
+                var startTime;
+                var stopResetToggle = "Stop";
 
-                  function updateClock() {
-                    var t = getTimeRemaining(endtime);
+                var clock = document.getElementById('clockDisplay');
+                var minutesSpan = clock.querySelector('.minutes');
+                var secondsSpan = clock.querySelector('.seconds');
+                var hundredthsSpan = clock.querySelector('.hundredths');
+                var level = document.getElementById('levelDisplay');
+                var levelSpan = level.querySelector('.level');
+                var stopResetSpan = document.getElementById('stopResetButton');
 
-                    daysSpan.innerHTML = t.days;
-                    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                function updateClock() {
+                    var t = getElapsedTime(startTime);
+
                     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
                     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+                    hundredthsSpan.innerHTML = ('0' + (Math.floor(t.milliseconds / 10))).slice(-2);
 
-                    if (t.total <= 0) {
-                      clearInterval(timeinterval);
-                    }
-                  }
-
-                  updateClock();
-                  var timeinterval = setInterval(updateClock, 1000);
+                    levelSpan.innerHTML = getLevelBasedOnTimeElapsed(t.total);
                 }
 
-                var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-                initializeClock('clockdiv', deadline);
+                function startScorecard() {
+                    startTime = new Date();
+                    timeinterval = setInterval(updateClock, 10);
+                }
+
+                function stopAndResetClock() {
+                    if(stopResetToggle === "Stop") {
+                        if(timeinterval) {
+                            stopClock();
+                            stopResetToggle = "Reset";
+                        }
+                    }
+                    else if(stopResetToggle === "Reset" ) {
+                        resetClock();
+                        stopResetToggle = "Stop";
+                    }
+                    stopResetSpan.innerHTML = stopResetToggle;
+                }
+
+                function stopClock() {
+                    clearInterval(timeinterval);
+                    timeinterval = null;
+                }
+
+                function resetClock() {
+
+                    minutesSpan.innerHTML = "00";
+                    secondsSpan.innerHTML = "00";
+                    hundredthsSpan.innerHTML = "00";
+
+                    levelSpan.innerHTML = "--";
+                    clearInterval(timeinterval);
+                    timeinterval = null;
+                }
             </script>
         </div>
     </body>
