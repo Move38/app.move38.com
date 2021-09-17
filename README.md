@@ -19,3 +19,7 @@
   - landing page for NFC
 - /android
   - landing page for NFC
+
+## Details HTML
+
+It is important that the body and first and last elements have 0px top and bottom margins so that the iOS client can correctly calculate the height of the html content.
