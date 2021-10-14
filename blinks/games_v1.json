@@ -6,7 +6,7 @@
       "new",
       "popular"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "Mix and match potions to magical effects",
     "detailsURL" : "https://app.move38.com/blinks/games/alchematch/details.html",
     "duration" : "5-10 Mins",
     "headerImage" : {
@@ -20,11 +20,11 @@
       "https://app.move38.com/blinks/games/alchematch/images/image-2.png"
     ],
     "name" : "Alchematch",
-    "numPlayers" : "1",
+    "numPlayers" : "1+",
     "sourceURL": "https://app.move38.com/blinks/games/alchematch/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/alchematch/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/alchematch",
-    "videoURL" : "https://www.youtube.com/embed/WX0xjDb2iyY?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/ikrkKJiMDSw?playsinline=1"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.test_game_2",
@@ -33,9 +33,9 @@
       "new",
       "exclusive"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "A space mining frenzy",
     "detailsURL" : "https://app.move38.com/blinks/games/astro/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "10-15 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/astro/images/header.jpg",
       "dropShadow" : false,
@@ -47,11 +47,11 @@
       "https://app.move38.com/blinks/games/astro/images/image-2.png"
     ],
     "name" : "Astro",
-    "numPlayers" : "1",
+    "numPlayers" : "1+",
     "sourceURL": "https://app.move38.com/blinks/games/astro/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/astro/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/astro",
-    "videoURL" : "https://www.youtube.com/embed/WX0xjDb2iyY?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/omJUh8d9GPA?playsinline=1"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.test_game_3",
@@ -61,9 +61,9 @@
       "all",
       "new"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "Take risks and walk away with the gems",
     "detailsURL" : "https://app.move38.com/blinks/games/bandits/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "15-30 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/bandits/images/header.jpg",
       "dropShadow" : true,
@@ -75,11 +75,11 @@
       "https://app.move38.com/blinks/games/bandits/images/image-2.png"
     ],
     "name" : "Bandits",
-    "numPlayers" : "1",
+    "numPlayers" : "3-6",
     "sourceURL": "https://app.move38.com/blinks/games/bandits/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/bandits/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/bandits",
-    "videoURL" : "https://www.youtube.com/embed/WX0xjDb2iyY?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/eRSnF4EkmOU?playsinline=1"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.test_game_4",
@@ -89,9 +89,9 @@
       "all",
       "new"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "Pop or be popped. this is the way of battle balloons",
     "detailsURL" : "https://app.move38.com/blinks/games/battle-balloons/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "10-20 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/battle-balloons/images/header.jpg",
       "dropShadow" : false,
@@ -103,11 +103,11 @@
       "https://app.move38.com/blinks/games/battle-balloons/images/image-2.png"
     ],
     "name" : "Battle Balloons",
-    "numPlayers" : "1",
+    "numPlayers" : "2+",
     "sourceURL": "https://app.move38.com/blinks/games/battle-balloons/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/battle-balloons/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/battle-balloons",
-    "videoURL" : "https://www.youtube.com/embed/WX0xjDb2iyY?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/S_BPLgMXbgY?playsinline=1"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.berry",
@@ -116,7 +116,7 @@
       "new",
       "exclusive"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "Favors the clever and punishes the greedy",
     "detailsURL" : "https://app.move38.com/blinks/games/berry/details.html",
     "duration" : "5-10 Mins",
     "headerImage" : {
@@ -134,7 +134,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/berry/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/berry/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/berry",
-    "videoURL" : "https://www.youtube.com/embed/WX0xjDb2iyY?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/N-gxSN27lIU?playsinline=1"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.bomb-brigade",
