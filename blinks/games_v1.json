@@ -24,7 +24,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/alchematch/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/alchematch/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/alchematch",
-    "videoURL" : "https://www.youtube.com/embed/ikrkKJiMDSw?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/ikrkKJiMDSw?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.test_game_2",
@@ -51,7 +51,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/astro/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/astro/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/astro",
-    "videoURL" : "https://www.youtube.com/embed/omJUh8d9GPA?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/omJUh8d9GPA?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.test_game_3",
@@ -79,7 +79,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/bandits/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/bandits/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/bandits",
-    "videoURL" : "https://www.youtube.com/embed/eRSnF4EkmOU?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/eRSnF4EkmOU?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.test_game_4",
@@ -107,7 +107,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/battle-balloons/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/battle-balloons/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/battle-balloons",
-    "videoURL" : "https://www.youtube.com/embed/S_BPLgMXbgY?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/S_BPLgMXbgY?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.berry",
@@ -134,7 +134,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/berry/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/berry/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/berry",
-    "videoURL" : "https://www.youtube.com/embed/N-gxSN27lIU?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/N-gxSN27lIU?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.bomb-brigade",
@@ -162,7 +162,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/bomb-brigade/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/bomb-brigade/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/bomb-brigade",
-    "videoURL" : "https://www.youtube.com/embed/OJoFONytFAg?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/OJoFONytFAg?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.crownfall",
@@ -188,7 +188,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/crownfall/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/crownfall/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/crownfall",
-    "videoURL" : "https://www.youtube.com/embed/DHOT_UqGP7M?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/DHOT_UqGP7M?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.darkball",
@@ -213,7 +213,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/darkball/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/darkball/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/darkball",
-    "videoURL" : "https://www.youtube.com/embed/WX0xjDb2iyY?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/WX0xjDb2iyY?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.dispel",
@@ -238,7 +238,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/dispel/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/dispel/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/dispel",
-    "videoURL" : "https://www.youtube.com/embed/b0NTCJjKcAc?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/b0NTCJjKcAc?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.dynamo",
@@ -264,7 +264,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/dynamo/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/dynamo/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/dynamo",
-    "videoURL" : "https://www.youtube.com/embed/N1TJmm3UIfg?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/N1TJmm3UIfg?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.flic-flop",
@@ -292,7 +292,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/flic-flop/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/flic-flop/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/flic-flop",
-    "videoURL" : "https://www.youtube.com/embed/6iHSceypkoc?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/6iHSceypkoc?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.forget-me-not",
@@ -319,7 +319,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/forget-me-not/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/forget-me-not/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/forget-me-not",
-    "videoURL" : "https://www.youtube.com/embed/sQzbkKEaN04?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/sQzbkKEaN04?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.fracture",
@@ -347,7 +347,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/fracture/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/fracture/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/fracture",
-    "videoURL" : "https://www.youtube.com/embed/a6HqHcluh7Y?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/a6HqHcluh7Y?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.ghost-hunters",
@@ -375,7 +375,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/ghost-hunters/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/ghost-hunters/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/ghost-hunters",
-    "videoURL" : "https://www.youtube.com/embed/xbjj4hUTM?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/xbjj4hUTM?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.group-therapy",
@@ -403,7 +403,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/group-therapy/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/group-therapy/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/group-therapy",
-    "videoURL" : "https://www.youtube.com/embed/-CfSmitvUYw?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/-CfSmitvUYw?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.heist",
@@ -430,7 +430,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/heist/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/heist/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/heist",
-    "videoURL" : "https://www.youtube.com/embed/soEzFvfbmoY?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/soEzFvfbmoY?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.hexenwood",
@@ -458,7 +458,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/hexenwood/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/hexenwood/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/hexenwood",
-    "videoURL" : "https://www.youtube.com/embed/9lXhpI_XroQ?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/9lXhpI_XroQ?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.honey",
@@ -485,7 +485,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/honey/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/honey/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/honey",
-    "videoURL" : "https://www.youtube.com/embed/jb4thPCO1hM?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/jb4thPCO1hM?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.mortals",
@@ -510,7 +510,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/mortals/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/mortals/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/mortals",
-    "videoURL" : "https://www.youtube.com/embed/B2nAiiM4-Ow?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/B2nAiiM4-Ow?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.paintbrush",
@@ -536,7 +536,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/paintbrush/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/paintbrush/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/paintbrush",
-    "videoURL" : "https://www.youtube.com/embed/Kp7nfsk5iCE?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/Kp7nfsk5iCE?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.pirates-lasers",
@@ -561,7 +561,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/pirates-lasers/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/pirates-lasers/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/pirates-lasers",
-    "videoURL" : "https://www.youtube.com/embed/oISnZihn_II?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/oISnZihn_II?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.puzzle101",
@@ -587,7 +587,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/puzzle101/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/puzzle101/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/puzzle101",
-    "videoURL" : "https://www.youtube.com/embed/ZHi60qAy2mc?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/ZHi60qAy2mc?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.raid",
@@ -615,7 +615,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/raid/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/raid/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/raid",
-    "videoURL" : "https://www.youtube.com/embed/CHEjEC0HrGg?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/CHEjEC0HrGg?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.reactor",
@@ -642,7 +642,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/reactor/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/reactor/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/reactor",
-    "videoURL" : "https://www.youtube.com/embed/9V8jqc25kas?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/9V8jqc25kas?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.speed-racer",
@@ -668,7 +668,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/speed-racer/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/speed-racer/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/speed-racer",
-    "videoURL" : "https://www.youtube.com/embed/LnDAajp27Os?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/LnDAajp27Os?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.thalassophobia",
@@ -693,7 +693,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/thalassophobia/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/thalassophobia/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/thalassophobia",
-    "videoURL" : "https://www.youtube.com/embed/VqZMn3vXTBg?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/VqZMn3vXTBg?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.the-cloud-game",
@@ -719,7 +719,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/the-cloud-game/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/the-cloud-game/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/the-cloud-game",
-    "videoURL" : "https://www.youtube.com/embed/cdlB4XTVL_o?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/cdlB4XTVL_o?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.the-dragons-lair",
@@ -745,7 +745,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/the-dragons-lair/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/the-dragons-lair/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/the-dragons-lair",
-    "videoURL" : "https://www.youtube.com/embed/vAl3hfCbQ_Y?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/vAl3hfCbQ_Y?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.tip-toe-volcano",
@@ -773,7 +773,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/tip-toe-volcano/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/tip-toe-volcano/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/tip-toe-volcano",
-    "videoURL" : "https://www.youtube.com/embed/5hZw4KiV4os?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/5hZw4KiV4os?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.treasure-tumble",
@@ -800,7 +800,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/treasure-tumble/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/treasure-tumble/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/treasure-tumble",
-    "videoURL" : "https://www.youtube.com/embed/eY7wUgULUYI?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/eY7wUgULUYI?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.trifoil",
@@ -828,7 +828,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/trifoil/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/trifoil/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/trifoil",
-    "videoURL" : "https://www.youtube.com/embed/RlNvGNzuDTs?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/RlNvGNzuDTs?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.wham",
@@ -855,7 +855,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/wham/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/wham/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/wham",
-    "videoURL" : "https://www.youtube.com/embed/zPlq4BEwlc0?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/zPlq4BEwlc0?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.widgets",
@@ -882,7 +882,7 @@
     "sourceURL": "https://app.move38.com/blinks/games/widgets/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/widgets/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/widgets",
-    "videoURL" : "https://www.youtube.com/embed/rowD9Byubxk?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/rowD9Byubxk?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.zen-flow",
@@ -910,6 +910,6 @@
     "sourceURL": "https://app.move38.com/blinks/games/zen-flow/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/zen-flow/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/zen-flow",
-    "videoURL" : "https://www.youtube.com/embed/jnQRpy7SnFQ?playsinline=1"
+    "videoURL" : "https://www.youtube.com/embed/jnQRpy7SnFQ?playsinline=1&controls=0&showinfo=0"
   }
 ]
