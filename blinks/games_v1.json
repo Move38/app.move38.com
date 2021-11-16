@@ -6,7 +6,7 @@
       "new",
       "popular"
     ],
-    "description" : "Mix and match potions to magical effects",
+    "description" : "It’s your first day at Potion school! Can you mix and match the elixirs to create the most magical brew?",
     "detailsURL" : "https://app.move38.com/blinks/games/alchematch/details.html",
     "duration" : "5-10 Mins",
     "headerImage" : {
@@ -33,7 +33,7 @@
       "new",
       "exclusive"
     ],
-    "description" : "A space mining frenzy",
+    "description" : "An asteroid field rich with rare space ore awaits you. Can you collect enough to fill your cargo hold before your competition does? This action-packed space adventure will get your jets going.",
     "detailsURL" : "https://app.move38.com/blinks/games/astro/details.html",
     "duration" : "10-15 Mins",
     "headerImage" : {
@@ -47,7 +47,7 @@
       "https://app.move38.com/blinks/games/astro/images/image-2.png"
     ],
     "name" : "Astro",
-    "numPlayers" : "1+",
+    "numPlayers" : "2-4",
     "sourceURL": "https://app.move38.com/blinks/games/astro/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/astro/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/astro",
@@ -61,7 +61,7 @@
       "all",
       "new"
     ],
-    "description" : "Take risks and walk away with the gems",
+    "description" : "After a successful heist, a group of thieves divvy up their bounty. Wager, Bluff, and Take Tricks from your former friends to walk away with the largest portion in this game of skill and strategy. Who will emerge victorious?",
     "detailsURL" : "https://app.move38.com/blinks/games/bandits/details.html",
     "duration" : "15-30 Mins",
     "headerImage" : {
@@ -89,7 +89,7 @@
       "all",
       "new"
     ],
-    "description" : "Pop or be popped. this is the way of battle balloons",
+    "description" : "You are captain of a hot air balloon fleet, trying to pop your opponent’s Crown Balloon to emerge from battle victorious. Navigate the airs of random chance and rely on strategic trickery to pop before you yourself are popped.",
     "detailsURL" : "https://app.move38.com/blinks/games/battle-balloons/details.html",
     "duration" : "10-20 Mins",
     "headerImage" : {
@@ -116,9 +116,9 @@
       "new",
       "exclusive"
     ],
-    "description" : "Favors the clever and punishes the greedy",
+    "description" : "Blue. Red. Yellow. Make all Blinks one color on your turn or be the first to score 10 points and you win. This unique strategy game favors the clever and punishes the greedy.",
     "detailsURL" : "https://app.move38.com/blinks/games/berry/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "10-15 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/berry/images/header.jpg",
       "dropShadow" : false,
@@ -130,7 +130,7 @@
       "https://app.move38.com/blinks/games/berry/images/image-2.png"
     ],
     "name" : "Berry",
-    "numPlayers" : "1",
+    "numPlayers" : "2",
     "sourceURL": "https://app.move38.com/blinks/games/berry/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/berry/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/berry",
@@ -144,7 +144,7 @@
       "all",
       "new"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "Bomb Brigade is a tense, high-stakes game of chance where players must rely on their quick reflexes and courage to survive. There is really only one rule: don’t blow up.",
     "detailsURL" : "https://app.move38.com/blinks/games/bomb-brigade/details.html",
     "duration" : "5-10 Mins",
     "headerImage" : {
@@ -158,7 +158,7 @@
       "https://app.move38.com/blinks/games/bomb-brigade/images/image-2.png"
     ],
     "name" : "Bomb Brigade",
-    "numPlayers" : "1",
+    "numPlayers" : "1-10",
     "sourceURL": "https://app.move38.com/blinks/games/bomb-brigade/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/bomb-brigade/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/bomb-brigade",
@@ -170,9 +170,9 @@
       "all",
       "new"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "Crownfall is a 2-4 player game where players take turns flicking their army of Blinks at their opponent’s Blinks to try to knock them out of the battlefield.",
     "detailsURL" : "https://app.move38.com/blinks/games/crownfall/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "10-15 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/crownfall/images/header.jpg",
       "dropShadow" : false,
@@ -184,7 +184,7 @@
       "https://app.move38.com/blinks/games/crownfall/images/image-2.png"
     ],
     "name" : "Crownfall",
-    "numPlayers" : "1",
+    "numPlayers" : "2-4",
     "sourceURL": "https://app.move38.com/blinks/games/crownfall/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/crownfall/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/crownfall",
@@ -197,7 +197,7 @@
     ],
     "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
     "detailsURL" : "https://app.move38.com/blinks/games/darkball/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "5-15 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/darkball/images/header.jpg",
       "dropShadow" : false,
@@ -209,7 +209,7 @@
       "https://app.move38.com/blinks/games/darkball/images/image-2.png"
     ],
     "name" : "Darkball",
-    "numPlayers" : "1",
+    "numPlayers" : "1+",
     "sourceURL": "https://app.move38.com/blinks/games/darkball/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/darkball/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/darkball",
@@ -220,9 +220,9 @@
     "categories" : [
       "all"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "The Great Wizard Artemida has always been a practical joker, but this time she’s gone too far. Hexes everywhere! It’ll take me all day to clean this mess… Dispel! challenges you to turn off all segments of your puzzle by applying the correct combination of rune patterns. Use your logic, deduction, and wits to dispel the hex!",
     "detailsURL" : "https://app.move38.com/blinks/games/dispel/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "5-15 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/dispel/images/header.jpg",
       "dropShadow" : false,
@@ -246,7 +246,7 @@
       "all",
       "exclusive"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "In the far-off future year of 1902, our Steampunk world will run on the greatest of all inventions: the Dynamo. Dynamo isn’t a single game, but a tool - a mechanism for playing games. Use it to play one of the 3 brand new games included, combine it with already existing blinks games for unique twists, or try creating your own games with it from scratch!",
     "detailsURL" : "https://app.move38.com/blinks/games/dynamo/details.html",
     "duration" : "5-10 Mins",
     "headerImage" : {
@@ -260,7 +260,7 @@
       "https://app.move38.com/blinks/games/dynamo/images/image-2.png"
     ],
     "name" : "Dynamo",
-    "numPlayers" : "1",
+    "numPlayers" : "1+",
     "sourceURL": "https://app.move38.com/blinks/games/dynamo/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/dynamo/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/dynamo",
@@ -274,9 +274,9 @@
       "all",
       "new"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "It’s shuffleboard from the future! Flick your Blinks across the table to score points, and take advantage of your opponent’s mistakes to further your lead. You’ll need accuracy, timing, and finesse to win this kinetic tabletop game.",
     "detailsURL" : "https://app.move38.com/blinks/games/flic-flop/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "10-15 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/flic-flop/images/header.jpg",
       "dropShadow" : false,
@@ -288,7 +288,7 @@
       "https://app.move38.com/blinks/games/flic-flop/images/image-2.png"
     ],
     "name" : "Flic Flop",
-    "numPlayers" : "1",
+    "numPlayers" : "2-3",
     "sourceURL": "https://app.move38.com/blinks/games/flic-flop/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/flic-flop/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/flic-flop",
@@ -301,9 +301,9 @@
       "new",
       "popular"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "Forget-Me-Not is a memory game that contains a total of 72 stages. At each stage, your Blinks will display a variety of colors or patterns, before going dark. Keep your wits about you- when the colors reappear, one Blink will have changed. Choose the changed Blink to move onto the next stage.",
     "detailsURL" : "https://app.move38.com/blinks/games/forget-me-not/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "5-15 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/forget-me-not/images/header.jpg",
       "dropShadow" : false,
@@ -315,7 +315,7 @@
       "https://app.move38.com/blinks/games/forget-me-not/images/image-2.png"
     ],
     "name" : "Forget-me-not",
-    "numPlayers" : "1",
+    "numPlayers" : "1+",
     "sourceURL": "https://app.move38.com/blinks/games/forget-me-not/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/forget-me-not/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/forget-me-not",
@@ -329,9 +329,9 @@
       "all",
       "new"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "Fracture is a new kind of territory control game where players fracture and rebuild the entire board on each turn. From a simple set of rules emerge surprisingly complex strategies.",
     "detailsURL" : "https://app.move38.com/blinks/games/fracture/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : " 15-30 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/fracture/images/header.jpg",
       "dropShadow" : true,
@@ -343,7 +343,7 @@
       "https://app.move38.com/blinks/games/fracture/images/image-2.png"
     ],
     "name" : "Fracture",
-    "numPlayers" : "1",
+    "numPlayers" : "2-6",
     "sourceURL": "https://app.move38.com/blinks/games/fracture/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/fracture/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/fracture",
@@ -357,9 +357,9 @@
       "all",
       "new"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "You and your friends have decided to go explore the haunted mansion at the end of the street. Armed with nothing but some modified flashlights, can you keep the ghosts at bay?",
     "detailsURL" : "https://app.move38.com/blinks/games/ghost-hunters/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "15-20 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/ghost-hunters/images/header.jpg",
       "dropShadow" : false,
@@ -371,7 +371,7 @@
       "https://app.move38.com/blinks/games/ghost-hunters/images/image-2.png"
     ],
     "name" : "Ghost Hunters",
-    "numPlayers" : "1",
+    "numPlayers" : "2-4",
     "sourceURL": "https://app.move38.com/blinks/games/ghost-hunters/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/ghost-hunters/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/ghost-hunters",
@@ -385,9 +385,9 @@
       "all",
       "new"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "Congrats! You’re responsible for hosting a Blinks Dinner Party. We’ve taken care of the catering-- we just need you to handle the Blinks. Can you keep the extroverts clustered together, and the introverts separate from the group?",
     "detailsURL" : "https://app.move38.com/blinks/games/group-therapy/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "5-15 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/group-therapy/images/header.jpg",
       "dropShadow" : true,
@@ -399,7 +399,7 @@
       "https://app.move38.com/blinks/games/group-therapy/images/image-2.png"
     ],
     "name" : "Group Therapy",
-    "numPlayers" : "1",
+    "numPlayers" : "1+",
     "sourceURL": "https://app.move38.com/blinks/games/group-therapy/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/group-therapy/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/group-therapy",
@@ -412,9 +412,9 @@
       "new",
       "exclusive"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "It’s Cronkinole for crooks! Fling your Blinks at the vault in an attempt to take the gold!The player who cracks the wall down gets the gold piece, be careful not to make the job too easy for the next person… as we know there’s no honor among thieves. Be the first to break the bank and take home the loot.",
     "detailsURL" : "https://app.move38.com/blinks/games/heist/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "10-20 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/heist/images/header.jpg",
       "dropShadow" : true,
@@ -426,7 +426,7 @@
       "https://app.move38.com/blinks/games/heist/images/image-2.png"
     ],
     "name" : "Heist",
-    "numPlayers" : "1",
+    "numPlayers" : "2-4",
     "sourceURL": "https://app.move38.com/blinks/games/heist/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/heist/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/heist",
@@ -442,7 +442,7 @@
     ],
     "description" : "Deep in the Hexenwood, four powerful tree spirits fight an endless war to control the forest. Take control of one of these spirits, then engage in a strategic, turn based battle. By the end, one tree will come to dominate the forest - are you wise enough to prevail?",
     "detailsURL" : "https://app.move38.com/blinks/games/hexenwood/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "15-30 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/hexenwood/images/header.jpg",
       "dropShadow" : false,
@@ -454,7 +454,7 @@
       "https://app.move38.com/blinks/games/hexenwood/images/image-2.png"
     ],
     "name" : "Hexenwood",
-    "numPlayers" : "1",
+    "numPlayers" : "2-4",
     "sourceURL": "https://app.move38.com/blinks/games/hexenwood/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/hexenwood/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/hexenwood",
@@ -467,9 +467,9 @@
       "all",
       "popular"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "This idle puzzle game challenges you to create the most optimum hive for your bees. The right combination of flowers, worker bees, and broods will keep the hive buzzing and the queen happy.",
     "detailsURL" : "https://app.move38.com/blinks/games/honey/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "15-20 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/honey/images/header.jpg",
       "dropShadow" : false,
@@ -481,7 +481,7 @@
       "https://app.move38.com/blinks/games/honey/images/image-2.png"
     ],
     "name" : "Honey",
-    "numPlayers" : "1",
+    "numPlayers" : "1+",
     "sourceURL": "https://app.move38.com/blinks/games/honey/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/honey/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/honey",
@@ -518,9 +518,9 @@
       "all",
       "popular"
     ],
-    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "description" : "Use your Paintbrush to spread your color as much as possible. Turn the most blank canvases into Paintbrushes to win!",
     "detailsURL" : "https://app.move38.com/blinks/games/paintbrush/details.html",
-    "duration" : "5-10 Mins",
+    "duration" : "15-30 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/paintbrush/images/header.jpg",
       "dropShadow" : false,
@@ -532,7 +532,7 @@
       "https://app.move38.com/blinks/games/paintbrush/images/image-2.png"
     ],
     "name" : "Paintbrush",
-    "numPlayers" : "1",
+    "numPlayers" : "2-4",
     "sourceURL": "https://app.move38.com/blinks/games/paintbrush/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/paintbrush/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/paintbrush",
@@ -569,9 +569,9 @@
       "all",
       "new"
     ],
-    "description" : "Pirates & Lasers is a strategic struggle between ghost pirates and incompetent laser-wielding tourists. Keep the ship sailing as long as you can while lasers tear your ship asunder, managing resources and preventing damage to critical areas.",
+    "description" : "Challenge yourself or work with friends to solve an endless supply of self-generating puzzles! A terrific way to break from your screen and improve your spatial reasoning skills.",
     "detailsURL" : "https://app.move38.com/blinks/games/puzzle101/details.html",
-    "duration" : "15-30 Mins",
+    "duration" : "5-10 Mins",
     "headerImage" : {
       "url" : "https://app.move38.com/blinks/games/puzzle101/images/header.jpg",
       "dropShadow" : false,
@@ -583,7 +583,7 @@
       "https://app.move38.com/blinks/games/puzzle101/images/image-2.png"
     ],
     "name" : "Puzzle101",
-    "numPlayers" : "1-2",
+    "numPlayers" : "1+",
     "sourceURL": "https://app.move38.com/blinks/games/puzzle101/source.bin",
     "romImageURL" : "https://app.move38.com/blinks/games/puzzle101/images/rom-art.png",
     "url" : "https://app.move38.com/blinks/games/puzzle101",
