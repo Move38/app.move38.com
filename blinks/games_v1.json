@@ -3,8 +3,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.test_game_1",
     "categories" : [
       "all",
-      "new",
-      "popular"
+      "new"
     ],
     "description" : "It’s your first day at Potion school! Can you mix and match the elixirs to create the most magical brew?",
     "detailsURL" : "https://app.move38.com/blinks/games/alchematch/details.html",
@@ -56,7 +55,6 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.test_game_3",
     "categories" : [
-      "popular",
       "exclusive",
       "all",
       "new"
@@ -84,7 +82,6 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.test_game_4",
     "categories" : [
-      "popular",
       "exclusive",
       "all",
       "new"
@@ -193,6 +190,7 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.darkball",
     "categories" : [
+      "popular",
       "all"
     ],
     "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
@@ -218,6 +216,7 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.dispel",
     "categories" : [
+      "exclusive",
       "all"
     ],
     "description" : "The Great Wizard Artemida has always been a practical joker, but this time she’s gone too far. Hexes everywhere! It’ll take me all day to clean this mess… Dispel! challenges you to turn off all segments of your puzzle by applying the correct combination of rune patterns. Use your logic, deduction, and wits to dispel the hex!",
@@ -243,8 +242,7 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.dynamo",
     "categories" : [
-      "all",
-      "exclusive"
+      "all"
     ],
     "description" : "In the far-off future year of 1902, our Steampunk world will run on the greatest of all inventions: the Dynamo. Dynamo isn’t a single game, but a tool - a mechanism for playing games. Use it to play one of the 3 brand new games included, combine it with already existing blinks games for unique twists, or try creating your own games with it from scratch!",
     "detailsURL" : "https://app.move38.com/blinks/games/dynamo/details.html",
@@ -269,10 +267,7 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.flic-flop",
     "categories" : [
-      "popular",
-      "exclusive",
-      "all",
-      "new"
+      "all"
     ],
     "description" : "It’s shuffleboard from the future! Flick your Blinks across the table to score points, and take advantage of your opponent’s mistakes to further your lead. You’ll need accuracy, timing, and finesse to win this kinetic tabletop game.",
     "detailsURL" : "https://app.move38.com/blinks/games/flic-flop/details.html",
@@ -298,8 +293,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.forget-me-not",
     "categories" : [
       "all",
-      "new",
-      "popular"
+      "new"
     ],
     "description" : "Forget-Me-Not is a memory game that contains a total of 72 stages. At each stage, your Blinks will display a variety of colors or patterns, before going dark. Keep your wits about you- when the colors reappear, one Blink will have changed. Choose the changed Blink to move onto the next stage.",
     "detailsURL" : "https://app.move38.com/blinks/games/forget-me-not/details.html",
@@ -324,10 +318,7 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.fracture",
     "categories" : [
-      "popular",
-      "exclusive",
-      "all",
-      "new"
+      "all"
     ],
     "description" : "Fracture is a new kind of territory control game where players fracture and rebuild the entire board on each turn. From a simple set of rules emerge surprisingly complex strategies.",
     "detailsURL" : "https://app.move38.com/blinks/games/fracture/details.html",
@@ -381,9 +372,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.group-therapy",
     "categories" : [
       "popular",
-      "exclusive",
-      "all",
-      "new"
+      "all"
     ],
     "description" : "Congrats! You’re responsible for hosting a Blinks Dinner Party. We’ve taken care of the catering-- we just need you to handle the Blinks. Can you keep the extroverts clustered together, and the introverts separate from the group?",
     "detailsURL" : "https://app.move38.com/blinks/games/group-therapy/details.html",
@@ -409,8 +398,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.heist",
     "categories" : [
       "all",
-      "new",
-      "exclusive"
+      "new"
     ],
     "description" : "It’s Cronkinole for crooks! Fling your Blinks at the vault in an attempt to take the gold!The player who cracks the wall down gets the gold piece, be careful not to make the job too easy for the next person… as we know there’s no honor among thieves. Be the first to break the bank and take home the loot.",
     "detailsURL" : "https://app.move38.com/blinks/games/heist/details.html",
@@ -463,9 +451,7 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.honey",
     "categories" : [
-      "exclusive",
-      "all",
-      "popular"
+      "all"
     ],
     "description" : "This idle puzzle game challenges you to create the most optimum hive for your bees. The right combination of flowers, worker bees, and broods will keep the hive buzzing and the queen happy.",
     "detailsURL" : "https://app.move38.com/blinks/games/honey/details.html",
@@ -541,7 +527,8 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.pirates-lasers",
     "categories" : [
-      "all"
+      "all",
+      "new"
     ],
     "description" : "Pirates & Lasers is a strategic struggle between ghost pirates and incompetent laser-wielding tourists. Keep the ship sailing as long as you can while lasers tear your ship asunder, managing resources and preventing damage to critical areas.",
     "detailsURL" : "https://app.move38.com/blinks/games/pirates-lasers/details.html",
@@ -567,7 +554,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.puzzle101",
     "categories" : [
       "all",
-      "new"
+      "popular"
     ],
     "description" : "Challenge yourself or work with friends to solve an endless supply of self-generating puzzles! A terrific way to break from your screen and improve your spatial reasoning skills.",
     "detailsURL" : "https://app.move38.com/blinks/games/puzzle101/details.html",
@@ -593,7 +580,6 @@
     "appStoreProductIdentifier" : "com.move38.blinks.raid",
     "categories" : [
       "popular",
-      "exclusive",
       "all",
       "new"
     ],
@@ -647,8 +633,7 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.speed-racer",
     "categories" : [
-      "all",
-      "popular"
+      "all"
     ],
     "description" : "Your car is speeding down the road to nowhere. You’ve got to keep building as fast and furiously as you can, or you’re headed for a dead end. How long can you last in this endurance challenge?",
     "detailsURL" : "https://app.move38.com/blinks/games/speed-racer/details.html",
@@ -673,7 +658,8 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.thalassophobia",
     "categories" : [
-      "all"
+      "all",
+      "new"
     ],
     "description" : "Thalassophobia: A deathly fear of the ocean’s depths, and for good reason. You are a diver exploring an underwater grotto when your oxygen tank springs a leak. With only six minutes of air left in your tank, can you navigate this oceanic labyrinth and return to the surface in time?",
     "detailsURL" : "https://app.move38.com/blinks/games/thalassophobia/details.html",
@@ -699,7 +685,8 @@
     "appStoreProductIdentifier" : "com.move38.blinks.the-cloud-game",
     "categories" : [
       "all",
-      "new"
+      "new",
+      "exclusive"
     ],
     "description" : "Inspired by Lights Out, The Cloud Game is a customizable puzzle game that challenges you to fill a clear sky with clouds.",
     "detailsURL" : "https://app.move38.com/blinks/games/the-cloud-game/details.html",
@@ -805,8 +792,6 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.trifoil",
     "categories" : [
-      "popular",
-      "exclusive",
       "all",
       "new"
     ],
@@ -833,7 +818,6 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.wham",
     "categories" : [
-      "exclusive",
       "all",
       "popular"
     ],
@@ -860,9 +844,7 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.widgets",
     "categories" : [
-      "all",
-      "new",
-      "popular"
+      "all"
     ],
     "description" : "The Blink becomes your favorite new game accessory! Light up your game night, whether for Blinks games or not. Need to roll dice, but don’t have the space? Use the dice widget. Settle the score with a coin flip. Spin your own wheel of fortune. You could even use these widgets to invent your own game!",
     "detailsURL" : "https://app.move38.com/blinks/games/widgets/details.html",
@@ -888,9 +870,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.zen-flow",
     "categories" : [
       "popular",
-      "exclusive",
-      "all",
-      "new"
+      "all"
     ],
     "description" : "Sometimes you need to relax and bliss out at your desk. Be mesmerized by swirling colors and patterns as Blinks share their happiness. Witness emergent behaviors and find your zen.",
     "detailsURL" : "https://app.move38.com/blinks/games/zen-flow/details.html",
