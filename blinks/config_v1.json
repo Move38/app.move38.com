@@ -1,6 +1,7 @@
 {
     "feedbackURL": "https://move38.com/pages/blinks-support",
-    "gamesJsonURL": "https://app.move38.com/blinks/games_v1.json",
+    "signupURL": "https://move38.com/sign-up",
+    "storeURL": "https://move38.com/collections",
     "supportURL": "https://move38.com/pages/blinks-support",
     "categories":
     [
