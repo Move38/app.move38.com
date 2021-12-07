@@ -1,6 +1,6 @@
 [
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.test_game_1",
+    "appStoreProductIdentifier" : "com.move38.blinks.alchematch",
     "categories" : [
       "all",
       "new"
@@ -26,7 +26,7 @@
     "videoURL" : "https://www.youtube.com/embed/ikrkKJiMDSw?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.test_game_2",
+    "appStoreProductIdentifier" : "com.move38.blinks.astro",
     "categories" : [
       "all",
       "new",
@@ -53,7 +53,7 @@
     "videoURL" : "https://www.youtube.com/embed/omJUh8d9GPA?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.test_game_3",
+    "appStoreProductIdentifier" : "com.move38.blinks.bandits",
     "categories" : [
       "exclusive",
       "all",
@@ -80,7 +80,7 @@
     "videoURL" : "https://www.youtube.com/embed/eRSnF4EkmOU?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.test_game_4",
+    "appStoreProductIdentifier" : "com.move38.blinks.battle_balloons",
     "categories" : [
       "exclusive",
       "all",
@@ -134,7 +134,7 @@
     "videoURL" : "https://www.youtube.com/embed/N-gxSN27lIU?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.bomb-brigade",
+    "appStoreProductIdentifier" : "com.move38.blinks.bomb_brigade",
     "categories" : [
       "popular",
       "exclusive",
@@ -265,7 +265,7 @@
     "videoURL" : "https://www.youtube.com/embed/N1TJmm3UIfg?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.flic-flop",
+    "appStoreProductIdentifier" : "com.move38.blinks.flic_flop",
     "categories" : [
       "all"
     ],
@@ -290,7 +290,7 @@
     "videoURL" : "https://www.youtube.com/embed/6iHSceypkoc?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.forget-me-not",
+    "appStoreProductIdentifier" : "com.move38.blinks.forget_me_not",
     "categories" : [
       "all",
       "new"
@@ -341,7 +341,7 @@
     "videoURL" : "https://www.youtube.com/embed/a6HqHcluh7Y?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.ghost-hunters",
+    "appStoreProductIdentifier" : "com.move38.blinks.ghost_hunters",
     "categories" : [
       "popular",
       "exclusive",
@@ -369,7 +369,7 @@
     "videoURL" : "https://www.youtube.com/embed/xbjj4hUTM?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.group-therapy",
+    "appStoreProductIdentifier" : "com.move38.blinks.group_therapy",
     "categories" : [
       "popular",
       "all"
@@ -525,7 +525,7 @@
     "videoURL" : "https://www.youtube.com/embed/Kp7nfsk5iCE?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.pirates-lasers",
+    "appStoreProductIdentifier" : "com.move38.blinks.pirates_lasers",
     "categories" : [
       "all",
       "new"
@@ -631,7 +631,7 @@
     "videoURL" : "https://www.youtube.com/embed/9V8jqc25kas?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.speed-racer",
+    "appStoreProductIdentifier" : "com.move38.blinks.speed_racer",
     "categories" : [
       "all"
     ],
@@ -682,7 +682,7 @@
     "videoURL" : "https://www.youtube.com/embed/VqZMn3vXTBg?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.the-cloud-game",
+    "appStoreProductIdentifier" : "com.move38.blinks.the_cloud_game",
     "categories" : [
       "all",
       "new",
@@ -709,7 +709,7 @@
     "videoURL" : "https://www.youtube.com/embed/cdlB4XTVL_o?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.the-dragons-lair",
+    "appStoreProductIdentifier" : "com.move38.blinks.the_dragons_lair",
     "categories" : [
       "all",
       "exclusive"
@@ -735,7 +735,7 @@
     "videoURL" : "https://www.youtube.com/embed/vAl3hfCbQ_Y?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.tip-toe-volcano",
+    "appStoreProductIdentifier" : "com.move38.blinks.tip_toe_volcano",
     "categories" : [
       "popular",
       "exclusive",
@@ -763,7 +763,7 @@
     "videoURL" : "https://www.youtube.com/embed/5hZw4KiV4os?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.treasure-tumble",
+    "appStoreProductIdentifier" : "com.move38.blinks.treasure_tumble",
     "categories" : [
       "all",
       "new",
@@ -867,7 +867,7 @@
     "videoURL" : "https://www.youtube.com/embed/rowD9Byubxk?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.zen-flow",
+    "appStoreProductIdentifier" : "com.move38.blinks.zen_flow",
     "categories" : [
       "popular",
       "all"
