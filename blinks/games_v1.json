@@ -15,10 +15,10 @@
     },
     "identifier" : "alchematch",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/alchematch/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/alchematch/images/image-2.jpg",
-      "https://app.move38.com/blinks/games/alchematch/images/image-3.jpg",
-      "https://app.move38.com/blinks/games/alchematch/images/image-4.jpg"
+      "https://app.move38.com/blinks/games/alchematch/images/Alchematch-1.jpg",
+      "https://app.move38.com/blinks/games/alchematch/images/Alchematch-2.jpg",
+      "https://app.move38.com/blinks/games/alchematch/images/Alchematch-3.jpg",
+      "https://app.move38.com/blinks/games/alchematch/images/Alchematch-4.jpg"
     ],
     "name" : "Alchematch",
     "numPlayers" : "1+",
