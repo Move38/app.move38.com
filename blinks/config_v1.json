@@ -25,6 +25,10 @@
     "featuredProducts":
     [
         {
+            "imageURL": "https://app.move38.com/blinks/features/party-pack-hero.png",
+            "url": ""
+        },
+        {
             "imageURL": "https://app.move38.com/blinks/features/sakura-hero.png",
             "url": "https://move38.com/collections/coming-soon/products/blinks-sakura-strategy-pack"
         },
