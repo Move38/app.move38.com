@@ -8,18 +8,22 @@
         {
             "identifier": "popular",
             "name": "Most Popular",
+            "featuredGameIds": []
         },
         {
             "identifier": "new",
             "name": "Newest",
+            "featuredGameIds": ["crownfall", "bomb-brigade", "berry", "alchematch"]
         },
         {
             "identifier": "exclusive",
             "name": "App Exclusives",
+            "featuredGameIds": ["alchematch", "bomb-brigade"]
         },
         {
             "identifier": "all",
             "name": "All Games",
+            "featuredGameIds": ["alchematch", "berry"]
         }
     ],
     "featuredProducts":
