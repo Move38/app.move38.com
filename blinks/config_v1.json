@@ -23,7 +23,7 @@
         {
             "identifier": "all",
             "name": "All Games",
-            "featuredGameIds": ["astro", "berry", "group-therapy", "zenflow"]
+            "featuredGameIds": ["astro", "berry", "group-therapy", "zen-flow"]
         }
     ],
     "featuredProducts":
