@@ -6,24 +6,24 @@
     "categories":
     [
         {
-            "identifier": "popular",
-            "name": "Most Popular",
-            "featuredGameIds": []
+            "identifier": "new",
+            "name": "New Releases",
+            "featuredGameIds": ["dispel", "forget-me-not", "the-cloud-game", "trifoil"]
         },
         {
-            "identifier": "new",
-            "name": "Newest",
-            "featuredGameIds": ["crownfall", "bomb-brigade", "berry", "alchematch"]
+            "identifier": "popular",
+            "name": "Most Popular",
+            "featuredGameIds": ["puzzle101", "hexenwood"]
         },
         {
             "identifier": "exclusive",
             "name": "App Exclusives",
-            "featuredGameIds": ["alchematch", "bomb-brigade"]
+            "featuredGameIds": ["darkball", "paintbrush", "heist", "wham"]
         },
         {
             "identifier": "all",
             "name": "All Games",
-            "featuredGameIds": ["alchematch", "berry"]
+            "featuredGameIds": ["astro", "berry", "group-therapy", "zenflow"]
         }
     ],
     "featuredProducts":
