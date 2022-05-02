@@ -1,0 +1,907 @@
+[
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.alchematch",
+    "categories" : [
+      "all",
+      "new"
+    ],
+    "description" : "It’s your first day at Potion school! Can you mix and match the elixirs to create the most magical brew?",
+    "detailsURL" : "https://app.move38.com/blinks/games/alchematch/details.html",
+    "duration" : "5-10 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/alchematch/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "alchematch",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/alchematch/images/Alchematch-1.jpg",
+      "https://app.move38.com/blinks/games/alchematch/images/Alchematch-2.jpg",
+      "https://app.move38.com/blinks/games/alchematch/images/Alchematch-3.jpg",
+      "https://app.move38.com/blinks/games/alchematch/images/Alchematch-4.jpg"
+    ],
+    "name" : "Alchematch",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/alchematch/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/alchematch/images/rom-art.png",
+    "url": "https://move38.com/pages/alchematch",
+    "videoURL" : "https://www.youtube.com/embed/ikrkKJiMDSw?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.astro",
+    "categories" : [
+      "all",
+      "new",
+      "exclusive"
+    ],
+    "description" : "An asteroid field rich with rare space ore awaits you. Can you collect enough to fill your cargo hold before your competition does? This action-packed space adventure will get your jets going.",
+    "detailsURL" : "https://app.move38.com/blinks/games/astro/details.html",
+    "duration" : "10-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/astro/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "astro",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/astro/images/Astro.jpg",
+      "https://app.move38.com/blinks/games/astro/images/image-2.png"
+    ],
+    "name" : "Astro",
+    "numPlayers" : "2-4",
+    "sourceURL": "https://app.move38.com/blinks/games/astro/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/astro/images/rom-art.png",
+    "url": "https://move38.com/pages/astro",
+    "videoURL" : "https://www.youtube.com/embed/omJUh8d9GPA?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.bandits",
+    "categories" : [
+      "exclusive",
+      "all",
+      "new"
+    ],
+    "description" : "After a successful heist, a group of thieves divvy up their bounty. Wager, Bluff, and Take Tricks from your former friends to walk away with the largest portion in this game of skill and strategy. Who will emerge victorious?",
+    "detailsURL" : "https://app.move38.com/blinks/games/bandits/details.html",
+    "duration" : "15-30 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/bandits/images/header.jpg",
+      "dropShadow" : true,
+      "darkOverlay" : false
+    },
+    "identifier" : "bandits",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/bandits/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/bandits/images/image-2.png"
+    ],
+    "name" : "Bandits",
+    "numPlayers" : "3-6",
+    "sourceURL": "https://app.move38.com/blinks/games/bandits/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/bandits/images/rom-art.png",
+    "url": "https://move38.com/pages/bandits",
+    "videoURL" : "https://www.youtube.com/embed/eRSnF4EkmOU?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.battle_balloons",
+    "categories" : [
+      "exclusive",
+      "all",
+      "new"
+    ],
+    "description" : "You are captain of a hot air balloon fleet, trying to pop your opponent’s Crown Balloon to emerge from battle victorious. Navigate the airs of random chance and rely on strategic trickery to pop before you yourself are popped.",
+    "detailsURL" : "https://app.move38.com/blinks/games/battle-balloons/details.html",
+    "duration" : "10-20 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/battle-balloons/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "battle-balloons",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/battle-balloons/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/battle-balloons/images/image-2.png"
+    ],
+    "name" : "Battle Balloons",
+    "numPlayers" : "2+",
+    "sourceURL": "https://app.move38.com/blinks/games/battle-balloons/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/battle-balloons/images/rom-art.png",
+    "url": "https://move38.com/pages/battle-balloons",
+    "videoURL" : "https://www.youtube.com/embed/S_BPLgMXbgY?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.berry",
+    "categories" : [
+      "all",
+      "new",
+      "exclusive"
+    ],
+    "description" : "Blue. Red. Yellow. Make all Blinks one color on your turn or be the first to score 10 points and you win. This unique strategy game favors the clever and punishes the greedy.",
+    "detailsURL" : "https://app.move38.com/blinks/games/berry/details.html",
+    "duration" : "10-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/berry/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "berry",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/berry/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/berry/images/image-2.png"
+    ],
+    "name" : "Berry",
+    "numPlayers" : "2",
+    "sourceURL": "https://app.move38.com/blinks/games/berry/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/berry/images/rom-art.png",
+    "url": "https://move38.com/pages/berry",
+    "videoURL" : "https://www.youtube.com/embed/N-gxSN27lIU?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.bomb_brigade",
+    "categories" : [
+      "popular",
+      "exclusive",
+      "all",
+      "new"
+    ],
+    "description" : "Bomb Brigade is a tense, high-stakes game of chance where players must rely on their quick reflexes and courage to survive. There is really only one rule: don’t blow up.",
+    "detailsURL" : "https://app.move38.com/blinks/games/bomb-brigade/details.html",
+    "duration" : "5-10 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/bomb-brigade/images/header.jpg",
+      "dropShadow" : true,
+      "darkOverlay" : false
+    },
+    "identifier" : "bomb-brigade",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/bomb-brigade/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/bomb-brigade/images/image-2.png"
+    ],
+    "name" : "Bomb Brigade",
+    "numPlayers" : "1-10",
+    "sourceURL": "https://app.move38.com/blinks/games/bomb-brigade/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/bomb-brigade/images/rom-art.png",
+    "url": "https://move38.com/pages/bomb-brigade",
+    "videoURL" : "https://www.youtube.com/embed/OJoFONytFAg?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.crownfall",
+    "categories" : [
+      "all",
+      "new"
+    ],
+    "description" : "Crownfall is a 2-4 player game where players take turns flicking their army of Blinks at their opponent’s Blinks to try to knock them out of the battlefield.",
+    "detailsURL" : "https://app.move38.com/blinks/games/crownfall/details.html",
+    "duration" : "10-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/crownfall/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "crownfall",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/crownfall/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/crownfall/images/image-2.png"
+    ],
+    "name" : "Crownfall",
+    "numPlayers" : "2-4",
+    "sourceURL": "https://app.move38.com/blinks/games/crownfall/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/crownfall/images/rom-art.png",
+    "url": "https://move38.com/pages/crownfall",
+    "videoURL" : "https://www.youtube.com/embed/DHOT_UqGP7M?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.darkball",
+    "categories" : [
+      "popular",
+      "all"
+    ],
+    "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
+    "detailsURL" : "https://app.move38.com/blinks/games/darkball/details.html",
+    "duration" : "5-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/darkball/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "darkball",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/darkball/images/Darkball.jpg",
+    ],
+    "name" : "Darkball",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/darkball/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/darkball/images/rom-art.png",
+    "url": "https://move38.com/pages/darkball",
+    "videoURL" : "https://www.youtube.com/embed/WX0xjDb2iyY?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.dispel",
+    "categories" : [
+      "exclusive",
+      "all"
+    ],
+    "description" : "The Great Wizard Artemida has always been a practical joker, but this time she’s gone too far. Hexes everywhere! It’ll take me all day to clean this mess… Dispel! challenges you to turn off all segments of your puzzle by applying the correct combination of rune patterns. Use your logic, deduction, and wits to dispel the hex!",
+    "detailsURL" : "https://app.move38.com/blinks/games/dispel/details.html",
+    "duration" : "5-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/dispel/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "dispel",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/dispel/images/Dispel-1.jpg",
+      "https://app.move38.com/blinks/games/dispel/images/Dispel-2.jpg"
+    ],
+    "name" : "Dispel",
+    "numPlayers" : "1",
+    "sourceURL": "https://app.move38.com/blinks/games/dispel/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/dispel/images/rom-art.png",
+    "url": "https://move38.com/pages/dispel",
+    "videoURL" : "https://www.youtube.com/embed/b0NTCJjKcAc?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.dynamo",
+    "categories" : [
+      "all"
+    ],
+    "description" : "In the far-off future year of 1902, our Steampunk world will run on the greatest of all inventions: the Dynamo. Dynamo isn’t a single game, but a tool - a mechanism for playing games. Use it to play one of the 3 brand new games included, combine it with already existing blinks games for unique twists, or try creating your own games with it from scratch!",
+    "detailsURL" : "https://app.move38.com/blinks/games/dynamo/details.html",
+    "duration" : "5-10 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/dynamo/images/header.jpg",
+      "dropShadow" : true,
+      "darkOverlay" : false
+    },
+    "identifier" : "dynamo",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/dynamo/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/dynamo/images/image-2.png"
+    ],
+    "name" : "Dynamo",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/dynamo/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/dynamo/images/rom-art.png",
+    "url": "https://move38.com/pages/dynamo",
+    "videoURL" : "https://www.youtube.com/embed/N1TJmm3UIfg?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.flic_flop",
+    "categories" : [
+      "all"
+    ],
+    "description" : "It’s shuffleboard from the future! Flick your Blinks across the table to score points, and take advantage of your opponent’s mistakes to further your lead. You’ll need accuracy, timing, and finesse to win this kinetic tabletop game.",
+    "detailsURL" : "https://app.move38.com/blinks/games/flic-flop/details.html",
+    "duration" : "10-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/flic-flop/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "flic-flop",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/flic-flop/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/flic-flop/images/image-2.png"
+    ],
+    "name" : "Flic Flop",
+    "numPlayers" : "2-3",
+    "sourceURL": "https://app.move38.com/blinks/games/flic-flop/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/flic-flop/images/rom-art.png",
+    "url": "https://move38.com/pages/flic-flop",
+    "videoURL" : "https://www.youtube.com/embed/6iHSceypkoc?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.forget_me_not",
+    "categories" : [
+      "all",
+      "new"
+    ],
+    "description" : "Forget-Me-Not is a memory game that contains a total of 72 stages. At each stage, your Blinks will display a variety of colors or patterns, before going dark. Keep your wits about you- when the colors reappear, one Blink will have changed. Choose the changed Blink to move onto the next stage.",
+    "detailsURL" : "https://app.move38.com/blinks/games/forget-me-not/details.html",
+    "duration" : "5-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/forget-me-not/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "forget-me-not",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/forget-me-not/images/Forget-Me-Not-1.jpg",
+      "https://app.move38.com/blinks/games/forget-me-not/images/Forget-Me-Not-2.jpg",
+      "https://app.move38.com/blinks/games/forget-me-not/images/Forget-Me-Not-3.jpg",
+      "https://app.move38.com/blinks/games/forget-me-not/images/Forget-Me-Not-4.jpg"
+    ],
+    "name" : "Forget-me-not",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/forget-me-not/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/forget-me-not/images/rom-art.png",
+    "url": "https://move38.com/pages/forget-me-not",
+    "videoURL" : "https://www.youtube.com/embed/sQzbkKEaN04?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.fracture",
+    "categories" : [
+      "all"
+    ],
+    "description" : "Fracture is a new kind of territory control game where players fracture and rebuild the entire board on each turn. From a simple set of rules emerge surprisingly complex strategies.",
+    "detailsURL" : "https://app.move38.com/blinks/games/fracture/details.html",
+    "duration" : " 15-30 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/fracture/images/header.jpg",
+      "dropShadow" : true,
+      "darkOverlay" : false
+    },
+    "identifier" : "fracture",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/fracture/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/fracture/images/image-2.png"
+    ],
+    "name" : "Fracture",
+    "numPlayers" : "2-6",
+    "sourceURL": "https://app.move38.com/blinks/games/fracture/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/fracture/images/rom-art.png",
+    "url": "https://move38.com/pages/fracture",
+    "videoURL" : "https://www.youtube.com/embed/a6HqHcluh7Y?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.ghost_hunters",
+    "categories" : [
+      "popular",
+      "exclusive",
+      "all",
+      "new"
+    ],
+    "description" : "You and your friends have decided to go explore the haunted mansion at the end of the street. Armed with nothing but some modified flashlights, can you keep the ghosts at bay?",
+    "detailsURL" : "https://app.move38.com/blinks/games/ghost-hunters/details.html",
+    "duration" : "15-20 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/ghost-hunters/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "ghost-hunters",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/ghost-hunters/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/ghost-hunters/images/image-2.png"
+    ],
+    "name" : "Ghost Hunters",
+    "numPlayers" : "2-4",
+    "sourceURL": "https://app.move38.com/blinks/games/ghost-hunters/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/ghost-hunters/images/rom-art.png",
+    "url": "https://move38.com/pages/ghost-hunters",
+    "videoURL" : "https://www.youtube.com/embed/xbjj4hUTM?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.group_therapy",
+    "categories" : [
+      "popular",
+      "all"
+    ],
+    "description" : "Congrats! You’re responsible for hosting a Blinks Dinner Party. We’ve taken care of the catering-- we just need you to handle the Blinks. Can you keep the extroverts clustered together, and the introverts separate from the group?",
+    "detailsURL" : "https://app.move38.com/blinks/games/group-therapy/details.html",
+    "duration" : "5-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/group-therapy/images/header.jpg",
+      "dropShadow" : true,
+      "darkOverlay" : false
+    },
+    "identifier" : "group-therapy",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/group-therapy/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/group-therapy/images/image-2.png"
+    ],
+    "name" : "Group Therapy",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/group-therapy/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/group-therapy/images/rom-art.png",
+    "url": "https://move38.com/pages/group-therapy",
+    "videoURL" : "https://www.youtube.com/embed/-CfSmitvUYw?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.heist",
+    "categories" : [
+      "all",
+      "new"
+    ],
+    "description" : "It’s Cronkinole for crooks! Fling your Blinks at the vault in an attempt to take the gold!The player who cracks the wall down gets the gold piece, be careful not to make the job too easy for the next person… as we know there’s no honor among thieves. Be the first to break the bank and take home the loot.",
+    "detailsURL" : "https://app.move38.com/blinks/games/heist/details.html",
+    "duration" : "10-20 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/heist/images/header.jpg",
+      "dropShadow" : true,
+      "darkOverlay" : false
+    },
+    "identifier" : "heist",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/heist/images/Heist-1.jpg",
+      "https://app.move38.com/blinks/games/heist/images/Heist-2.jpg",
+      "https://app.move38.com/blinks/games/heist/images/Heist-3.jpg",
+      "https://app.move38.com/blinks/games/heist/images/Heist-4.jpg",
+      "https://app.move38.com/blinks/games/heist/images/Heist-5.jpg",
+      "https://app.move38.com/blinks/games/heist/images/Heist-6.jpg",
+      "https://app.move38.com/blinks/games/heist/images/Heist-7.jpg",
+      "https://app.move38.com/blinks/games/heist/images/Heist-8.jpg",
+      "https://app.move38.com/blinks/games/heist/images/Heist-GIF.gif"
+    ],
+    "name" : "Heist",
+    "numPlayers" : "2-4",
+    "sourceURL": "https://app.move38.com/blinks/games/heist/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/heist/images/rom-art.png",
+    "url": "https://move38.com/pages/heist",
+    "videoURL" : "https://www.youtube.com/embed/soEzFvfbmoY?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.hexenwood",
+    "categories" : [
+      "popular",
+      "exclusive",
+      "all",
+      "new"
+    ],
+    "description" : "Deep in the Hexenwood, four powerful tree spirits fight an endless war to control the forest. Take control of one of these spirits, then engage in a strategic, turn based battle. By the end, one tree will come to dominate the forest - are you wise enough to prevail?",
+    "detailsURL" : "https://app.move38.com/blinks/games/hexenwood/details.html",
+    "duration" : "15-30 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/hexenwood/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "hexenwood",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/hexenwood/images/Hexenwood-1.jpg",
+      "https://app.move38.com/blinks/games/hexenwood/images/Hexenwood-2.png"
+    ],
+    "name" : "Hexenwood",
+    "numPlayers" : "2-4",
+    "sourceURL": "https://app.move38.com/blinks/games/hexenwood/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/hexenwood/images/rom-art.png",
+    "url": "https://move38.com/pages/hexenwood",
+    "videoURL" : "https://www.youtube.com/embed/9lXhpI_XroQ?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.honey",
+    "categories" : [
+      "all"
+    ],
+    "description" : "This idle puzzle game challenges you to create the most optimum hive for your bees. The right combination of flowers, worker bees, and broods will keep the hive buzzing and the queen happy.",
+    "detailsURL" : "https://app.move38.com/blinks/games/honey/details.html",
+    "duration" : "15-20 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/honey/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "honey",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/honey/images/Honey-1.jpg",
+      "https://app.move38.com/blinks/games/honey/images/Honey-2.png"
+    ],
+    "name" : "Honey",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/honey/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/honey/images/rom-art.png",
+    "url": "https://move38.com/pages/honey",
+    "videoURL" : "https://www.youtube.com/embed/jb4thPCO1hM?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.mortals",
+    "categories" : [
+      "all"
+    ],
+    "description" : "Be the final survivor in this post-apocalyptic action game. On a dying planet, two teams battle the clock, stealing time from each other. It’s the final countdown… and watch out for the Zombies",
+    "detailsURL" : "https://app.move38.com/blinks/games/mortals/details.html",
+    "duration" : "5-10 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/mortals/images/header.jpg",
+      "dropShadow" : true,
+      "darkOverlay" : false
+    },
+    "identifier" : "mortals",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/mortals/images/Mortals-1.jpg",
+      "https://app.move38.com/blinks/games/mortals/images/Mortals-2.png",
+      "https://app.move38.com/blinks/games/mortals/images/Mortals-3.png"
+    ],
+    "name" : "Mortals",
+    "numPlayers" : "1",
+    "sourceURL": "https://app.move38.com/blinks/games/mortals/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/mortals/images/rom-art.png",
+    "url": "https://move38.com/pages/mortals",
+    "videoURL" : "https://www.youtube.com/embed/B2nAiiM4-Ow?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.paintbrush",
+    "categories" : [
+      "all",
+      "popular"
+    ],
+    "description" : "Use your Paintbrush to spread your color as much as possible. Turn the most blank canvases into Paintbrushes to win!",
+    "detailsURL" : "https://app.move38.com/blinks/games/paintbrush/details.html",
+    "duration" : "15-30 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/paintbrush/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "paintbrush",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/paintbrush/images/Paintbrush-1.jpg",
+      "https://app.move38.com/blinks/games/paintbrush/images/Paintbrush-2.png"
+    ],
+    "name" : "Paintbrush",
+    "numPlayers" : "2-4",
+    "sourceURL": "https://app.move38.com/blinks/games/paintbrush/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/paintbrush/images/rom-art.png",
+    "url": "https://move38.com/pages/paintbrush",
+    "videoURL" : "https://www.youtube.com/embed/Kp7nfsk5iCE?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.pirates_lasers",
+    "categories" : [
+      "all",
+      "new"
+    ],
+    "description" : "Pirates & Lasers is a strategic struggle between ghost pirates and incompetent laser-wielding tourists. Keep the ship sailing as long as you can while lasers tear your ship asunder, managing resources and preventing damage to critical areas.",
+    "detailsURL" : "https://app.move38.com/blinks/games/pirates-lasers/details.html",
+    "duration" : "15-30 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/pirates-lasers/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "pirates-lasers",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/pirates-lasers/images/Pirates-and-Lasers-1.jpg",
+      "https://app.move38.com/blinks/games/pirates-lasers/images/Pirates-and-Lasers-2.jpg"
+    ],
+    "name" : "Pirates & Lasers",
+    "numPlayers" : "1-2",
+    "sourceURL": "https://app.move38.com/blinks/games/pirates-lasers/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/pirates-lasers/images/rom-art.png",
+    "url": "https://move38.com/pages/pirates-lasers",
+    "videoURL" : "https://www.youtube.com/embed/oISnZihn_II?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.puzzle101",
+    "categories" : [
+      "all",
+      "popular"
+    ],
+    "description" : "Challenge yourself or work with friends to solve an endless supply of self-generating puzzles! A terrific way to break from your screen and improve your spatial reasoning skills.",
+    "detailsURL" : "https://app.move38.com/blinks/games/puzzle101/details.html",
+    "duration" : "5-10 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/puzzle101/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "puzzle101",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/puzzle101/images/Puzzle-101-1.jpg",
+      "https://app.move38.com/blinks/games/puzzle101/images/Puzzle-101-2.jpg"
+    ],
+    "name" : "Puzzle101",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/puzzle101/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/puzzle101/images/rom-art.png",
+    "url": "https://move38.com/pages/puzzle101",
+    "videoURL" : "https://www.youtube.com/embed/ZHi60qAy2mc?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.raid",
+    "categories" : [
+      "popular",
+      "all",
+      "new"
+    ],
+    "description" : "Raid places you in command of a viking horde, competing with other players to grab as much territory as you can. It’s an intense game of strategy and prediction, as each player secretly launches raiding parties then watches as skirmishes play out in real time.",
+    "detailsURL" : "https://app.move38.com/blinks/games/raid/details.html",
+    "duration" : "10-20 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/raid/images/header.jpg",
+      "dropShadow" : true,
+      "darkOverlay" : false
+    },
+    "identifier" : "raid",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/raid/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/raid/images/image-2.png"
+    ],
+    "name" : "Raid",
+    "numPlayers" : "2-4",
+    "sourceURL": "https://app.move38.com/blinks/games/raid/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/raid/images/rom-art.png",
+    "url": "https://move38.com/pages/raid",
+    "videoURL" : "https://www.youtube.com/embed/CHEjEC0HrGg?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.reactor",
+    "categories" : [
+      "all",
+      "new",
+      "exclusive"
+    ],
+    "description" : "Reactor is an intense and competitive contest where each player must react to the alarms of the reactor core before their opponents by buzzing in first. Much like a competitive fighting game, Reactor requires quick reflexes and concentration.",
+    "detailsURL" : "https://app.move38.com/blinks/games/reactor/details.html",
+    "duration" : "10-20 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/reactor/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "reactor",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/reactor/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/reactor/images/image-2.png"
+    ],
+    "name" : "Reactor",
+    "numPlayers" : "2-6",
+    "sourceURL": "https://app.move38.com/blinks/games/reactor/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/reactor/images/rom-art.png",
+    "url": "https://move38.com/pages/reactor",
+    "videoURL" : "https://www.youtube.com/embed/9V8jqc25kas?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.speed_racer",
+    "categories" : [
+      "all"
+    ],
+    "description" : "Your car is speeding down the road to nowhere. You’ve got to keep building as fast and furiously as you can, or you’re headed for a dead end. How long can you last in this endurance challenge?",
+    "detailsURL" : "https://app.move38.com/blinks/games/speed-racer/details.html",
+    "duration" : "10-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/speed-racer/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "speed-racer",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/speed-racer/images/Speed-Racer-1.jpg",
+      "https://app.move38.com/blinks/games/speed-racer/images/Speed-Racer-2.png"
+    ],
+    "name" : "Speed Racer",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/speed-racer/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/speed-racer/images/rom-art.png",
+    "url": "https://move38.com/pages/speed-racer",
+    "videoURL" : "https://www.youtube.com/embed/LnDAajp27Os?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.thalassophobia",
+    "categories" : [
+      "all",
+      "new"
+    ],
+    "description" : "Thalassophobia: A deathly fear of the ocean’s depths, and for good reason. You are a diver exploring an underwater grotto when your oxygen tank springs a leak. With only six minutes of air left in your tank, can you navigate this oceanic labyrinth and return to the surface in time?",
+    "detailsURL" : "https://app.move38.com/blinks/games/thalassophobia/details.html",
+    "duration" : "6 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/thalassophobia/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "thalassophobia",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/thalassophobia/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/thalassophobia/images/image-2.png"
+    ],
+    "name" : "Thalassophobia",
+    "numPlayers" : "1",
+    "sourceURL": "https://app.move38.com/blinks/games/thalassophobia/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/thalassophobia/images/rom-art.png",
+    "url": "https://move38.com/pages/thalassophobia",
+    "videoURL" : "https://www.youtube.com/embed/VqZMn3vXTBg?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.the_cloud_game",
+    "categories" : [
+      "all",
+      "new",
+      "exclusive"
+    ],
+    "description" : "Inspired by Lights Out, The Cloud Game is a customizable puzzle game that challenges you to fill a clear sky with clouds.",
+    "detailsURL" : "https://app.move38.com/blinks/games/the-cloud-game/details.html",
+    "duration" : "10-20 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/the-cloud-game/images/header.jpg",
+      "dropShadow" : true,
+      "darkOverlay" : false
+    },
+    "identifier" : "the-cloud-game",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/the-cloud-game/images/The-Cloud-Game-1.jpg",
+      "https://app.move38.com/blinks/games/the-cloud-game/images/The-Cloud-Game-2.png"
+    ],
+    "name" : "The Cloud Game",
+    "numPlayers" : "1",
+    "sourceURL": "https://app.move38.com/blinks/games/the-cloud-game/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/the-cloud-game/images/rom-art.png",
+    "url": "https://move38.com/pages/the-cloud-game",
+    "videoURL" : "https://www.youtube.com/embed/cdlB4XTVL_o?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.the_dragons_lair",
+    "categories" : [
+      "all",
+      "exclusive"
+    ],
+    "description" : "You’ve come to the dragon’s lair with one goal in mind: To make your fortune plundering the vast treasures (Gold, Emeralds, Rubies) that await inside. There is, however, one problem. A fierce dragon awaits you and will not be easily parted from his treasure. How much can you collect before your luck runs out?",
+    "detailsURL" : "https://app.move38.com/blinks/games/the-dragons-lair/details.html",
+    "duration" : "10-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/the-dragons-lair/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "the-dragons-lair",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/the-dragons-lair/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/the-dragons-lair/images/image-2.png"
+    ],
+    "name" : "The Dragon's Lair",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/the-dragons-lair/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/the-dragons-lair/images/rom-art.png",
+    "url": "https://move38.com/pages/the-dragons-lair",
+    "videoURL" : "https://www.youtube.com/embed/vAl3hfCbQ_Y?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.tip_toe_volcano",
+    "categories" : [
+      "popular",
+      "exclusive",
+      "all",
+      "new"
+    ],
+    "description" : "Tip-Toe Volcano is a game about betting, bluffing...and not stepping in any lava. Secretly hide your traps before putting the map together. It’s an all-out bidding war to see who can tip-toe the furthest around the volcano — without getting burned.",
+    "detailsURL" : "https://app.move38.com/blinks/games/tip-toe-volcano/details.html",
+    "duration" : "10-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/tip-toe-volcano/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "tip-toe-volcano",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/tip-toe-volcano/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/tip-toe-volcano/images/image-2.png"
+    ],
+    "name" : "Tip-Toe Volcano",
+    "numPlayers" : "2+",
+    "sourceURL": "https://app.move38.com/blinks/games/tip-toe-volcano/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/tip-toe-volcano/images/rom-art.png",
+    "url": "https://move38.com/pages/tip-toe-volcano",
+    "videoURL" : "https://www.youtube.com/embed/5hZw4KiV4os?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.treasure_tumble",
+    "categories" : [
+      "all",
+      "new",
+      "exclusive"
+    ],
+    "description" : "You are an archaeologist who has finally uncovered a long rumored ancient treasure chamber. Glorious riches await you, but not without their challenges. Your excavations have unearthed ancient mechanisms that redirect treasure falling from great heights, how much can you now collect in your treasure buckets?",
+    "detailsURL" : "https://app.move38.com/blinks/games/treasure-tumble/details.html",
+    "duration" : "10-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/treasure-tumble/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "treasure-tumble",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/treasure-tumble/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/treasure-tumble/images/image-2.png"
+    ],
+    "name" : "Treasure Tumble",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/treasure-tumble/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/treasure-tumble/images/rom-art.png",
+    "url": "https://move38.com/pages/treasure-tumble",
+    "videoURL" : "https://www.youtube.com/embed/eY7wUgULUYI?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.trifoil",
+    "categories" : [
+      "all",
+      "new"
+    ],
+    "description" : "Trifoil is a long-form, 2 player turn based strategy game in the vein of chess or go that can be played with 6 or more Blinks. Players take turns placing Links, pushing them, and rotating sections of the board to try to build a long chain before their opponent can.",
+    "detailsURL" : "https://app.move38.com/blinks/games/trifoil/details.html",
+    "duration" : "10-30 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/trifoil/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "trifoil",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/trifoil/images/image-1.jpg",
+      "https://app.move38.com/blinks/games/trifoil/images/image-2.png"
+    ],
+    "name" : "Trifoil",
+    "numPlayers" : "2",
+    "sourceURL": "https://app.move38.com/blinks/games/trifoil/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/trifoil/images/rom-art.png",
+    "url": "https://move38.com/pages/trifoil",
+    "videoURL" : "https://www.youtube.com/embed/RlNvGNzuDTs?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.wham",
+    "categories" : [
+      "all",
+      "popular"
+    ],
+    "description" : "Set up your garden in any size and shape, then defend it from pesky moles who are up to no good. How long can you keep the increasingly aggressive pests at bay? Show them who’s garden it really is",
+    "detailsURL" : "https://app.move38.com/blinks/games/wham/details.html",
+    "duration" : "5-10 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/wham/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "wham",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/wham/images/Wham-1.jpg",
+      "https://app.move38.com/blinks/games/wham/images/Wham-2.png"
+    ],
+    "name" : "WHAM!",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/wham/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/wham/images/rom-art.png",
+    "url": "https://move38.com/pages/wham",
+    "videoURL" : "https://www.youtube.com/embed/zPlq4BEwlc0?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.widgets",
+    "categories" : [
+      "all"
+    ],
+    "description" : "The Blink becomes your favorite new game accessory! Light up your game night, whether for Blinks games or not. Need to roll dice, but don’t have the space? Use the dice widget. Settle the score with a coin flip. Spin your own wheel of fortune. You could even use these widgets to invent your own game!",
+    "detailsURL" : "https://app.move38.com/blinks/games/widgets/details.html",
+    "duration" : "5 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/widgets/images/header.jpg",
+      "dropShadow" : true,
+      "darkOverlay" : false
+    },
+    "identifier" : "widgets",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/widgets/images/Widgets-1.jpg",
+      "https://app.move38.com/blinks/games/widgets/images/Widgets-2.jpg",
+      "https://app.move38.com/blinks/games/widgets/images/Widgets-3.jpg",
+      "https://app.move38.com/blinks/games/widgets/images/Widgets-4.jpg"
+    ],
+    "name" : "Widgets",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/widgets/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/widgets/images/rom-art.png",
+    "url": "https://move38.com/pages/widgets",
+    "videoURL" : "https://www.youtube.com/embed/rowD9Byubxk?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.zen_flow",
+    "categories" : [
+      "popular",
+      "all"
+    ],
+    "description" : "Sometimes you need to relax and bliss out at your desk. Be mesmerized by swirling colors and patterns as Blinks share their happiness. Witness emergent behaviors and find your zen.",
+    "detailsURL" : "https://app.move38.com/blinks/games/zen-flow/details.html",
+    "duration" : "10-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/zen-flow/images/header.jpg",
+      "dropShadow" : true,
+      "darkOverlay" : true
+    },
+    "identifier" : "zen-flow",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/zen-flow/images/Zen-Flow-1.jpg",
+    ],
+    "name" : "Zen Flow",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/zen-flow/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/zen-flow/images/rom-art.png",
+    "url": "https://move38.com/pages/zen-flow",
+    "videoURL" : "https://www.youtube.com/embed/jnQRpy7SnFQ?playsinline=1&controls=0&showinfo=0"
+  }
+]
