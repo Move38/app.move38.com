@@ -215,6 +215,32 @@
     "videoURL" : "https://www.youtube.com/embed/WX0xjDb2iyY?playsinline=1&controls=0&showinfo=0"
   },
   {
+    "appStoreProductIdentifier" : "com.move38.blinks.dispel",
+    "categories" : [
+      "exclusive",
+      "all"
+    ],
+    "description" : "The Great Wizard Artemida has always been a practical joker, but this time she’s gone too far. Hexes everywhere! It’ll take me all day to clean this mess… Dispel! challenges you to turn off all segments of your puzzle by applying the correct combination of rune patterns. Use your logic, deduction, and wits to dispel the hex!",
+    "detailsURL" : "https://app.move38.com/blinks/games/dispel/details.html",
+    "duration" : "5-15 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/dispel/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "dispel",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/dispel/images/Dispel-1.jpg",
+      "https://app.move38.com/blinks/games/dispel/images/Dispel-2.jpg"
+    ],
+    "name" : "Dispel",
+    "numPlayers" : "1",
+    "sourceURL": "https://app.move38.com/blinks/games/dispel/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/dispel/images/rom-art.png",
+    "url": "https://move38.com/pages/dispel",
+    "videoURL" : "https://www.youtube.com/embed/b0NTCJjKcAc?playsinline=1&controls=0&showinfo=0"
+  },
+  {
     "appStoreProductIdentifier" : "com.move38.blinks.dynamo",
     "categories" : [
       "all"
@@ -405,6 +431,34 @@
     "videoURL" : "https://www.youtube.com/embed/soEzFvfbmoY?playsinline=1&controls=0&showinfo=0"
   },
   {
+    "appStoreProductIdentifier" : "com.move38.blinks.hexenwood",
+    "categories" : [
+      "popular",
+      "exclusive",
+      "all",
+      "new"
+    ],
+    "description" : "Deep in the Hexenwood, four powerful tree spirits fight an endless war to control the forest. Take control of one of these spirits, then engage in a strategic, turn based battle. By the end, one tree will come to dominate the forest - are you wise enough to prevail?",
+    "detailsURL" : "https://app.move38.com/blinks/games/hexenwood/details.html",
+    "duration" : "15-30 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/hexenwood/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "hexenwood",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/hexenwood/images/Hexenwood-1.jpg",
+      "https://app.move38.com/blinks/games/hexenwood/images/Hexenwood-2.png"
+    ],
+    "name" : "Hexenwood",
+    "numPlayers" : "2-4",
+    "sourceURL": "https://app.move38.com/blinks/games/hexenwood/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/hexenwood/images/rom-art.png",
+    "url": "https://move38.com/pages/hexenwood",
+    "videoURL" : "https://www.youtube.com/embed/9lXhpI_XroQ?playsinline=1&controls=0&showinfo=0"
+  },
+  {
     "appStoreProductIdentifier" : "com.move38.blinks.honey",
     "categories" : [
       "all"
@@ -506,6 +560,32 @@
     "romImageURL" : "https://app.move38.com/blinks/games/pirates-lasers/images/rom-art.png",
     "url": "https://move38.com/pages/pirates-lasers",
     "videoURL" : "https://www.youtube.com/embed/oISnZihn_II?playsinline=1&controls=0&showinfo=0"
+  },
+  {
+    "appStoreProductIdentifier" : "com.move38.blinks.puzzle101",
+    "categories" : [
+      "all",
+      "popular"
+    ],
+    "description" : "Challenge yourself or work with friends to solve an endless supply of self-generating puzzles! A terrific way to break from your screen and improve your spatial reasoning skills.",
+    "detailsURL" : "https://app.move38.com/blinks/games/puzzle101/details.html",
+    "duration" : "5-10 Mins",
+    "headerImage" : {
+      "url" : "https://app.move38.com/blinks/games/puzzle101/images/header.jpg",
+      "dropShadow" : false,
+      "darkOverlay" : false
+    },
+    "identifier" : "puzzle101",
+    "imageURLs" : [
+      "https://app.move38.com/blinks/games/puzzle101/images/Puzzle-101-1.jpg",
+      "https://app.move38.com/blinks/games/puzzle101/images/Puzzle-101-2.jpg"
+    ],
+    "name" : "Puzzle101",
+    "numPlayers" : "1+",
+    "sourceURL": "https://app.move38.com/blinks/games/puzzle101/source.bin",
+    "romImageURL" : "https://app.move38.com/blinks/games/puzzle101/images/rom-art.png",
+    "url": "https://move38.com/pages/puzzle101",
+    "videoURL" : "https://www.youtube.com/embed/ZHi60qAy2mc?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.raid",
