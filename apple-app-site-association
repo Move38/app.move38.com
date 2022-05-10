@@ -6,7 +6,15 @@
         "components": [
           {
             "/": "/blinks/games/*",
-            "comment": "Opened in app if the user has the app installed."
+            "comment": "Opens to the game view."
+          },
+          {
+            "/": "/blinks/*",
+            "comment": "Opens to the shop view."
+          },
+          {
+            "/": "/blinks",
+            "comment": "Opens to the shop view."
           }
         ]
       }
