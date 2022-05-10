@@ -15,6 +15,10 @@
           {
             "/": "/blinks",
             "comment": "Opens to the shop view."
+          },
+          {
+            "/": "/",
+            "comment": "Opens to the shop view."
           }
         ]
       }
