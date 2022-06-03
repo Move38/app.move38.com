@@ -1,8 +1,10 @@
 {
     "feedbackURL": "https://move38.com/pages/blinks-support",
+    "privacyURL": "https://move38.com/pages/privacy-policy",
     "signupURL": "https://move38.com/sign-up",
     "storeURL": "https://move38.com/collections",
     "supportURL": "https://move38.com/pages/blinks-support",
+    "termsURL": "https://move38.com/pages/terms-conditions",
     "categories":
     [
         {
@@ -48,5 +50,9 @@
             "imageURL": "https://app.move38.com/blinks/features/coming-soon-hero.png",
             "url": "https://move38.com/"
         }
-    ]
+    ],
+    "subscriptionIdentifiers": {
+        "monthly": "com.move38.blinks.membership.monthly",
+        "quarterly": "com.move38.blinks.membership.quarterly"
+    }
 }
