@@ -1,8 +1,10 @@
 {
     "feedbackURL": "https://move38.com/pages/blinks-support",
+    "privacyURL": "https://move38.com/pages/privacy-policy",
     "signupURL": "https://move38.com/sign-up",
     "storeURL": "https://move38.com/collections",
     "supportURL": "https://move38.com/pages/blinks-support",
+    "termsURL": "https://move38.com/pages/terms-conditions-app",
     "categories":
     [
         {
