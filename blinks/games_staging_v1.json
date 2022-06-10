@@ -57,7 +57,6 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.battle_balloons",
     "categories" : [
-      "exclusive",
       "all",
       "new"
     ],
@@ -85,8 +84,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.berry",
     "categories" : [
       "all",
-      "new",
-      "exclusive"
+      "new"
     ],
     "description" : "Blue. Red. Yellow. Make all Blinks one color on your turn or be the first to score 10 points and you win. This unique strategy game favors the clever and punishes the greedy.",
     "detailsURL" : "https://app.move38.com/blinks/games/berry/details.html",
@@ -112,7 +110,6 @@
     "appStoreProductIdentifier" : "com.move38.blinks.bomb_brigade",
     "categories" : [
       "popular",
-      "exclusive",
       "all",
       "new"
     ],
@@ -166,6 +163,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.darkball",
     "categories" : [
       "popular",
+      "exclusive",
       "all"
     ],
     "description" : "Darkball is a first of its kind game in which players put their timing to the test against a speedy disappearing ball and each other. Darkball rewards accuracy, reaction times, as well as creativity. As the pieces are rearranged, the ball can travel in any direction, and down any path with no limits to the number of players or ways it can be played.",
@@ -266,7 +264,6 @@
     "appStoreProductIdentifier" : "com.move38.blinks.ghost_hunters",
     "categories" : [
       "popular",
-      "exclusive",
       "all",
       "new"
     ],
@@ -294,6 +291,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.group_therapy",
     "categories" : [
       "popular",
+      "exclusive",
       "all"
     ],
     "description" : "Congrats! You’re responsible for hosting a Blinks Dinner Party. We’ve taken care of the catering-- we just need you to handle the Blinks. Can you keep the extroverts clustered together, and the introverts separate from the group?",
@@ -320,6 +318,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.heist",
     "categories" : [
       "all",
+      "exclusive",
       "new"
     ],
     "description" : "It’s Cronkinole for crooks! Fling your Blinks at the vault in an attempt to take the gold!The player who cracks the wall down gets the gold piece, be careful not to make the job too easy for the next person… as we know there’s no honor among thieves. Be the first to break the bank and take home the loot.",
@@ -404,6 +403,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.paintbrush",
     "categories" : [
       "all",
+      "exclusive",
       "popular"
     ],
     "description" : "Use your Paintbrush to spread your color as much as possible. Turn the most blank canvases into Paintbrushes to win!",
@@ -456,7 +456,8 @@
     "appStoreProductIdentifier" : "com.move38.blinks.puzzle101",
     "categories" : [
       "all",
-      "popular"
+      "popular",
+      "exclusive"
     ],
     "description" : "Challenge yourself or work with friends to solve an endless supply of self-generating puzzles! A terrific way to break from your screen and improve your spatial reasoning skills.",
     "detailsURL" : "https://app.move38.com/blinks/games/puzzle101/details.html",
@@ -510,7 +511,6 @@
     "categories" : [
       "all",
       "new",
-      "exclusive"
     ],
     "description" : "Reactor is an intense and competitive contest where each player must react to the alarms of the reactor core before their opponents by buzzing in first. Much like a competitive fighting game, Reactor requires quick reflexes and concentration.",
     "detailsURL" : "https://app.move38.com/blinks/games/reactor/details.html",
@@ -586,8 +586,7 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.the_dragons_lair",
     "categories" : [
-      "all",
-      "exclusive"
+      "all"
     ],
     "description" : "You’ve come to the dragon’s lair with one goal in mind: To make your fortune plundering the vast treasures (Gold, Emeralds, Rubies) that await inside. There is, however, one problem. A fierce dragon awaits you and will not be easily parted from his treasure. How much can you collect before your luck runs out?",
     "detailsURL" : "https://app.move38.com/blinks/games/the-dragons-lair/details.html",
@@ -613,7 +612,6 @@
     "appStoreProductIdentifier" : "com.move38.blinks.tip_toe_volcano",
     "categories" : [
       "popular",
-      "exclusive",
       "all",
       "new"
     ],
@@ -641,8 +639,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.treasure_tumble",
     "categories" : [
       "all",
-      "new",
-      "exclusive"
+      "new"
     ],
     "description" : "You are an archaeologist who has finally uncovered a long rumored ancient treasure chamber. Glorious riches await you, but not without their challenges. Your excavations have unearthed ancient mechanisms that redirect treasure falling from great heights, how much can you now collect in your treasure buckets?",
     "detailsURL" : "https://app.move38.com/blinks/games/treasure-tumble/details.html",
@@ -668,6 +665,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.wham",
     "categories" : [
       "all",
+      "exclusive",
       "popular"
     ],
     "description" : "Set up your garden in any size and shape, then defend it from pesky moles who are up to no good. How long can you keep the increasingly aggressive pests at bay? Show them who’s garden it really is",
@@ -693,6 +691,7 @@
   {
     "appStoreProductIdentifier" : "com.move38.blinks.widgets",
     "categories" : [
+      "exclusive",
       "all"
     ],
     "description" : "The Blink becomes your favorite new game accessory! Light up your game night, whether for Blinks games or not. Need to roll dice, but don’t have the space? Use the dice widget. Settle the score with a coin flip. Spin your own wheel of fortune. You could even use these widgets to invent your own game!",
@@ -721,6 +720,7 @@
     "appStoreProductIdentifier" : "com.move38.blinks.zen_flow",
     "categories" : [
       "popular",
+      "exclusive",
       "all"
     ],
     "description" : "Sometimes you need to relax and bliss out at your desk. Be mesmerized by swirling colors and patterns as Blinks share their happiness. Witness emergent behaviors and find your zen.",
