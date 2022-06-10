@@ -55,33 +55,6 @@
     "videoURL" : "https://www.youtube.com/embed/omJUh8d9GPA?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.bandits",
-    "categories" : [
-      "exclusive",
-      "all",
-      "new"
-    ],
-    "description" : "After a successful heist, a group of thieves divvy up their bounty. Wager, Bluff, and Take Tricks from your former friends to walk away with the largest portion in this game of skill and strategy. Who will emerge victorious?",
-    "detailsURL" : "https://app.move38.com/blinks/games/bandits/details.html",
-    "duration" : "15-30 Mins",
-    "headerImage" : {
-      "url" : "https://app.move38.com/blinks/games/bandits/images/header.jpg",
-      "dropShadow" : true,
-      "darkOverlay" : false
-    },
-    "identifier" : "bandits",
-    "imageURLs" : [
-      "https://app.move38.com/blinks/games/bandits/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/bandits/images/image-2.png"
-    ],
-    "name" : "Bandits",
-    "numPlayers" : "3-6",
-    "sourceURL": "https://app.move38.com/blinks/games/bandits/source.bin",
-    "romImageURL" : "https://app.move38.com/blinks/games/bandits/images/rom-art.png",
-    "url": "https://move38.com/pages/bandits",
-    "videoURL" : "https://www.youtube.com/embed/eRSnF4EkmOU?playsinline=1&controls=0&showinfo=0"
-  },
-  {
     "appStoreProductIdentifier" : "com.move38.blinks.battle_balloons",
     "categories" : [
       "exclusive",
@@ -215,32 +188,6 @@
     "videoURL" : "https://www.youtube.com/embed/WX0xjDb2iyY?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.dispel",
-    "categories" : [
-      "exclusive",
-      "all"
-    ],
-    "description" : "The Great Wizard Artemida has always been a practical joker, but this time she’s gone too far. Hexes everywhere! It’ll take me all day to clean this mess… Dispel! challenges you to turn off all segments of your puzzle by applying the correct combination of rune patterns. Use your logic, deduction, and wits to dispel the hex!",
-    "detailsURL" : "https://app.move38.com/blinks/games/dispel/details.html",
-    "duration" : "5-15 Mins",
-    "headerImage" : {
-      "url" : "https://app.move38.com/blinks/games/dispel/images/header.jpg",
-      "dropShadow" : false,
-      "darkOverlay" : false
-    },
-    "identifier" : "dispel",
-    "imageURLs" : [
-      "https://app.move38.com/blinks/games/dispel/images/Dispel-1.jpg",
-      "https://app.move38.com/blinks/games/dispel/images/Dispel-2.jpg"
-    ],
-    "name" : "Dispel",
-    "numPlayers" : "1",
-    "sourceURL": "https://app.move38.com/blinks/games/dispel/source.bin",
-    "romImageURL" : "https://app.move38.com/blinks/games/dispel/images/rom-art.png",
-    "url": "https://move38.com/pages/dispel",
-    "videoURL" : "https://www.youtube.com/embed/b0NTCJjKcAc?playsinline=1&controls=0&showinfo=0"
-  },
-  {
     "appStoreProductIdentifier" : "com.move38.blinks.dynamo",
     "categories" : [
       "all"
@@ -289,34 +236,6 @@
     "romImageURL" : "https://app.move38.com/blinks/games/flic-flop/images/rom-art.png",
     "url": "https://move38.com/pages/flic-flop",
     "videoURL" : "https://www.youtube.com/embed/6iHSceypkoc?playsinline=1&controls=0&showinfo=0"
-  },
-  {
-    "appStoreProductIdentifier" : "com.move38.blinks.forget_me_not",
-    "categories" : [
-      "all",
-      "new"
-    ],
-    "description" : "Forget-Me-Not is a memory game that contains a total of 72 stages. At each stage, your Blinks will display a variety of colors or patterns, before going dark. Keep your wits about you- when the colors reappear, one Blink will have changed. Choose the changed Blink to move onto the next stage.",
-    "detailsURL" : "https://app.move38.com/blinks/games/forget-me-not/details.html",
-    "duration" : "5-15 Mins",
-    "headerImage" : {
-      "url" : "https://app.move38.com/blinks/games/forget-me-not/images/header.jpg",
-      "dropShadow" : false,
-      "darkOverlay" : false
-    },
-    "identifier" : "forget-me-not",
-    "imageURLs" : [
-      "https://app.move38.com/blinks/games/forget-me-not/images/Forget-Me-Not-1.jpg",
-      "https://app.move38.com/blinks/games/forget-me-not/images/Forget-Me-Not-2.jpg",
-      "https://app.move38.com/blinks/games/forget-me-not/images/Forget-Me-Not-3.jpg",
-      "https://app.move38.com/blinks/games/forget-me-not/images/Forget-Me-Not-4.jpg"
-    ],
-    "name" : "Forget-me-not",
-    "numPlayers" : "1+",
-    "sourceURL": "https://app.move38.com/blinks/games/forget-me-not/source.bin",
-    "romImageURL" : "https://app.move38.com/blinks/games/forget-me-not/images/rom-art.png",
-    "url": "https://move38.com/pages/forget-me-not",
-    "videoURL" : "https://www.youtube.com/embed/sQzbkKEaN04?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.fracture",
@@ -429,34 +348,6 @@
     "romImageURL" : "https://app.move38.com/blinks/games/heist/images/rom-art.png",
     "url": "https://move38.com/pages/heist",
     "videoURL" : "https://www.youtube.com/embed/soEzFvfbmoY?playsinline=1&controls=0&showinfo=0"
-  },
-  {
-    "appStoreProductIdentifier" : "com.move38.blinks.hexenwood",
-    "categories" : [
-      "popular",
-      "exclusive",
-      "all",
-      "new"
-    ],
-    "description" : "Deep in the Hexenwood, four powerful tree spirits fight an endless war to control the forest. Take control of one of these spirits, then engage in a strategic, turn based battle. By the end, one tree will come to dominate the forest - are you wise enough to prevail?",
-    "detailsURL" : "https://app.move38.com/blinks/games/hexenwood/details.html",
-    "duration" : "15-30 Mins",
-    "headerImage" : {
-      "url" : "https://app.move38.com/blinks/games/hexenwood/images/header.jpg",
-      "dropShadow" : false,
-      "darkOverlay" : false
-    },
-    "identifier" : "hexenwood",
-    "imageURLs" : [
-      "https://app.move38.com/blinks/games/hexenwood/images/Hexenwood-1.jpg",
-      "https://app.move38.com/blinks/games/hexenwood/images/Hexenwood-2.png"
-    ],
-    "name" : "Hexenwood",
-    "numPlayers" : "2-4",
-    "sourceURL": "https://app.move38.com/blinks/games/hexenwood/source.bin",
-    "romImageURL" : "https://app.move38.com/blinks/games/hexenwood/images/rom-art.png",
-    "url": "https://move38.com/pages/hexenwood",
-    "videoURL" : "https://www.youtube.com/embed/9lXhpI_XroQ?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.honey",
@@ -693,33 +584,6 @@
     "videoURL" : "https://www.youtube.com/embed/VqZMn3vXTBg?playsinline=1&controls=0&showinfo=0"
   },
   {
-    "appStoreProductIdentifier" : "com.move38.blinks.the_cloud_game",
-    "categories" : [
-      "all",
-      "new",
-      "exclusive"
-    ],
-    "description" : "Inspired by Lights Out, The Cloud Game is a customizable puzzle game that challenges you to fill a clear sky with clouds.",
-    "detailsURL" : "https://app.move38.com/blinks/games/the-cloud-game/details.html",
-    "duration" : "10-20 Mins",
-    "headerImage" : {
-      "url" : "https://app.move38.com/blinks/games/the-cloud-game/images/header.jpg",
-      "dropShadow" : true,
-      "darkOverlay" : false
-    },
-    "identifier" : "the-cloud-game",
-    "imageURLs" : [
-      "https://app.move38.com/blinks/games/the-cloud-game/images/The-Cloud-Game-1.jpg",
-      "https://app.move38.com/blinks/games/the-cloud-game/images/The-Cloud-Game-2.png"
-    ],
-    "name" : "The Cloud Game",
-    "numPlayers" : "1",
-    "sourceURL": "https://app.move38.com/blinks/games/the-cloud-game/source.bin",
-    "romImageURL" : "https://app.move38.com/blinks/games/the-cloud-game/images/rom-art.png",
-    "url": "https://move38.com/pages/the-cloud-game",
-    "videoURL" : "https://www.youtube.com/embed/cdlB4XTVL_o?playsinline=1&controls=0&showinfo=0"
-  },
-  {
     "appStoreProductIdentifier" : "com.move38.blinks.the_dragons_lair",
     "categories" : [
       "all",
@@ -799,32 +663,6 @@
     "romImageURL" : "https://app.move38.com/blinks/games/treasure-tumble/images/rom-art.png",
     "url": "https://move38.com/pages/treasure-tumble",
     "videoURL" : "https://www.youtube.com/embed/eY7wUgULUYI?playsinline=1&controls=0&showinfo=0"
-  },
-  {
-    "appStoreProductIdentifier" : "com.move38.blinks.trifoil",
-    "categories" : [
-      "all",
-      "new"
-    ],
-    "description" : "Trifoil is a long-form, 2 player turn based strategy game in the vein of chess or go that can be played with 6 or more Blinks. Players take turns placing Links, pushing them, and rotating sections of the board to try to build a long chain before their opponent can.",
-    "detailsURL" : "https://app.move38.com/blinks/games/trifoil/details.html",
-    "duration" : "10-30 Mins",
-    "headerImage" : {
-      "url" : "https://app.move38.com/blinks/games/trifoil/images/header.jpg",
-      "dropShadow" : false,
-      "darkOverlay" : false
-    },
-    "identifier" : "trifoil",
-    "imageURLs" : [
-      "https://app.move38.com/blinks/games/trifoil/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/trifoil/images/image-2.png"
-    ],
-    "name" : "Trifoil",
-    "numPlayers" : "2",
-    "sourceURL": "https://app.move38.com/blinks/games/trifoil/source.bin",
-    "romImageURL" : "https://app.move38.com/blinks/games/trifoil/images/rom-art.png",
-    "url": "https://move38.com/pages/trifoil",
-    "videoURL" : "https://www.youtube.com/embed/RlNvGNzuDTs?playsinline=1&controls=0&showinfo=0"
   },
   {
     "appStoreProductIdentifier" : "com.move38.blinks.wham",
