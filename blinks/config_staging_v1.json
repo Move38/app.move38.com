@@ -50,5 +50,9 @@
             "imageURL": "https://app.move38.com/blinks/features/coming-soon-hero.png",
             "url": "https://move38.com/"
         }
-    ]
+    ],
+    "subscriptionIdentifiers": {
+        "monthly": "com.move38.blinks.membership.monthly",
+        "quarterly": "com.move38.blinks.membership.quarterly"
+    }
 }
