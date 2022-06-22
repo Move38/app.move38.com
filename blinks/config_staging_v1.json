@@ -10,16 +10,16 @@
         {
             "identifier": "new",
             "name": "New Releases",
-            "featuredGameIds": ["alchematch", "tip-toe-volcano", "ghost-hunters", "thalassophobia"]
+            "featuredGameIds": ["dispel", "forget-me-not", "the-cloud-game", "trifoil"]
         },
         {
             "identifier": "popular",
             "name": "Most Popular",
-            "featuredGameIds": ["puzzle101", "bomb-brigade"]
+            "featuredGameIds": ["puzzle101", "hexenwood"]
         },
         {
-            "identifier": "game-system",
-            "name": "Starter Games",
+            "identifier": "exclusive",
+            "name": "App Exclusives",
             "featuredGameIds": ["darkball", "paintbrush", "heist", "wham"]
         },
         {
