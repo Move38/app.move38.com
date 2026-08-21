@@ -2,78 +2,105 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>Tip-Toe Volcano</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+
+            img.icon {
+                max-width: 54px;
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .power {
+                padding-top: 0;
+            }
+
+            .power h3 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -81,8 +108,6 @@
             Game Designer
             </p>
             <p class="right cell">
-            Tris Williams
-            James Vaughan 
             Big Potato Games
             </p>
         </div>
@@ -98,18 +123,22 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
             <p align="center">
-            SETUP:
-            Divide the Blinks up evenly between all players. For standard play, each player is given a maximum of four Blinks. If there are extra Blinks left over, set them aside. Blinks should load up in setup mode, and display two spinning green faces. If a Blink is not in setup mode, double click to enter setup mode.      </p>
+            Divide the Blinks up evenly between all players. For standard play, each player is given a maximum of four Blinks. If there are extra Blinks left over, set them aside. Blinks should load up in setup mode, and display two spinning green faces. If a Blink is not in setup mode, double click to enter setup mode.
+            </p>
+            <h2>Gameplay</h2>
             <p align="center">
-            GAMEPLAY:
             Gameplay takes place over a series of rounds. At the start of each round, players must secretly decide how many of their Blinks will be lava traps.
-            
-            Out of sight of the other players, take your cluster of Blinks in setup mode and single click any number of them to activate (or de-activate) a lava trap. Lava traps have 4 red faces rotating around the Blink, while safe spaces show 2 green faces rotating. Make sure to remember where you place your traps!     </p>
+            </p>
+            <p align="center">
+            Out of sight of the other players, take your cluster of Blinks in setup mode and single click any number of them to activate (or de-activate) a lava trap. Lava traps have 4 red faces rotating around the Blink, while safe spaces show 2 green faces rotating. Make sure to remember where you place your traps!
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/tip-toe-volcano/images/TipToeVolcano_Diagram_1.png"/>
                 <p class="caption">
-                Changing from a safe Blink to a lava trap   </p>
+                Changing from a safe Blink to a lava trap
+                </p>
             </div>
             <p align="center">
             Once satisfied with your trap placement, double click any Blink in your cluster to hide your lava traps under a beautiful, green, grassy hill.
@@ -117,7 +146,8 @@
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/tip-toe-volcano/images/TipToeVolcano_Diagram_2.png"/>
                 <p class="caption">
-                Double-click to hide your setup    </p>
+                Double-click to hide your setup
+                </p>
             </div>
             <p align="center">
             With the traps hidden, all the players connect their Blinks back together into one cluster.
@@ -125,17 +155,20 @@
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/tip-toe-volcano/images/TipToeVolcano_Diagram_3.png"/>
                 <p class="caption">
-                All players combine their Blinks into a single cluster    </p>
+                All players combine their Blinks into a single cluster
+                </p>
             </div>
             <p align="center">
             On the first round, the oldest player starts by betting how many Blinks they can click without hitting any Lava Traps (e.g. “I think I can click two Blinks without hitting any lava”). The player on their left must now either raise or challenge. If they raise, they must bet a higher number (e.g. 3 Blinks or more). But if they challenge, the previous player must carry out their bet to prove that they can do it.
-            
+            </p>
+            <p align="center">
             To complete a challenge, the player must start by single clicking one of their own Blinks. After that, they can click any Blinks they like.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/tip-toe-volcano/images/TipToeVolcano_Diagram_4.png"/>
                 <p class="caption">
-                All players combine their Blinks into a single cluster    </p>
+                Single click a Blink to reveal its state
+                </p>
             </div>
             <p align="center">
             When a safe Blink is clicked, it simply darkens and remains on the field. However, if a lava Blink is clicked, there is a huge volcanic explosion!
@@ -143,29 +176,34 @@
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/tip-toe-volcano/images/TipToeVolcano_Diagram_5.png"/>
                 <p class="caption">
-                A player clicks a lava trap, setting off a volcanic explosion!    </p>
+                A player clicks a lava trap, setting off a volcanic explosion!
+                </p>
             </div>
             <p align="center">
             If the player that has been challenged sets off an explosion, they have lost the challenge and must take one of their Blinks and set it aside out of the game (e.g. if this round they had 4 Blinks, next round they will have 3). But if they are able to meet the challenge, then the player who challenged them loses the round and sets one Blink aside.
-            
+            </p>
+            <p align="center">
             All players then take their Blinks back, and double-click them to go back into setup mode, and a new round begins. In this new round, whichever player won the previous challenge is the first to bet.
             </p>
             <h1 align="center">
-                Win Conditions
+                Win Condition
             </h1>
             <p align="center">
-            WIN CONDITION
             When a player loses their last Blink, they are out the game. The last player with any Blinks remaining is the winner! Be careful - the last few rounds, with only a small amount of Blinks, can get very tricky...
-
-            VARIANT RULES: CHAOS MODE
+            </p>
+            <h1 align="center">
+                Variant Rules: Chaos Mode
+            </h1>
+            <p align="center">
             There is a hidden function within Tip-Toe Volcano that can be used to play a more chaotic variant of the game. In this version, whenever a player loses a challenge and would normally set aside a Blink, they instead set the Blink to “Chaos Mode.” To do this, take a Blink in setup mode and triple-click it - the spinning lights will be both red and green.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/tip-toe-volcano/images/TipToeVolcano_Diagram_6.png"/>
                 <p class="caption">
-                Triple-click a Blink to set a Blink to Chaos Mode    </p>
+                Triple-click a Blink to set a Blink to Chaos Mode
+                </p>
             </div>
-             <p align="center">
+            <p align="center">
             When this Blink is hidden, it will randomly decide to be either safe or a lava trap, adding more uncertainty and risk to each round. By the end, almost all the Blinks will be in chaos mode, making the board even more dangerous than before!
             </p>
             <h1>
@@ -175,11 +213,10 @@
             Tip-Toe Volcano is part of the Epic Adventure Set.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/products/blinks-epic-adventure-set">BUY PHYSICAL HERE</a>
-                </p>
+            <p>
+            <a href="https://move38.com/products/blinks-epic-adventure-set">BUY PHYSICAL HERE</a>
+            </p>
             </div>
-            
         </div>
     </body>
 </html>

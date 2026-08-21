@@ -2,78 +2,105 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>Speed Racer</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+
+            img.icon {
+                max-width: 54px;
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .power {
+                padding-top: 0;
+            }
+
+            .power h3 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -81,8 +108,7 @@
             Game Designer
             </p>
             <p class="right cell">
-            Daniel King
-            Jonathan Bobrow
+            Daniel King<br/>Jonathan Bobrow
             </p>
         </div>
         <div class="row">
@@ -97,70 +123,52 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
             <p align="center">
-            SETUP:
-            Separate the Blinks so each piece resets to a loose
-            road, indicated by spinning orange lights. Connect the
-            Blinks together in a single line, then double-click any
-            Blink to create a playable road.     </p>
+            Separate the Blinks so each piece resets to a loose road, indicated by spinning orange lights. Connect the Blinks together in a single line, then double-click any Blink to create a playable road.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/speed-racer/images/spd1.png"/>
                 <p class="caption">
-                Road setup process                </p>
+                Road setup process
+                </p>
             </div>
             <p align="center">
-            Click any connected road piece to start a car. Single
-            clicks will create standard cars, and multi-clicks (3 or
-            more) will create faster and faster cars.
-            GAMEPLAY:
-            Cars will travel from Blink to Blink, constantly
-            increasing in speed. If your car reaches the end of the
-            road, it will crash in a fiery wreck.      </p>
+            Click any connected road piece to start a car. Single clicks will create standard cars, and multi-clicks (3 or more) will create faster and faster cars.
+            </p>
+            <h2>Gameplay</h2>
+            <p align="center">
+            Cars will travel from Blink to Blink, constantly increasing in speed. If your car reaches the end of the road, it will crash in a fiery wreck.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/speed-racer/images/spd2.png"/>
                 <p class="caption">
-                Car traveling and crashing    </p>
+                Car traveling and crashing
+                </p>
             </div>
             <p align="center">
-            To keep your car from crashing, extend the road in
-            front of the car using available Blinks. Extend your road
-            by connecting loose roads at the endpoint indicated
-            by a red light. You must connect to the red sideconnecting
-            to any other side will not create a thru road.
+            To keep your car from crashing, extend the road in front of the car using available Blinks. Extend your road by connecting loose roads at the endpoint indicated by a red light. You must connect to the red side - connecting to any other side will not create a thru road.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/speed-racer/images/spd3.png"/>
                 <p class="caption">
-                Incorrect and correct road connection    </p>
+                Incorrect and correct road connection
+                </p>
             </div>
-             <p align="center">
-            To keep your car from crashing, extend the road in
-            front of the car using available Blinks. Extend your road
-            by connecting loose roads at the endpoint indicated
-            by a red light. You must connect to the red sideconnecting
-            to any other side will not create a thru road.
-            </p>
-            <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/speed-racer/images/spd3.png"/>
-                <p class="caption">
-                Incorrect and correct road connection    </p>
-            </div>
-             <p align="center">
-            You can also attach built roads together by connecting
-            their red lights.
+            <p align="center">
+            You can also attach built roads together by connecting their red lights.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/speed-racer/images/spd4.png"/>
                 <p class="caption">
-                Connecting two existing road segments    </p>
+                Connecting two existing road segments
+                </p>
             </div>
             <h1 align="center">
-                Win Conditions
+                Win Condition
             </h1>
             <p align="center">
-            There is no finish line in Speed Racer - eventually,
-            every car crashes. The question for you is how far and
-            how fast can you go?
+            There is no finish line in Speed Racer - eventually, every car crashes. The question for you is how far and how fast can you go?
             </p>
             <h1>
                 More Information
@@ -169,11 +177,10 @@
             Speed Racer is part of the Ultimate Action Pack.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/products/blinks-ultimate-action-pack">BUY PHYSICAL HERE</a>
-                </p>
+            <p>
+            <a href="https://move38.com/products/blinks-ultimate-action-pack">BUY PHYSICAL HERE</a>
+            </p>
             </div>
-            
         </div>
     </body>
 </html>

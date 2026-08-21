@@ -2,78 +2,105 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>Dragon’s Lair</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+
+            img.icon {
+                max-width: 54px;
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .power {
+                padding-top: 0;
+            }
+
+            .power h3 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -81,8 +108,7 @@
             Game Designer
             </p>
             <p class="right cell">
-            Spencer Jenik
-            Francisco Javier
+            Spencer Jenik<br/>Francisco Javier
             </p>
         </div>
         <div class="row">
@@ -97,83 +123,79 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
             <p align="center">
-            Setup:
-            All Blinks start as part of the dragon’s lair, with
-            pieces of gold, emeralds, or rubies shining on their
-            open faces.
-
-            First, each player removes a Blink from the lair and
-            double clicks it to turn it into a treasure hunter Blink.
-            A treasure hunter Blink has a gold, emerald, and
-            ruby collecting faces.
-
-            Then, arrange all the remaining Blinks in whatever
-            formation you’d like to be the dragon’s lair. Finally,
-            triple click any Blink in the lair to turn it into the
-            dragon.
-
-            If you are playing with less than 9 Blinks, set up the dragon’s lair in a straight line and set the
-            Dragon at one of the ends.     </p>
+            All Blinks start as part of the dragon’s lair, with pieces of gold, emeralds, or rubies shining on any exposed faces. Each player removes a Blink from the lair and double clicks it to turn it into a treasure hunter. A treasure hunter Blink has a gold, emerald, and ruby collecting faces. You can also double-click a treasure hunter blink to turn it back into a lair blink as well.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/Dragon_Diagram_1.png"/>
                 <p class="caption">
+                Creating a treasure hunter Blink
                 </p>
             </div>
             <p align="center">
-            Gameplay:
-During gameplay, your goal is to mine as much treasure as possible before running out of luck.
-
-To collect treasures, take your player Blink and
-match the correct treasure collecting face to any
-lair piece with treasure on it. For example, if you
-want to mine rubies off of a lair piece, attach your
-player Blink’s ruby colored face to the lair.
-Rubies and emeralds can be mined immediately,
-but mining gold requires 3 seconds for a
-successful mining. While you wait for the gold
-mining, you can mine in other places and then
-match the gold face to collect the treasure, but if
-you wait too long, other players can steal your gold
-or it can even disappear.
-
-Each ruby and emerald mined is worth 1 point , while each gold mined is worth 3 points . Onevery successful mining you will see a color animation.
-
-However, as you are mining, beware the dragon’s attacks. Each player has 3 luck points . You can lose a luck point by either incorrectly mining a treasure piece, or being hurt by a dragon’s attack.
-
+            Then, arrange all the remaining Blinks in whatever formation you’d like to be the dragon’s lair. We recommend using setups that have many accessible faces. If you are playing with a small number of Blinks, a straight line is a good setup.
+            </p>
+            <p align="center">
+            To begin the game, triple click one of the Blinks in the lair to turn it into the dragon, which writhes and spins atop its treasure.
+            </p>
+            <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/Dragon_Diagram_2.png"/>
                 <p class="caption">
-                  </p>
+                Creating a Dragon
+                </p>
+            </div>
+            <h2>Gameplay</h2>
+            <p align="center">
+            During gameplay, your goal is to mine as much treasure as possible before running out of luck. To collect treasure, take your player Blink and match the correct treasure collecting face to any lair piece with treasure on it. For example, if you want to mine rubies off of a lair piece, attach your player Blink’s ruby colored face to the lair.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/Dragon_Diagram_3.png"/>
+                <p class="caption">
+                Mining a ruby with the treasure hunter
+                </p>
             </div>
             <p align="center">
-            The dragon has 3 different attacks released randomly into the lair.
-
-FIREBALL: A huge blast of orange flame engulfs the lair. Any player touching a lair
-piece loses 1 luck.
-
-POISON SMOKE: A dense cloud of green acidic poison slowly fills the cavern. Any
-player touching a lair piece filled with smoke loses 1 luck.
-
-VOID: The dragon covers the cave entrance and the lair is plunged into darkness.
-You must mine for treasure by memory alone, if you incorrectly mine a piece of
-treasure you will lose 1 luck.
-
-Dragon attacks will become more frequent the longer you spend in the lair, so be vigilant and mine as much treasure as possible before your luck runs out.
+            Rubies and emeralds can be mined immediately, but mining gold actually takes 3 seconds. While you wait for the gold to mine, you can mine in other places and then match the gold face to collect the treasure. Be careful, though - if you wait too long, other players can steal your gold, or it can even disappear.
+            </p>
+            <p align="center">
+            Each ruby and emerald mined is worth 1 point, while each gold mined is worth 3 points. Your treasure hunter Blink will celebrate each time you mine successfully.
+            </p>
+            <p align="center">
+            Each treasure hunter has 3 luck points. You can lose a luck point by either incorrectly mining a treasure piece, or by being hurt by a dragon’s attack. The dragon has 3 different attacks it can release randomly into the lair.
+            </p>
+            <h3>Fireball</h3>
+            <p align="center">
+            A huge blast of orange flame engulfs the lair. Any player touching a lair piece loses 1 luck.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/Dragon_Diagram_4.png"/>
-                <p class="caption">
-                   </p>
             </div>
+            <h3>Poison Smoke</h3>
+            <p align="center">
+            A dense cloud of green acidic poison slowly fills the cavern. Any player touching a lair piece filled with smoke loses 1 luck.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/Dragon_Diagram_5.png"/>
+            </div>
+            <h3>Void</h3>
+            <p align="center">
+            The dragon covers the cave entrance and the lair is plunged into darkness. You must mine for treasure by memory alone, if you incorrectly mine a piece of treasure you will lose 1 luck.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/Dragon_Diagram_6.png"/>
+            </div>
+            <p align="center">
+            Before each attack, you will see the dragon blink flicker with energy. Keep an eye out for these flickers to avoid being hit. As you play, dragon attacks will become more frequent and with less warning, so be vigilant and mine as much treasure as possible before your luck runs out.
+            </p>
             <h1 align="center">
-                Win Conditions
+                Win Condition
             </h1>
             <p align="center">
-            When your luck runs out, your player Blink will present your score for the game. To determine your score, count the number of times your Blink flashes in each color. Yellow flashes are your 100’s digit, green flashes are your 10’s digit, and red flashes are you 1’s digit. So a score of 132 would be 1 yellow flash followed by 3 green flashes followed by 2 red flashes.
-
-            If playing single player, keep track of your high score between rounds and try to beat your record. If playing with multiple players, the player with the highest score at the end of each game wins.
-            
-            To reset the game, triple click the dragon to stop it, double click every treasure hunter to become a lair blink, rearrange the lair and play again! The points and the speed of the dragon will be reseted too.
+            When your luck runs out, your player Blink will change to a score display. To determine your score, count the number of times your Blink flashes in each color. Yellow flashes are your 100’s digit, green flashes are your 10’s digit, and red flashes are the 1’s digit. So a score of 132 would be 1 yellow flash followed by 3 green flashes followed by 2 red flashes. The player with the highest score at the end of each game wins.
+            </p>
+            <p align="center">
+            To reset the game, triple click the dragon to rest it back to a standard lair piece.
             </p>
             <h1>
                 More Information
@@ -182,11 +204,10 @@ Dragon attacks will become more frequent the longer you spend in the lair, so be
             The Dragon's Lair is part of the Epic Adventure Set.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/products/blinks-epic-adventure-set">BUY PHYSICAL HERE</a>
-                </p>
+            <p>
+            <a href="https://move38.com/products/blinks-epic-adventure-set">BUY PHYSICAL HERE</a>
+            </p>
             </div>
-            
         </div>
     </body>
 </html>

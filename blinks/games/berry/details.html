@@ -2,78 +2,89 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>BeRrY</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -81,9 +92,7 @@
             Game Designers
             </p>
             <p class="right cell">
-            Jonathan Bobrow 
-            Shiyun Liu
-            Wei Yu
+            Jonathan Bobrow<br/>Shiyun Liu<br/>Wei Yu
             </p>
         </div>
         <div class="row">
@@ -98,32 +107,53 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
             <p align="center">
-            Players take turns placing Blinks, connecting them together into a cluster. After placing their Blink, a player clicks each adjacent Blink, advancing it to the next color.     </p>
+            Each player starts with 3 blue Blinks in their hand. To change the color of a Blink, click it once.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/berry/images/bry1.png"/>
+                <p class="caption">
+                Blue, Red, Yellow - the Berry color cycle
+                </p>
+            </div>
+            <h2>Gameplay</h2>
+            <p align="center">
+            Players take turns placing Blinks, connecting them together into a cluster. After placing their Blink, a player clicks each adjacent Blink, advancing it to the next color.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/berry/images/bry2.png"/>
                 <p class="caption">
-                Placing a Blink with < 3 neighbors
+                Placing a Blink with &lt; 3 neighbors
                 </p>
             </div>
             <p align="center">
-            If there are 3 or more adjacent Blinks, the player must also click the Blink they placed.      </p>
+            If there are 3 or more adjacent Blinks, the player must also click the Blink they placed.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/berry/images/bry3.png"/>
                 <p class="caption">
-                Placing a Blink with > 2 neighbors    </p>
+                Placing a Blink with &gt; 2 neighbors
+                </p>
             </div>
             <p align="center">
             After the first 6 turns, players begin each turn not by placing a Blink from their hand, but by removing a Blink from the cluster, then placing it in a new location.
-Not all Blinks can be legally removed from the cluster at the start of a turn. Blinks with neighbors on opposite sides are “locked,” as are Blinks that, if removed, would fracture the cluster into more than 2 pieces.
+            </p>
+            <p align="center">
+            Not all Blinks can be legally removed from the cluster at the start of a turn. Blinks with neighbors on opposite sides are “locked,” as are Blinks that, if removed, would fracture the cluster into more than 2 pieces.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/berry/images/bry4.png"/>
                 <p class="caption">
-                Locked Blinks    </p>
+                Locked Blinks
+                </p>
             </div>
+            <h2>Scoring</h2>
+            <p align="center">
+            At the end of each turn, the active player earns points for the presence of certain shapes in a singular color. Reference the image below for scoring.
+            </p>
             <h1 align="center">
-                Win Conditions
+                Win Condition
             </h1>
             <p align="center">
             The first player to score ten or more points is the winner. However, if a player ends their turn with all 6 Blinks set to the same color, they are the winner.
@@ -132,14 +162,13 @@ Not all Blinks can be legally removed from the cluster at the start of a turn. B
                 More Information
             </h1>
             <p>
-            Berry is part of Master Strategist Pack.
+            Berry is part of the Master Strategist Pack.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/products/blinks-master-strategist-pack">BUY PHYSICAL HERE</a>
-                </p>
+            <p>
+            <a href="https://move38.com/products/blinks-master-strategist-pack">BUY PHYSICAL HERE</a>
+            </p>
             </div>
-            
         </div>
     </body>
 </html>

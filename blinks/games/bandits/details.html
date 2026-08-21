@@ -2,78 +2,89 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>Bandits</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -96,8 +107,33 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
             <p align="center">
-            Each player secretly bids a number between 1 and 3 on their Bandit. To do this, single-click your Bandit to see the current bid. Once it’s revealed, you can single-click again to cycle through the three possible bids. A Bandit will automatically go back into its hidden state if you don’t click it for 2 seconds.     </p>
+            All Blinks begin as Bandits, which swirl and pulse with their team color. Each player should take a single Bandit from the set of Blinks and set it to their chosen team color. Each time you double-click a Bandit, it will change team.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/bandits/images/ban1.png"/>
+                <p class="caption">
+                Double-click to cycle through Bandit colors
+                </p>
+            </div>
+            <p align="center">
+            Once everyone has a Bandit in their color, take another Bandit and triple-click it: this will transform it into a sparkling diamond. Place the Diamond in the center of the table, then begin the game.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/bandits/images/ban2.png"/>
+                <p class="caption">
+                Triple-click to create a Diamond
+                </p>
+            </div>
+            <h2>Gameplay</h2>
+            <p align="center">
+            Bandits is played in turns, with each turn broken into three phases: Bidding, Results, and Cleanup.
+            </p>
+            <h3>Bidding</h3>
+            <p align="center">
+            Each player secretly bids a number between 1 and 3 on their Bandit. To do this, single-click your Bandit to see the current bid. Once it’s revealed, you can single-click again to cycle through the three possible bids. A Bandit will automatically go back into its hidden state if you don’t click it for 2 seconds.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/bandits/images/ban3.png"/>
                 <p class="caption">
@@ -106,12 +142,57 @@
             </div>
             <p align="center">
             After everyone has chosen their bid, players take turns placing their Bandit onto the Diamond, starting with the first player and then going around the table clockwise. On the first turn, the player with the most money in their pockets goes first.
-
-            On the first turn, all players will attach their Bandits directly to the Diamond. When a Bandit is correctly attached, the face touching the Diamond will sparkle white.     </p>
+            </p>
+            <p align="center">
+            On the first turn, all players will attach their Bandits directly to the Diamond. When a Bandit is correctly attached, the face touching the Diamond will sparkle white.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/bandits/images/ban4.png"/>
                 <p class="caption">
-                All Bandits connect to the Diamond, sparkling white on the connected face    </p>
+                All Bandits connect to the Diamond, sparkling white on the connected face
+                </p>
+            </div>
+            <h3>Results</h3>
+            <p align="center">
+            After all Bandits have been attached, it’s time to see the results. In Bandits, the highest unique bid is the winner. For example, if one player bids 3, another 2, and another 1, the player who bid 3 would be the winner.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/bandits/images/ban5.png"/>
+            </div>
+            <p align="center">
+            If, though, two players bid 3 and a third player only bids 1, the bid of 1 wins because it is the highest unique bid.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/bandits/images/ban6.png"/>
+            </div>
+            <p align="center">
+            If there is no highest unique bid, no player wins, and the turn moves immediately to cleanup.
+            </p>
+            <p align="center">
+            To see the results, double-click the Diamond, which will begin calculating. After a few seconds, the winning Bandit will sparkle with victory, then receive their points. A Bandit that steals directly from the Diamond receives a number of points equal to 6 minus their bid, so 3 points for a bid of 3, 4 for a bid of 2, and 5 for a bid of 1.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/bandits/images/ban7.png"/>
+                <p class="caption">
+                Double-click the Diamond to calculate results and award points to the winner
+                </p>
+            </div>
+            <h3>Cleanup</h3>
+            <p align="center">
+            After the results have been handed out, the losing players remove their Bandit from the Diamond. The winning player, if there is one, leaves their Bandit on the Diamond, extending the board outward. That player retrieves a new Bandit from the pile and sets it to their team color, and bids first in the next round.
+            </p>
+            <h3>After the First Round</h3>
+            <p align="center">
+            After the first round, there will be at least one Bandit attached to the Diamond permanently. This Bandit will display the number of points it earned, and will sparkle like the Diamond on its outside edge. This extends the Diamond itself, and changes the way that players bid for the rest of the game.
+            </p>
+            <p align="center">
+            During betting, instead of attaching to the Diamond itself, a player can place their Bandit onto the outside edge of the scored Bandit. They must attach directly opposite the Diamond, and their Bandit will sparkle as if attached to the Diamond itself to show that this was done correctly. Because they can only be attached in this way, the number of available faces is always 6, even after multiple Bandits are stacked outward.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/bandits/images/ban8.png"/>
+                <p class="caption">
+                Regular Bandits connected to scored Bandits will sparkle as if connected directly to the Diamond.
+                </p>
             </div>
             <p align="center">
             If a player wins a round by attaching to another Bandit, they also score differently. Instead of taking points directly from the Diamond, they steal points from the Bandit they attached to equal to half its points, rounded up. For instance, if you win a round while connected to a Bandit that had scored 3 points in a previous round, that Bandit would lose 2 points and you would gain 2. Points will only be stolen from the Bandit on the outside edge, meaning once a Bandit has been stolen from it will keep the remaining points for the rest of the game.
@@ -119,28 +200,53 @@
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/bandits/images/ban9.png"/>
                 <p class="caption">
-                In a typical game of Bandits, players can only build out to a distance of 3 from the Diamond.    </p>
+                After winning the round, the orange Bandit steals 3 points from the purple Bandit
+                </p>
+            </div>
+            <p align="center">
+            In a typical game of Bandits, players can only build out to a distance of 3 from the Diamond.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/bandits/images/ban10.png"/>
+                <p class="caption">
+                A full-sized game of Bandits
+                </p>
             </div>
             <h1 align="center">
-                Win Conditions
+                Win Condition
             </h1>
             <p align="center">
             The game ends when no more bids can be made. This might be because there aren’t enough Bandits left to play a full round, or because the Diamond has 3 scored Bandits attached to each face.
-
+            </p>
+            <p align="center">
             When the game ends, each player adds up the points they scored on each of their scored Bandits. The player (or players) who scored the most points is the winner!
             </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/bandits/images/ban11.png"/>
+                <p class="caption">
+                A completed game of Bandits - Green wins with 9 points scored
+                </p>
+            </div>
+            <p align="center">
+            Long press any Blink to reset all connected Blinks back to unscored Bandits.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/bandits/images/ban12.png"/>
+                <p class="caption">
+                Long-press any Blink to reset all Blinks to Bandits
+                </p>
+            </div>
             <h1>
                 More Information
             </h1>
             <p>
-            Bandits is part of the Sakura Startegy Pack.
+            Bandits is part of the Sakura Strategy Pack.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/collections/coming-soon/products/blinks-sakura-strategy-pack">BUY PHYSICAL HERE</a>
-                </p>
+            <p>
+            <a href="https://move38.com/collections/coming-soon/products/blinks-sakura-strategy-pack">BUY PHYSICAL HERE</a>
+            </p>
             </div>
-            
         </div>
     </body>
 </html>

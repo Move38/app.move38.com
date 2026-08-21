@@ -2,78 +2,89 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>Battle Balloons</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -96,37 +107,107 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
+            <h3>Distribute Balloons</h3>
             <p align="center">
-            Click an opponent’s Balloon to reduce its health, shown by the number of faces lit. Each click reduces health by 1. When a balloon is reduced to 0 health,
-            it pops, revealing whether it was a Crown, a Trap, or neither.    </p>
+            Divide the Balloons/Blinks evenly among the players. Each player clusters their balloons together, and assigns each balloon a color.
+            </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/battle-balloons/images/balloon5.png"/>
+                <img src="https://app.move38.com/blinks/games/battle-balloons/images/balloon1.png"/>
+            </div>
+            <p align="center">
+            Single-click a balloon to cycle between Red (high health), Blue (medium health), and Green (low health). For even fair play, make sure each player has the same number of each color. To give one player an advantage, allow them to have more high-health balloons.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/battle-balloons/images/balloon2.png"/>
                 <p class="caption">
-                A  balloon takes 1 HP of damage and pops, revealing that it was not a Crown or a Trap
+                The three colors of balloon, cycled by single-clicking
+                </p>
+            </div>
+            <h3>Create Special Balloons</h3>
+            <p align="center">
+            Decide how many Crowns and/or Traps each player will have. Again, for even play, each player should have the same amount.
+            </p>
+            <p align="center">
+            Double-click a balloon to designate it as a Crown, and double-click it again to change to a Trap. Double-clicking a third time will reset it back to a regular Balloon.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/battle-balloons/images/balloon3.png"/>
+                <p class="caption">
+                Cycling through special balloons by double-clicking
                 </p>
             </div>
             <p align="center">
-            You also can use your turn to fortify your own balloons. Remove a single balloon from your cluster to activate it - a single white face will appear on the Balloon. When you reconnect that Balloon to the cluster, it will transfer 1 unit of health to the Balloon it touches with the activated face.      </p>
+            While creating these special balloons, make sure to hide your selection from your opponent - this step is where your strategic trickery begins! It might seem obvious to always select a Red Balloon as your Crown since they take the longest to pop. But your opponent knows this too, so they may start clicking the Red Balloon first. Knowing that, you could instead select a Blue Balloon as a Crown, making your opponent waste 3-6 clicks popping a non-Crown Balloon. Let the game theory begin!
+            </p>
+            <p align="center">
+            Long press one balloon on each player’s cluster to move to start the game. Your Crown and Trap balloons will now appear as regular balloons, and the health of all balloons will be set based on their color.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/battle-balloons/images/balloon4.png"/>
+                <p class="caption">
+                A Long press starts the game: all special balloons are hidden, and the balloons gain HP based on their color
+                </p>
+            </div>
+            <h2>Gameplay</h2>
+            <p align="center">
+            On their turn, players take one of two actions:
+            </p>
+            <h3>Attack</h3>
+            <p align="center">
+            Click an opponent’s Balloon to reduce its health, shown by the number of faces lit. Each click reduces health by 1. When a balloon is reduced to 0 health, it pops, revealing whether it was a Crown, a Trap, or neither.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/battle-balloons/images/balloon5.png"/>
+                <p class="caption">
+                A balloon takes 1 HP of damage and pops, revealing that it was not a Crown or a Trap
+                </p>
+            </div>
+            <h3>Fortify</h3>
+            <p align="center">
+            You also can use your turn to fortify your own balloons. Remove a single balloon from your cluster to activate it - a single white face will appear on the Balloon. When you reconnect that Balloon to the cluster, it will transfer 1 unit of health to the Balloon it touches with the activated face.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/battle-balloons/images/balloon6.png"/>
                 <p class="caption">
-                A red balloon fortifies a green balloon, transferring 1 HP    </p>
+                A red balloon fortifies a green balloon, transferring 1 HP
+                </p>
             </div>
             <p align="center">
-            Only balloons with at least 1 health remaining can be used to Fortify, and Balloons with 6 health cannot receive fortification. To cancel a fortification, you can reconnect the individual balloon on one of the non- white faces.
+            Only balloons with at least 1 health remaining can be used to Fortify, and Balloons with 6 health cannot receive fortification. To cancel a fortification, you can reconnect the individual balloon on one of the non-white faces.
+            </p>
+            <h1 align="center">
+                Win Condition
+            </h1>
+            <p align="center">
+            There are multiple ways to win Battle Balloons. If you pop all of your opponent’s Crown Balloons, you are the winner!
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/battle-balloons/images/balloon7.png"/>
                 <p class="caption">
-                 A Crown balloon is popped, causing a brief golden sparkle </p>
+                A Crown balloon is popped, causing a brief golden sparkle
+                </p>
             </div>
+            <p align="center">
+            If, instead, you pop your opponent’s Trap Balloon, they are the winner!
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/battle-balloons/images/balloon8.png"/>
+                <p class="caption">
+                A Trap balloon is popped, causing a brief purple sparkle
+                </p>
+            </div>
+            <p align="center">
+            To reset the game, Long press any Balloon in your cluster to go back into Setup.
+            </p>
             <h1 align="center">
-                Win Conditions
+                Alternate Setup
             </h1>
             <p align="center">
-            There are multiple ways to win Battle Balloons. If you pop all of your opponent’s Crown Balloons, you are the winner!
-
-            If, instead, you pop your opponent’s Trap Balloon, they are the winner!
+            If you are playing with very few Blinks, you can instead give all Blinks to a single player and let them make the setup, then pass the entire cluster to the next player. That player then plays through the game with that cluster, counting the number of rounds it takes to win or lose.
+            </p>
+            <p align="center">
+            In addition, you can play with more than 2 players. In a multiplayer game, you choose who to attack on your turn. If a player’s Crown Balloons are popped, they are out of the game. If you pop a Trap Balloon, you are out. The last player standing wins.
             </p>
             <h1>
                 More Information
@@ -135,11 +216,10 @@
             Battle Balloons is part of the Frenzied Showdown Pack.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/products/blinks-frenzied-showdown-pack">BUY PHYSICAL HERE</a>
-                </p>
+            <p>
+            <a href="https://move38.com/products/blinks-frenzied-showdown-pack">BUY PHYSICAL HERE</a>
+            </p>
             </div>
-            
         </div>
     </body>
 </html>

@@ -2,78 +2,105 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Treasure Tumble</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>Treasure Tumble</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+
+            img.icon {
+                max-width: 54px;
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .power {
+                padding-top: 0;
+            }
+
+            .power h3 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -81,7 +108,7 @@
             Game Designer
             </p>
             <p class="right cell">
-            Brett Taylor
+            Jacob Surovsky
             </p>
         </div>
         <div class="row">
@@ -96,57 +123,68 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
             <p align="center">
-            SETUP
             Take your sushi roll case and lay it out on a flat surface. This will be the floor of your treasure chamber. Long press 2 Blinks until they flash white, then set them standing up on the sushi roll case. These are your treasure buckets. Take another Blink and set it between the two buckets. This trio of Blinks is the foundation of your treasure chamber.
-
-            Finally, take at least 1 Blink and triple click it. It should now be green with a swirling face. This Blink is your treasure spawner. It will drop one treasure piece whenever it is placed on top of the treasure chamber tower.    </p>
+            </p>
+            <p align="center">
+            Finally, take at least 1 Blink and triple click it. It should now be green with a swirling face. This Blink is your treasure spawner. It will drop one treasure piece whenever it is placed on top of the treasure chamber tower.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_1.png"/>
                 <p class="caption">
-                The starting setup for Treasure Tumble 
+                The starting setup for Treasure Tumble
                 </p>
             </div>
+            <h2>Gameplay</h2>
             <p align="center">
-            GAMEPLAY
             The goal of this game is to collect as much treasure in your bucket as possible by using the mechanisms built into the treasure chamber walls.
-
-            The game is played in two stages. First, both players work together to assemble the treasure chamber. Take turns adding one Blink at a time to the tower and watching the mechanisms self-assign.  
+            </p>
+            <p align="center">
+            The game is played in two stages. First, both players work together to assemble the treasure chamber. Take turns adding one Blink at a time to the tower and watching the mechanisms self-assign.
+            </p>
+            <p align="center">
             There are four kinds of mechanisms that will automatically be assigned depending on their position on the tower.
-            
-            FUNNELS
-            Funnels take treasure falling in from any direction and send it in the direction of their darkened face.   </p>
+            </p>
+            <h3>Funnels</h3>
+            <p align="center">
+            Funnels take treasure falling in from any direction and send it in the direction of their darkened face.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_2.png"/>
                 <p class="caption">
-                Funnels showing the direction they will drop the treasure   </p>
+                Funnels showing the direction they will drop the treasure
+                </p>
             </div>
+            <h3>Switchers</h3>
             <p align="center">
-            SWITCHERS
             Switchers behave like a see-saw. Once they send treasure in the direction of their orange face they switch sides.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_3.png"/>
                 <p class="caption">
-                A switcher in both states    </p>
+                A switcher in both states
+                </p>
             </div>
+            <h3>Splitters</h3>
             <p align="center">
-            SPLITTERS
             Splitters turn one treasure piece into 3 and drop one piece out of each face on their bottom half.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_4.png"/>
                 <p class="caption">
-                A splitter will multiply treasure and drop in all directions    </p>
+                A splitter will multiply treasure and drop in all directions
+                </p>
             </div>
+            <h3>Deathtraps</h3>
             <p align="center">
-            DEATHTRAPS
             Deathtraps destroy any treasure that is unlucky enough to fall their way.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_5.png"/>
                 <p class="caption">
-                A deathtrap destroys any treasure that enters it    </p>
+                A deathtrap destroys any treasure that enters it
+                </p>
             </div>
             <p align="center">
             Once the tower is built, it’s time for the treasure to tumble! In turn, players must first take the spawner off the tower and set it aside, then remove a chunk of 3 Blinks anywhere from the tower. This chunk must be removed with only one hand, and cannot cause the tower to fall.
@@ -154,7 +192,8 @@
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_6.png"/>
                 <p class="caption">
-                Three Blinks and the Spawner are removed from the tower    </p>
+                Three Blinks and the Spawner are removed from the tower
+                </p>
             </div>
             <p align="center">
             Then the player must add those 3 Blinks back to the tower one at a time in any configuration as long as the tower doesn’t collapse, with the goal of building a path that directs treasure to their bucket.
@@ -162,16 +201,17 @@
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_7.png"/>
                 <p class="caption">
-                All three Blinks are reattached, and the spawner
-                    is placed at the highest point    </p>
+                All three Blinks are reattached, and the spawner is placed at the highest point
+                </p>
             </div>
-             <p align="center">
+            <p align="center">
             Once the tower is re-assembled, the spawner is added back to the tower. The spawner must be placed at the highest point currently on the tower, so plan your reconstructing appropriately.
-            
+            </p>
+            <p align="center">
             Once the treasure tumbles down to the bottom and the buckets have collected their treasure, the next player’s turn begins.
             </p>
             <h1 align="center">
-                Win Conditions
+                Win Condition
             </h1>
             <p align="center">
             When the bucket is full it will turn purple - the first player to fill their bucket with treasure is the winner!
@@ -179,10 +219,20 @@
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_8.png"/>
                 <p class="caption">
-                A bucket fills with treasure, then turns purple   </p>
+                A bucket fills with treasure, then turns purple
+                </p>
             </div>
             <p align="center">
             However, if one of the players causes the tower to collapse, they must empty all the treasure from their bucket. Double-click a bucket to empty it. Then the first stage of the game is repeated and the tower is reassembled before treasure is allowed to tumble again.
+            </p>
+            <h1 align="center">
+                Variant Rules
+            </h1>
+            <p align="center">
+            In addition to being a game, Treasure Tumble can be played as an open-ended toy. Stack elaborate towers and watch the treasure satisfyingly tumble down to the bottom.
+            </p>
+            <p align="center">
+            To aid in this open ended-play, you can double click any spawner Blink to make it auto-drop a piece of treasure every 2 seconds.
             </p>
             <h1>
                 More Information
@@ -190,7 +240,6 @@
             <p>
             Treasure Tumble is part of the <a href="https://move38.com/products/blinks-epic-adventure-set">Epic Adventure Set</a>.
             </p>
-            
         </div>
     </body>
 </html>

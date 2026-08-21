@@ -2,78 +2,89 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>Bomb Brigade</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -96,26 +107,37 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
             <p align="center">
-            Players take turns ‘sparking’ the Bomb by pressing it once. With every spark, there is an increasing chance that the Bomb will explode. In addition, each time the Bomb is sparked the spinning gets faster and faster.correctly.      </p>
+            Connect all the Blinks together and long press one, sending them all into setup mode. In setup mode, Blinks display a slowly shifting rainbow. Arrange the Blinks into a starting arrangement, then double-click a Blink to turn it into a Bomb. All neighboring Blinks will automatically become Shields.
+            </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bomb-brigade/images/bomb2.png"/>
-                <p class="caption">
-                If you can time it correctly, you should try to only spark the Bomb when its light is facing a shield. If the bomb explodes into a Shield, that Shield takes damage.
-                </p>
-                <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bomb-brigade/images/bomb3.png"/>
-                <p class="caption">
-                    A bomb exploding into a shield
-                </p>
-
+                <img src="https://app.move38.com/blinks/games/bomb-brigade/images/bomb1.png"/>
             </div>
             <p align="center">
-            Damage is indicated by a Shield changing color from green to yellow to orange to red. A Shield that takes 4 damage is destroyed, and displays a flashing rainbow pattern. Destroyed Shields should be removed from the board.      </p>
+            Starting arrangements can be simple, as shown, but can also be larger or more complicated and include multiple bombs.
+            </p>
+            <h2>Gameplay</h2>
+            <p align="center">
+            Players take turns ‘sparking’ the Bomb by pressing it once. With every spark, there is an increasing chance that the Bomb will explode. In addition, each time the Bomb is sparked the spinning gets faster and faster.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/bomb-brigade/images/bomb2.png"/>
+            </div>
+            <p align="center">
+            If you can time it correctly, you should try to only spark the Bomb when its light is facing a shield. If the bomb explodes into a Shield, that Shield takes damage.
+            </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/bomb-brigade/images/bomb3.png"/>
+                <p class="caption">
+                A bomb exploding into a shield
+                </p>
+            </div>
+            <p align="center">
+            Damage is indicated by a Shield changing color from green to yellow to orange to red. A Shield that takes 4 damage is destroyed, and displays a flashing rainbow pattern. Destroyed Shields should be removed from the board.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/bomb-brigade/images/bomb4.png"/>
-                <p class="caption">
-                   </p>
             </div>
             <p align="center">
             If the Bomb explodes on a side with no Shield, the player who sparked the Bomb ‘blows up’ and is out of the game. Double-click the exploded Bomb to reset it.
@@ -123,10 +145,11 @@
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/bomb-brigade/images/bomb5.png"/>
                 <p class="caption">
-                An explosion and reset    </p>
+                An explosion and reset
+                </p>
             </div>
             <h1 align="center">
-                Win Conditions
+                Win Condition
             </h1>
             <p align="center">
             The last player remaining after all others have been blown up is the winner.
@@ -135,14 +158,13 @@
                 More Information
             </h1>
             <p>
-            Bomb Brigade is part of the Frienzied Showdown Pack.
+            Bomb Brigade is part of the Frenzied Showdown Pack.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/products/blinks-frenzied-showdown-pack">BUY PHYSICAL HERE</a>
-                </p>
+            <p>
+            <a href="https://move38.com/products/blinks-frenzied-showdown-pack">BUY PHYSICAL HERE</a>
+            </p>
             </div>
-            
         </div>
     </body>
 </html>

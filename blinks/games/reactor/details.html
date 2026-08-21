@@ -2,78 +2,105 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>Reactor</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+
+            img.icon {
+                max-width: 54px;
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .power {
+                padding-top: 0;
+            }
+
+            .power h3 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -81,8 +108,7 @@
             Game Designer
             </p>
             <p class="right cell">
-            Spencer Kee
-            Aaron Santiago
+            Aaron Santiago<br/>Spencer Kee
             </p>
         </div>
         <div class="row">
@@ -97,44 +123,49 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
             <p align="center">
-            SETUP:
-            Arrange your Blinks so that each player has a single-file pathway to the center Blink. If possible, each player’s path should be the same length. When you are finished setting up, triple-click the center Blink to start the Reactor.     </p>
+            Arrange your Blinks so that each player has a single-file pathway to the center Blink. If possible, each player’s path should be the same length. When you are finished setting up, triple-click the center Blink to start the Reactor.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/reactor/images/reactor_1.png"/>
                 <p class="caption">
                 Activating the Reactor
                 </p>
             </div>
+            <h2>Gameplay</h2>
             <p align="center">
-            GAMEPLAY:
-            The center Reactor will continuously flash colors. If it flashes the same color twice in a row, players must press the Blink at the end of their path to “buzz in.” The order in which the players buzz in will be shown by the color of their path. The first player to buzz in becomes green, the last player becomes red, and all others become yellow. Any player that does not buzz in is considered “last” and also displays red.      </p>
+            The center Reactor will continuously flash colors. If it flashes the same color twice in a row, players must press the Blink at the end of their path to “buzz in.” The order in which the players buzz in will be shown by the color of their path. The first player to buzz in becomes green, the last player becomes red, and all others become yellow. Any player that does not buzz in is considered “last” and also displays red.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/reactor/images/reactor_2.png"/>
                 <p class="caption">
-               Example results of 4 players buzzing in    </p>
+                Example results of 4 players buzzing in
+                </p>
             </div>
             <p align="center">
             After results are shown, any player with a red path must remove the last piece on their branch and set it on the table in reach of all other players. This piece is now “unstable,” and displays a spinning yellow pattern.
-            
+            </p>
+            <p align="center">
             All players, in addition to watching the Reactor, must now keep their eyes on these unstable Blinks. When an unstable Blink erupts in a green display, any player can grab it off the table and add it to the end of their chain. If the Blink flashes red instead, it is permanently out of the game.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/reactor/images/reactor_3.png"/>
                 <p class="caption">
-                An unstable Blink, a reactivated unstable Blink, and a
-                permanently deactivated unstable Blink.    </p>
+                An unstable Blink, a reactivated unstable Blink, and a permanently deactivated unstable Blink.
+                </p>
             </div>
             <h1 align="center">
-                Win Conditions
+                Win Condition
             </h1>
             <p align="center">
-           WIN CONDITION:
             The game continues until all players but one have lost all the Blinks in their pathway.
-
-            PAY UP VARIANT
+            </p>
+            <h3>Pay Up Variant</h3>
+            <p align="center">
             Reactor can also be played with a set of “Pay Up” rules. In this version, players who display red after buzzing in, either because they buzzed last or didn’t buzz at all, must give their end pieces to the green player instead of setting them aside. Because players “Pay Up” after each round, there are no unstable Blinks on the table.
-
+            </p>
+            <p align="center">
             This version of the game is more focused than the standard rules, and two evenly-matched players can battle it out for a very long time.
             </p>
             <h1>
@@ -144,11 +175,10 @@
             Reactor is part of the Frenzied Showdown Pack.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/products/blinks-frenzied-showdown-pack">BUY PHYSICAL HERE</a>
-                </p>
+            <p>
+            <a href="https://move38.com/products/blinks-frenzied-showdown-pack">BUY PHYSICAL HERE</a>
+            </p>
             </div>
-            
         </div>
     </body>
 </html>

@@ -2,137 +2,163 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>WHAM!</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
 
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
 
-                    .level {
-                        font-weight: bold;
-                        font-size: 8em;
-                    }
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
 
-                    button {
-                        padding: 10px 20px;
-                        border-radius: 20px;
-                        border-style: none;
-                        font-size: 1.6em;
-                    }
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
 
-                    .green {
-                        color: #FFF;
-                        font-weight: bold;
-                        background-color: #4CB64F;
-                    }
-                    
-                    .red {
-                        color: #FFF;
-                        font-weight: bold;
-                        background-color: #EB4A23;
-                    }
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
 
-                    #wham-timer {
-                        font-family: "Helvetica Neue";
-                        background-color: #27783D;
-                        margin: 30px;
-                        padding: 10px 10px;
-                        border-radius: 30px;
-                        color: #FFF;
-                    }
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
 
-                    #wham-timer h1 {
-                        color: #FFF;
-                        font-size: 2em;                        
-                    }
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
 
-                    #clockDisplay{
-                        color: #98CA53;
-                        font-weight: bold;
-                        font-size: 1.4em;
-                    }
+            p.left {
+                float: left;
+            }
 
-                    .timeLabel {
-                        margin-bottom: -20px;
-                    }
+            p.right {
+                float: right;
+            }
 
-                    .time {
-                        font-size: 1.6em;
-                    }
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
 
-                    .levelLabel {
-                        font-weight: bold;
-                        font-size: 2em;
-                        margin-bottom: -30px;
-                    }
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
 
-                </style>
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+
+            img.icon {
+                max-width: 54px;
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .power {
+                padding-top: 0;
+            }
+
+            .power h3 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
+            }
+
+            .level {
+                font-weight: bold;
+                font-size: 8em;
+            }
+
+            button {
+                padding: 10px 20px;
+                border-radius: 20px;
+                border-style: none;
+                font-size: 1.6em;
+            }
+
+            .green {
+                color: #FFF;
+                font-weight: bold;
+                background-color: #4CB64F;
+            }
+
+            .red {
+                color: #FFF;
+                font-weight: bold;
+                background-color: #EB4A23;
+            }
+
+            #wham-timer {
+                font-family: "Helvetica Neue";
+                background-color: #27783D;
+                margin: 30px;
+                padding: 10px 10px;
+                border-radius: 30px;
+                color: #FFF;
+            }
+
+            #wham-timer h1 {
+                color: #FFF;
+                font-size: 2em;
+            }
+
+            #clockDisplay {
+                color: #98CA53;
+                font-weight: bold;
+                font-size: 1.4em;
+            }
+
+            .timeLabel {
+                margin-bottom: -20px;
+            }
+
+            .time {
+                font-size: 1.6em;
+            }
+
+            .levelLabel {
+                font-weight: bold;
+                font-size: 2em;
+                margin-bottom: -30px;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -140,8 +166,7 @@
             Game Designer
             </p>
             <p class="right cell">
-            Daniel King
-            Jonathan Bobrow
+            Daniel King<br/>Jonathan Bobrow
             </p>
         </div>
         <div class="row">
@@ -156,166 +181,170 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
             <p align="center">
-            SETUP:
-            Connect the Blinks in any arrangement, so long as they are connected. Double-click any Blink to begin the game.</p>
+            Connect the Blinks in any arrangement, so long as they are connected. Double-click any Blink to begin the game.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/wham/images/wham1.png"/>
                 <p class="caption">
                 Double-click to start
                 </p>
             </div>
+            <h2>Gameplay</h2>
             <p align="center">
-            GAMEPLAY:
-            During the game, waves of red moles will pop out of the ground. Moles pop up fully red, but countdown quickly before fading to black. Before they disappear back underground completely, a player must click a mole to “whack” it. The mole will flash white, then that Blink will return to normal.</p>
+            During the game, waves of red moles will pop out of the ground. Moles pop up fully red, but countdown quickly before fading to black. Before they disappear back underground completely, a player must click a mole to “whack” it. The mole will flash white, then that Blink will return to normal.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/wham/images/wham2.png"/>
             </div>
             <p align="center">
-             As the game progress, waves of moles will appear and disappear faster and faster.
-
-             If a player whacks a Blink that has no mole on it, they get a “strike,” shown as a flash of color across the garden. If the player gets three strikes, the game ends. </p>
-             <div align="center" class="image">
+            As the game progress, waves of moles will appear and disappear faster and faster.
+            </p>
+            <p align="center">
+            If a player whacks a Blink that has no mole on it, they get a “strike,” shown as a flash of color across the garden. If the player gets three strikes, the game ends.
+            </p>
+            <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/wham/images/wham3.png"/>
-             <p class="caption">
+                <p class="caption">
                 Strike 1, Strike 2, Strike 3
                 </p>
-        </div>
-        <p align="center">
-            In addition, any mole that completely disappears into the grass will end the game. </p>
-        <div align="center" class="image">
-            <img src="https://app.move38.com/blinks/games/wham/images/wham4.png"/>
-            <p class="caption">
-                A mole fades completely, ending the game
+            </div>
+            <p align="center">
+            In addition, any mole that completely disappears into the grass will end the game.
             </p>
-        </div>
-        <p align="center">
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/wham/images/wham4.png"/>
+                <p class="caption">
+                A mole fades completely, ending the game
+                </p>
+            </div>
+            <p align="center">
             Double-click any Blink to return to setup.
-        </p>
-        <h1 align="center">
-            Win Condition
-        </h1>
-        <p align="center">
-        If you are able to last for 30 rounds, the garden will flash white and you win! Double-click any Blink to return to setup.
-        </p>
-
-        <!-- SCORE CARD WIDGET STARTS HERE -->
-        <div id="wham-timer">
+            </p>
             <h1 align="center">
-                SCORE CARD
+                Win Condition
             </h1>
-            <div id="levelDisplay" align="center">
-                <div>
-                    <div class="levelLabel">Level</div>
-                    <span class="level">--</span>
-                </div>
-            </div>
-            <div id="clockDisplay" align='center'>
-              <div class="timeLabel">Elapsed time</div>
-              <div class="time"><span class="minutes">00</span>:<span class="seconds">00</span>:<span class="hundredths">00</div>
-            </div>
-            <button onClick="startScorecard()" class="green">Start</button>
-            <button onClick="stopAndResetClock()" class="red"><span id="stopResetButton">Stop</span></button>
-            <script type="text/javascript">
-                var startTimes = [0,7807,15293,22458,29302,35825,42027,47908,53466,58702,63617,68211,72484,76436,80067,83375,86361,89347,92333,95319,98305,101291,104277,107263,110249,113235,116221,119207,122193,125179,128165];
-
-                function getLevelBasedOnTimeElapsed(timeElapsed) {
-                    for(var i=1; i<startTimes.length; i++) {
-                        if(timeElapsed > startTimes[i-1] && timeElapsed <= startTimes[i]) {
-                            return i;
-                        }
-                    }
-                    if(timeElapsed > startTimes[startTimes.length-1]) {
-                        return startTimes.length-1;
-                    }
-
-                    console.log("time elapsed is not in any of these windows")    
-                }
-
-                function getElapsedTime(startTime) {
-                  var t = Date.now() - Date.parse(startTime);
-                  var millis = t % 1000;
-                  var seconds = Math.floor((t / 1000) % 60);
-                  var minutes = Math.floor((t / 1000 / 60) % 60);
-
-                  return {
-                    'minutes': minutes,
-                    'seconds': seconds,
-                    'milliseconds': millis,
-                    'total': t
-                  };
-                }
-
-                var timeinterval;
-                var startTime;
-                var stopResetToggle = "Stop";
-
-                var clock = document.getElementById('clockDisplay');
-                var minutesSpan = clock.querySelector('.minutes');
-                var secondsSpan = clock.querySelector('.seconds');
-                var hundredthsSpan = clock.querySelector('.hundredths');
-                var level = document.getElementById('levelDisplay');
-                var levelSpan = level.querySelector('.level');
-                var stopResetSpan = document.getElementById('stopResetButton');
-
-                function updateClock() {
-                    var t = getElapsedTime(startTime);
-
-                    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-                    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-                    hundredthsSpan.innerHTML = ('0' + (Math.floor(t.milliseconds / 10))).slice(-2);
-
-                    levelSpan.innerHTML = getLevelBasedOnTimeElapsed(t.total);
-                }
-
-                function startScorecard() {
-                    startTime = new Date();
-                    timeinterval = setInterval(updateClock, 10);
-                }
-
-                function stopAndResetClock() {
-                    if(stopResetToggle === "Stop") {
-                        if(timeinterval) {
-                            stopClock();
-                            stopResetToggle = "Reset";
-                        }
-                    }
-                    else if(stopResetToggle === "Reset" ) {
-                        resetClock();
-                        stopResetToggle = "Stop";
-                    }
-                    stopResetSpan.innerHTML = stopResetToggle;
-                }
-
-                function stopClock() {
-                    clearInterval(timeinterval);
-                    timeinterval = null;
-                }
-
-                function resetClock() {
-
-                    minutesSpan.innerHTML = "00";
-                    secondsSpan.innerHTML = "00";
-                    hundredthsSpan.innerHTML = "00";
-
-                    levelSpan.innerHTML = "--";
-                    clearInterval(timeinterval);
-                    timeinterval = null;
-                }
-            </script>
-        </div>
-        <!-- SCORE CARD WIDGET ENDS HERE -->
-
-        <h1>
+            <p align="center">
+            If you are able to last for 30 rounds, the garden will flash white and you win! Double-click any Blink to return to setup.
+            </p>
+            <!-- SCORE CARD WIDGET STARTS HERE -->
+                    <div id="wham-timer">
+                        <h1 align="center">
+                            SCORE CARD
+                        </h1>
+                        <div id="levelDisplay" align="center">
+                            <div>
+                                <div class="levelLabel">Level</div>
+                                <span class="level">--</span>
+                            </div>
+                        </div>
+                        <div id="clockDisplay" align='center'>
+                          <div class="timeLabel">Elapsed time</div>
+                          <div class="time"><span class="minutes">00</span>:<span class="seconds">00</span>:<span class="hundredths">00</div>
+                        </div>
+                        <button onClick="startScorecard()" class="green">Start</button>
+                        <button onClick="stopAndResetClock()" class="red"><span id="stopResetButton">Stop</span></button>
+                        <script type="text/javascript">
+                            var startTimes = [0,7807,15293,22458,29302,35825,42027,47908,53466,58702,63617,68211,72484,76436,80067,83375,86361,89347,92333,95319,98305,101291,104277,107263,110249,113235,116221,119207,122193,125179,128165];
+            
+                            function getLevelBasedOnTimeElapsed(timeElapsed) {
+                                for(var i=1; i<startTimes.length; i++) {
+                                    if(timeElapsed > startTimes[i-1] && timeElapsed <= startTimes[i]) {
+                                        return i;
+                                    }
+                                }
+                                if(timeElapsed > startTimes[startTimes.length-1]) {
+                                    return startTimes.length-1;
+                                }
+            
+                                console.log("time elapsed is not in any of these windows")    
+                            }
+            
+                            function getElapsedTime(startTime) {
+                              var t = Date.now() - Date.parse(startTime);
+                              var millis = t % 1000;
+                              var seconds = Math.floor((t / 1000) % 60);
+                              var minutes = Math.floor((t / 1000 / 60) % 60);
+            
+                              return {
+                                'minutes': minutes,
+                                'seconds': seconds,
+                                'milliseconds': millis,
+                                'total': t
+                              };
+                            }
+            
+                            var timeinterval;
+                            var startTime;
+                            var stopResetToggle = "Stop";
+            
+                            var clock = document.getElementById('clockDisplay');
+                            var minutesSpan = clock.querySelector('.minutes');
+                            var secondsSpan = clock.querySelector('.seconds');
+                            var hundredthsSpan = clock.querySelector('.hundredths');
+                            var level = document.getElementById('levelDisplay');
+                            var levelSpan = level.querySelector('.level');
+                            var stopResetSpan = document.getElementById('stopResetButton');
+            
+                            function updateClock() {
+                                var t = getElapsedTime(startTime);
+            
+                                minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                                secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+                                hundredthsSpan.innerHTML = ('0' + (Math.floor(t.milliseconds / 10))).slice(-2);
+            
+                                levelSpan.innerHTML = getLevelBasedOnTimeElapsed(t.total);
+                            }
+            
+                            function startScorecard() {
+                                startTime = new Date();
+                                timeinterval = setInterval(updateClock, 10);
+                            }
+            
+                            function stopAndResetClock() {
+                                if(stopResetToggle === "Stop") {
+                                    if(timeinterval) {
+                                        stopClock();
+                                        stopResetToggle = "Reset";
+                                    }
+                                }
+                                else if(stopResetToggle === "Reset" ) {
+                                    resetClock();
+                                    stopResetToggle = "Stop";
+                                }
+                                stopResetSpan.innerHTML = stopResetToggle;
+                            }
+            
+                            function stopClock() {
+                                clearInterval(timeinterval);
+                                timeinterval = null;
+                            }
+            
+                            function resetClock() {
+            
+                                minutesSpan.innerHTML = "00";
+                                secondsSpan.innerHTML = "00";
+                                hundredthsSpan.innerHTML = "00";
+            
+                                levelSpan.innerHTML = "--";
+                                clearInterval(timeinterval);
+                                timeinterval = null;
+                            }
+                        </script>
+                    </div>
+                    <!-- SCORE CARD WIDGET ENDS HERE -->
+            <h1>
                 More Information
             </h1>
             <p>
             WHAM! is included in the Blinks Game System.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/collections/featured-blinks/products/blinks-game-system-9-game-starter-set">BUY NOW</a>
-                </p>
+            <p>
+            <a href="https://move38.com/collections/featured-blinks/products/blinks-game-system-9-game-starter-set">BUY NOW</a>
+            </p>
             </div>
+        </div>
     </body>
 </html>

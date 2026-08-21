@@ -2,78 +2,105 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>Zen Flow</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+
+            img.icon {
+                max-width: 54px;
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .power {
+                padding-top: 0;
+            }
+
+            .power h3 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -81,8 +108,7 @@
             Game Designer
             </p>
             <p class="right cell">
-            Daniel King
-            Jonathan Bobrow
+            Daniel King<br/>Jonathan Bobrow
             </p>
         </div>
         <div class="row">
@@ -97,35 +123,39 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Gameplay</h2>
+            <h3>Spreading a Single Color</h3>
             <p align="center">
-            GAMEPLAY:
-            SPREADING A SINGLE COLOR
-            Single-click spreads the next color in a wave across all connected Blinks.      </p>
+            Single-click spreads the next color in a wave across all connected Blinks.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/zen-flow/images/zen1.png"/>
                 <p class="caption">
                 Single color wave spreading across a field
                 </p>
             </div>
+            <h3>Spreading Random Colors</h3>
             <p align="center">
-            SPREADING RANDOM COLORS
-            Double-click sparkles random colors in a wave across all connected Blinks.      </p>
+            Double-click sparkles random colors in a wave across all connected Blinks.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/zen-flow/images/zen2.png"/>
                 <p class="caption">
-                Random color wave spreading across a field    </p>
+                Random color wave spreading across a field
+                </p>
             </div>
+            <h3>Mirror Mode</h3>
             <p align="center">
-            MIRROR MODE
             Long press changes a Blink from color-spreading mode to mirror mode, which displays the colors of the Blinks it is connected to.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/zen-flow/images/zen3.png"/>
                 <p class="caption">
-                Mirror mode Blinks displaying neighboring colors    </p>
+                Mirror mode Blinks displaying neighboring colors
+                </p>
             </div>
             <h1 align="center">
-                Win Conditions
+                Win Condition
             </h1>
             <p align="center">
             Zen Flow was designed as a meditative experience, so there is no implicit goal. Switch Blinks between modes and create new arrangements to explore this Zen space.
@@ -134,14 +164,13 @@
                 More Information
             </h1>
             <p>
-            Zen Flow is part of the Blinks Game System
+            Zen Flow is part of the Blinks Game System.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/products/blinks-game-system-9-game-starter-set">BUY PHYSICAL HERE</a>
-                </p>
+            <p>
+            <a href="https://move38.com/products/blinks-game-system-9-game-starter-set">BUY PHYSICAL HERE</a>
+            </p>
             </div>
-            
         </div>
     </body>
 </html>

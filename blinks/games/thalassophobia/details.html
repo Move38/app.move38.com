@@ -2,78 +2,105 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>Thalassophobia</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+
+            img.icon {
+                max-width: 54px;
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .power {
+                padding-top: 0;
+            }
+
+            .power h3 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -96,13 +123,14 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
             <p align="center">
-            SETUP
-            Gather all Blinks together into a single cluster. They should appear as murky, dark-blue waters. To begin, long-press a single Blink to turn it into a Diver. Now the clock is ticking, and the game has begun!   
-
-            GAMEPLAY
+            Gather all Blinks together into a single cluster. They should appear as murky, dark-blue waters. To begin, long-press a single Blink to turn it into a Diver. Now the clock is ticking, and the game has begun!
+            </p>
+            <h2>Gameplay</h2>
+            <p align="center">
             When you begin a game, one of your Blinks will turn white, representing your current position on the board. Your air tank, represented by the number of lights on your Blink, has enough air to last for 6 minutes.
-               </p>
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/thalassophobia/images/Thalassophobia_Diagram_1.png"/>
                 <p class="caption">
@@ -110,11 +138,13 @@
                 </p>
             </div>
             <p align="center">
-            Any Blink adjacent to your current position will be visible, showing either open water or entangling seaweed.      </p>
+            Any Blink adjacent to your current position will be visible, showing either open water or entangling seaweed.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/thalassophobia/images/Thalassophobia_Diagram_3.png"/>
                 <p class="caption">
-                The player can see the Blinks immediately adjacent, but the rest are murky    </p>
+                The player can see the Blinks immediately adjacent, but the rest are murky
+                </p>
             </div>
             <p align="center">
             Move to an adjacent open water Blink by clicking it. When you do so, new Blinks will be revealed, and the Blinks you are no longer adjacent to will begin to fade into murky darkness.
@@ -122,13 +152,17 @@
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/thalassophobia/images/Thalassophobia_Diagram_2.png"/>
                 <p class="caption">
-                The player sees a glimmer of light on nearby open water    </p>
+                By moving their position, the player lights more of their surroundings
+                </p>
             </div>
+            <p align="center">
+            As you explore, you may see a glimmer of light either in open water or on some seaweed - move onto that space to ascend towards the surface.
+            </p>
             <p align="center">
             Keep in mind that these chances are fleeting, and can only be spotted if a space is visible, so it’s best to explore as much and as quickly as possible. If you find yourself trapped, you can always rearrange your Blinks to find a way out.
             </p>
             <h1 align="center">
-                Win Conditions
+                Win Condition
             </h1>
             <p align="center">
             Your goal is to get all the way to the surface and avoid drowning, which requires you to ascend a total of 6 times. Make it all the way to the surface within 6 minutes, and you win the game!
@@ -136,10 +170,12 @@
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/thalassophobia/images/Thalassophobia_Diagram_4.png"/>
                 <p class="caption">
-                A winning game sparkles white, and a losing game flashes red    </p>
+                A winning game sparkles white, and a losing game flashes red
+                </p>
             </div>
             <p align="center">
-            Long-press any Blink to reset the game. </p>
+            Long-press any Blink to reset the game.
+            </p>
             <h1>
                 More Information
             </h1>
@@ -147,11 +183,10 @@
             Thalassophobia is part of the Epic Adventure Set.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/products/blinks-epic-adventure-set">BUY PHYSICAL HERE</a>
-                </p>
+            <p>
+            <a href="https://move38.com/products/blinks-epic-adventure-set">BUY PHYSICAL HERE</a>
+            </p>
             </div>
-            
         </div>
     </body>
 </html>

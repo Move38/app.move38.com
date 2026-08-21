@@ -2,78 +2,105 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>Heist</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+
+            img.icon {
+                max-width: 54px;
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .power {
+                padding-top: 0;
+            }
+
+            .power h3 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -81,7 +108,7 @@
             Game Designer
             </p>
             <p class="right cell">
-            Keir Willams
+            Keir Williams
             </p>
         </div>
         <div class="row">
@@ -96,9 +123,10 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
             <p align="center">
-            SETUP:
-            Blinks begin the game as gold Blinks, which display a glittering pattern. To begin, give each player a single gold Blink. Each player then double-clicks their gold Blink to change it into a Thief. Players can double click their thief blink to switch between the four team colors and long press it to change it back to gold     </p>
+            Blinks begin the game as gold Blinks, which display a glittering pattern. To begin, give each player a single gold Blink. Each player then double-clicks their gold Blink to change it into a Thief. Players can double click their thief blink to switch between the four team colors and long press it to change it back to gold.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/heist/images/heist1.png"/>
                 <p class="caption">
@@ -106,47 +134,56 @@
                 </p>
             </div>
             <p align="center">
-            Alternatively, players can share a single thief Blink, passing it and changing its color between turns.
-            
-            Lump together the remaining Blinks and set them in the center of the table to be the vault. The shimmering gold in the middle will appear surrounded by dark walls. The player who most recently visited a bank goes first.      </p>
+            Alternatively, if you are playing with a small number of Blinks, players can share a single thief Blink, passing it and changing its color between turns.
+            </p>
+            <p align="center">
+            Lump together the remaining Blinks and set them in the center of the table to be the vault. The shimmering gold in the middle will appear surrounded by dark walls. The player who most recently visited a bank goes first.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/heist/images/heist2.png"/>
-                <p class="caption">
-                A cluster of Blinks creating the vault   </p>
             </div>
+            <h2>Gameplay</h2>
             <p align="center">
-            GAMEPLAY:
             On each player’s turn, they slide their thief Blink across the table, and attempt to connect it to the Vault. You may move around the table to attack the vault from any angle during your turn.
-
+            </p>
+            <p align="center">
             If your thief successfully connects, the wall will flash your team color. Disconnect your thief from the vault and take it back. If you did not connect, simply retrieve your thief. If you accidentally connect to the vault when trying to retrieve your thief, you must skip your next turn. Once you’ve retrieved your thief, your turn ends.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/heist/images/heist3.png"/>
                 <p class="caption">
-                A thief connects to the vault, causing damage to the vault   </p>
+                A thief connects to the vault, causing damage to the vault.
+                </p>
             </div>
-
             <p align="center">
-            Each vault Blink has 4 health, and takes 1 damage each time it is attacked by a thief. When a part of the vault is at half health or lower, it will begin to crumble and pulse. When it reaches 0 health, the vault will spin your team color in celebration. Disconnect the gold Blink from the vault and hold on to it. If this causes the vault to break into multiple pieces, attach the disconnected vault pieces back together.
+            Each vault Blink has 4 health, and takes 1 damage each time it is attacked by a thief. When a part of the vault is at half health or lower, it will begin to crumble and pulse. When it reaches 0 health, the vault will spin your team color in celebration.
+            </p>
+            <p align="center">
+            Disconnect the gold Blink from the vault and hold on to it. If this causes the vault to break into multiple pieces, attach the disconnected vault pieces back together.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/heist/images/heist4.png"/>
                 <p class="caption">
-                A thief connects to a weakened wall, causing it to break.
-                    The player then collects that Blink  </p>
+                A thief connects to a weakened wall, causing it to break. The player then collects that Blink.
+                </p>
             </div>
             <h1 align="center">
-                Win Conditions
+                Win Condition
             </h1>
             <p align="center">
             When the last vault Blink is claimed, the game ends. The player with the most gold Blinks wins!
-
-            A triple-click will reset the game.
-            
-            VARIANT RULES
+            </p>
+            <p align="center">
+            Bring all Blinks together and triple-click any Blink to reset the game.
+            </p>
+            <h1 align="center">
+                Alternate Playstyles
+            </h1>
+            <p align="center">
             Heist can be played with a variety of different rulesets. Multiple players can play on a team by sharing a team color. In addition, depending on the size and shape of the play surface, you may choose to restrict the places from which a player can make their attack.
-            
-            For more experienced players try this alternate rule: On a player’s turn, they may keep attempting throws until they miss OR choose to end their turn. If they miss a throw, their turn is over and they must skip their next turn.
+            </p>
+            <p align="center">
+            For more experienced players try this alternate rule: on a player’s turn, they may keep attempting throws until they miss or choose to end their turn. If they miss a throw, their turn is over and they must skip their next turn.
             </p>
             <h1>
                 More Information
@@ -155,11 +192,10 @@
             Heist is part of the Blinks Game System.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/products/blinks-game-system-9-game-starter-set">BUY PHYSICAL HERE</a>
-                </p>
+            <p>
+            <a href="https://move38.com/products/blinks-game-system-9-game-starter-set">BUY PHYSICAL HERE</a>
+            </p>
             </div>
-            
         </div>
     </body>
 </html>

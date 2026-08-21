@@ -2,78 +2,105 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>Ghost Hunters</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                display: inline-block;
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 289px;
+            }
+
+            img.icon {
+                max-width: 54px;
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .power {
+                padding-top: 0;
+            }
+
+            .power h3 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -96,13 +123,10 @@
             <h1 align="center">
                 Instructions
             </h1>
+            <h2>Setup</h2>
             <p align="center">
-            Ghost-Hunters
-
-            You and your friends have decided to go explore the haunted mansion at the end of the street. Armed with nothing but some modified flashlights, can you keep the ghosts at bay?
-
-            SETUP
-            Blinks will begin in the level select phase, where each Blink will show the level currently selected by the number of faces illuminated. Arrange your blinks in any configuration to be the mansion floor and single click any Blink to toggle through the level options. First-time players should definitely start at level 1.      </p>
+            Blinks will begin in the level select phase, where each Blink will show the level currently selected by the number of faces illuminated. Arrange your blinks in any configuration to be the mansion floor and single click any Blink to toggle through the level options. First-time players should definitely start at level 1.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_1.png"/>
                 <p class="caption">
@@ -110,11 +134,13 @@
                 </p>
             </div>
             <p align="center">
-            Once you’ve selected a level, each player should remove a Blink from the mansion floor and double click it to turn it into a gadget.      </p>
+            Once you’ve selected a level, each player should remove a Blink from the mansion floor and double click it to turn it into a gadget.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_2.png"/>
                 <p class="caption">
-                A Blink becomes a gadget    </p>
+                A Blink becomes a gadget
+                </p>
             </div>
             <p align="center">
             To begin play, double click any Blink connected to the mansion floor.
@@ -122,13 +148,13 @@
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_3.png"/>
                 <p class="caption">
-                All connected Blinks turn into the dark mansion floor    </p>
+                All connected Blinks turn into the dark mansion floor
+                </p>
             </div>
-
+            <h2>Gameplay</h2>
             <p align="center">
-            GAMEPLAY
-
-            During gameplay, you must blast ghostly apparitions with your gadget and stop them from overtaking the mansion. To zap an apparition, attach your gadget to any exposed side of the mansion - a beam of energy will automatically shoot out in a straight line into the mansion, destroying any spirits in its path.     </p>
+            During gameplay, you must blast ghostly apparitions with your gadget and stop them from overtaking the mansion. To zap an apparition, attach your gadget to any exposed side of the mansion - a beam of energy will automatically shoot out in a straight line into the mansion, destroying any spirits in its path.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_4.png"/>
                 <p class="caption">
@@ -136,56 +162,59 @@
                 </p>
             </div>
             <p align="center">
-            Your gadget has 3 different functions. To switch between them, single-click your gadget.      </p>
+            Your gadget has 3 different functions. To switch between them, single-click your gadget.
+            </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_5.png"/>
                 <p class="caption">
-                Single-click to cycle between the 3 gadget functions    </p>
+                Single-click to cycle between the 3 gadget functions
+                </p>
             </div>
             <p align="center">
-            There are four types of apparitions that may appear in the mansion, and each one can only be killed by a specific color gadget functon.
-
-            GHOSTS
+            There are four types of apparitions that may appear in the mansion, and each one can only be killed by a specific color gadget function.
+            </p>
+            <h3>Ghosts</h3>
+            <p align="center">
             Ghosts appear white, and can be destroyed with the white flashlight.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_4.png"/>
                 <p class="caption">
-                A flashlight destroys a ghost    </p>
+                A flashlight destroys a ghost
+                </p>
             </div>
-
+            <h3>Ghouls</h3>
             <p align="center">
-            GHOULS
-            Ghouls appear red, and can be destroyed with the
-            red laser.
+            Ghouls appear red, and can be destroyed with the red laser.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_6.png"/>
                 <p class="caption">
-                A laser destroys a ghoul   </p>
+                A laser destroys a ghoul
+                </p>
             </div>
-
+            <h3>Poltergeists</h3>
             <p align="center">
-            GPOLTERGEISTS
             Poltergeists appear blue, and can be destroyed with the blue GeistLight.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_7.png"/>
                 <p class="caption">
-                A GeistLight destroys a poltergeist   </p>
+                A GeistLight destroys a poltergeist
+                </p>
             </div>
+            <h3>Goblins</h3>
             <p align="center">
-            GOBLINS
             Goblins appear green, and are only destroyed when they are hit with two different-colored beams at once.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_8.png"/>
                 <p class="caption">
-                A flashlight and a laser combine to destroy a goblin   </p>
+                A flashlight and a laser combine to destroy a goblin
+                </p>
             </div>
-
             <h1 align="center">
-                Win Conditions
+                Win Condition
             </h1>
             <p align="center">
             If an apparition fully materializes in the mansion before you zap it, the mansion will become infested with demons and you lose the level.
@@ -193,21 +222,21 @@
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_9.png"/>
                 <p class="caption">
-                A mansion overrun with spirits   </p>
+                A mansion overrun with spirits
+                </p>
             </div>
-
             <p align="center">
             However, if you are able to ward off spirits for a whole minute then the house will be cleansed and glow with a holy yellow light.
             </p>
             <div align="center" class="image">
                 <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_10.png"/>
                 <p class="caption">
-                A mansion successfully exorcised!   </p>
+                A mansion successfully exorcised!
+                </p>
             </div>
-             <p align="center">
+            <p align="center">
             You may then double-click any Blink to return to level select, and pick a new level to battle the ghosts again.
             </p>
-
             <h1>
                 More Information
             </h1>
@@ -215,11 +244,10 @@
             Ghost Hunters is part of the Epic Adventure Set.
             </p>
             <div>
-                <p>
-                <a href="https://move38.com/products/blinks-epic-adventure-set">BUY PHYSICAL HERE</a>
-                </p>
+            <p>
+            <a href="https://move38.com/products/blinks-epic-adventure-set">BUY PHYSICAL HERE</a>
+            </p>
             </div>
-            
         </div>
     </body>
 </html>
