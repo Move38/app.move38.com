@@ -8,7 +8,7 @@
             /* CSS styles */
             body {
                 background-color: #F7F7F7;
-                text-align: center;
+                text-align: left;
                 margin: 0;
             }
 
@@ -19,10 +19,7 @@
             }
 
             p {
-                margin-top: 0;
-                margin-left: 35px;
-                margin-right: 35px;
-                margin-bottom: 10px;
+                margin: 0 35px 12px;
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 16px;
@@ -37,14 +34,20 @@
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 30px;
+                text-align: center;
+            }
+
+            h1.section {
+                border-top: 1px solid #d9d9d9;
+                margin: 48px 35px 0;
+                padding-top: 34px;
             }
 
             h2 {
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 21px;
-                margin-top: 28px;
-                margin-bottom: 10px;
+                margin: 30px 35px 10px;
             }
 
             h3 {
@@ -53,16 +56,7 @@
                 font-size: 15px;
                 letter-spacing: 0.04em;
                 text-transform: uppercase;
-                margin-top: 22px;
-                margin-bottom: 6px;
-            }
-
-            p.left {
-                float: left;
-            }
-
-            p.right {
-                float: right;
+                margin: 24px 35px 6px;
             }
 
             .row {
@@ -73,7 +67,6 @@
                 margin: 0;
                 padding: 12px 35px 0;
                 font-weight: bold;
-                text-align: left;
             }
 
             .row p {
@@ -84,11 +77,18 @@
                 text-align: right;
             }
 
+            .image {
+                text-align: center;
+            }
+
             p.caption {
                 font-family: "Helvetica Neue";
                 color: #888D91;
                 font-size: 10px;
                 max-width: 231px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
             }
 
             img {
@@ -103,72 +103,71 @@
             }
 
             .power {
-                padding-top: 0;
+                padding-top: 18px;
+                padding-left: 35px;
             }
 
             .power h3 {
                 display: inline-block;
-                margin: 0;
+                margin: 0 0 0 8px;
                 vertical-align: middle;
             }
         </style>
     </head>
     <body>
         <div style="clear:left">
-            <h1 align="center">
+            <h1>
                 Instructions
             </h1>
             <h2>Setup</h2>
-            <p align="center">
-            Cluster all Blinks into the starting arrangement. Long press changes a Blink’s team color. Each Player chooses a color and orients the board so that their color faces them. Double-click any Blink to start the game.
+            <p>
+            Cluster all Blinks into the starting arrangement. Long press changes a Blink’s team color. Each Player chooses a color and orients the board so that their color faces them. Double-click any Blink to start the&nbsp;game.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/mortals/images/mortals-01.svg" width="126.1" height="104" alt=""/>
             </div>
             <h2>Gameplay</h2>
-            <p align="center">
-            Each Blink, or “Mortal”, starts with 60 seconds of life. The only way to extend a Mortal’s life is to steal seconds from others. Players take turns removing an accessible Mortal from the cluster and placing it in a new location. A single Mortal that is removed from the cluster goes into ‘attack’ mode; when it rejoins the cluster, it steals 5 seconds from each surrounding Mortal, including from its own team.
+            <p>
+            Each Blink, or “Mortal”, starts with 60 seconds of life. The only way to extend a Mortal’s life is to steal seconds from others. Players take turns removing an accessible Mortal from the cluster and placing it in a new location. A single Mortal that is removed from the cluster goes into ‘attack’ mode; when it rejoins the cluster, it steals 5 seconds from each surrounding Mortal, including from its own&nbsp;team.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/mortals/images/mortals-02.svg" width="200" height="102" alt="The green player removes a Blink and makes an attack"/>
                 <p class="caption">
-                The green player removes a Blink and makes an attack
+                The green player removes a Blink and makes an&nbsp;attack
                 </p>
             </div>
-            <p align="center">
-            Not all Mortals can be legally removed from the cluster at the start of a turn. Mortals with neighbors on opposing faces are “locked,” as are Mortals that, if removed, would fracture the cluster into more than 2 pieces.
+            <p>
+            Not all Mortals can be legally removed from the cluster at the start of a turn. Mortals with neighbors on opposing faces are “locked,” as are Mortals that, if removed, would fracture the cluster into more than 2&nbsp;pieces.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/mortals/images/mortals-03.svg" width="280.8" height="69.8" alt="Locked Blinks"/>
                 <p class="caption">
-                Locked Blinks
+                Locked&nbsp;Blinks
                 </p>
             </div>
-            <p align="center">
-            Fracturing the cluster to move several Mortals at once is a legal move, as long as the fracture results in two smaller clusters and is recombined into a single cluster. These fractures will not send any Mortals into attack mode.
+            <p>
+            Fracturing the cluster to move several Mortals at once is a legal move, as long as the fracture results in two smaller clusters and is recombined into a single cluster. These fractures will not send any Mortals into attack&nbsp;mode.
             </p>
-            <p align="center">
-            When a Mortal has no life remaining, it becomes a ‘zombie’ tile that accelerates the death of surrounding tiles. The more zombies attached, the faster a Mortal dies.
+            <p>
+            When a Mortal has no life remaining, it becomes a ‘zombie’ tile that accelerates the death of surrounding tiles. The more zombies attached, the faster a Mortal&nbsp;dies.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/mortals/images/mortals-04.svg" width="229.6" height="32.6" alt="Life Cycle of a Mortal"/>
                 <p class="caption">
-                Life Cycle of a Mortal
+                Life Cycle of a&nbsp;Mortal
                 </p>
             </div>
-            <h1 align="center">
-                Win Condition
-            </h1>
-            <p align="center">
-            The player with the last living Mortal is the winner.
+            <h2>Win Condition</h2>
+            <p>
+            The player with the last living Mortal is the&nbsp;winner.
             </p>
-            <h1>
+            <h1 class="section">
                 More Information
             </h1>
             <p>
-            Mortals is part of the <a href="https://move38.com/products/blinks-ultimate-action-pack">Ultimate Action Pack</a>.
+            Mortals is part of the&nbsp;<a href="https://move38.com/products/blinks-ultimate-action-pack">Ultimate&nbsp;Action&nbsp;Pack</a>.
             </p>
-            <h1>
+            <h1 class="section">
                 Credits
             </h1>
             <div class="row">

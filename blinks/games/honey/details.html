@@ -8,7 +8,7 @@
             /* CSS styles */
             body {
                 background-color: #F7F7F7;
-                text-align: center;
+                text-align: left;
                 margin: 0;
             }
 
@@ -19,10 +19,7 @@
             }
 
             p {
-                margin-top: 0;
-                margin-left: 35px;
-                margin-right: 35px;
-                margin-bottom: 10px;
+                margin: 0 35px 12px;
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 16px;
@@ -37,14 +34,20 @@
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 30px;
+                text-align: center;
+            }
+
+            h1.section {
+                border-top: 1px solid #d9d9d9;
+                margin: 48px 35px 0;
+                padding-top: 34px;
             }
 
             h2 {
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 21px;
-                margin-top: 28px;
-                margin-bottom: 10px;
+                margin: 30px 35px 10px;
             }
 
             h3 {
@@ -53,16 +56,7 @@
                 font-size: 15px;
                 letter-spacing: 0.04em;
                 text-transform: uppercase;
-                margin-top: 22px;
-                margin-bottom: 6px;
-            }
-
-            p.left {
-                float: left;
-            }
-
-            p.right {
-                float: right;
+                margin: 24px 35px 6px;
             }
 
             .row {
@@ -73,7 +67,6 @@
                 margin: 0;
                 padding: 12px 35px 0;
                 font-weight: bold;
-                text-align: left;
             }
 
             .row p {
@@ -84,11 +77,18 @@
                 text-align: right;
             }
 
+            .image {
+                text-align: center;
+            }
+
             p.caption {
                 font-family: "Helvetica Neue";
                 color: #888D91;
                 font-size: 10px;
                 max-width: 231px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
             }
 
             img {
@@ -103,87 +103,86 @@
             }
 
             .power {
-                padding-top: 0;
+                padding-top: 18px;
+                padding-left: 35px;
             }
 
             .power h3 {
                 display: inline-block;
-                margin: 0;
+                margin: 0 0 0 8px;
                 vertical-align: middle;
             }
         </style>
     </head>
     <body>
         <div style="clear:left">
-            <h1 align="center">
+            <h1>
                 Instructions
             </h1>
             <h2>Gameplay</h2>
-            <p align="center">
-            Each Blink in Honey represents one cell of a large beehive. These cells come in four ranked varieties - Flower, Worker, Brood, and Queen - and each cell produces a different type of resource to be used by the hive. Long press a Blink to mark it for promotion. The next time that cell has full resources, it will automatically evolve to the next type. At any time, you can remove any type of Blink from the hive and double-click it to revert it back to a Flower.
+            <p>
+            Each Blink in Honey represents one cell of a large beehive. These cells come in four ranked varieties - Flower, Worker, Brood, and Queen - and each cell produces a different type of resource to be used by the hive. Long press a Blink to mark it for promotion. The next time that cell has full resources, it will automatically evolve to the next type. At any time, you can remove any type of Blink from the hive and double-click it to revert it back to a&nbsp;Flower.
             </p>
             <h3>Flowers</h3>
-            <p align="center">
-            All Blinks begin as flowers. Flowers generate pollen when clicked. In addition, any Flower attached to a Worker will automatically generate pollen over time. The more Workers a flower is attached to, the faster it will produce pollen.
+            <p>
+            All Blinks begin as flowers. Flowers generate pollen when clicked. In addition, any Flower attached to a Worker will automatically generate pollen over time. The more Workers a flower is attached to, the faster it will produce&nbsp;pollen.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/honey/images/honey-01.png" width="198.3" height="56.4" alt="Automatic pollen generation examples"/>
                 <p class="caption">
-                Automatic pollen generation examples
+                Automatic pollen generation&nbsp;examples
                 </p>
             </div>
-            <p align="center">
-            When a flower is full of pollen, it will transfer its resources to an adjacent worker.
+            <p>
+            When a flower is full of pollen, it will transfer its resources to an adjacent&nbsp;worker.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/honey/images/honey-02.svg" width="110.6" height="37.8" alt="A flower transferring pollen to a worker"/>
                 <p class="caption">
-                A flower transferring pollen to a worker
+                A flower transferring pollen to a&nbsp;worker
                 </p>
             </div>
             <h3>Workers</h3>
-            <p align="center">
-            Workers gather pollen from adjacent flowers and converts it into honey. When a worker is full of honey, it will transfer its resources to an adjacent brood.
+            <p>
+            Workers gather pollen from adjacent flowers and converts it into honey. When a worker is full of honey, it will transfer its resources to an adjacent&nbsp;brood.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/honey/images/honey-03.svg" width="110.6" height="37.6" alt="A worker transferring honey to a brood"/>
                 <p class="caption">
-                A worker transferring honey to a brood
+                A worker transferring honey to a&nbsp;brood
                 </p>
             </div>
             <h3>Broods</h3>
-            <p align="center">
-            Broods gather honey from adjacent workers and converts it into royal jelly. When a brood is full of honey, it will transfer its resources to an adjacent queen.
+            <p>
+            Broods gather honey from adjacent workers and converts it into royal jelly. When a brood is full of honey, it will transfer its resources to an adjacent&nbsp;queen.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/honey/images/honey-04.svg" width="112.4" height="36.7" alt="A brood transferring royal jelly to a queen"/>
                 <p class="caption">
-                A brood transferring royal jelly to a queen
+                A brood transferring royal jelly to a&nbsp;queen
                 </p>
             </div>
             <h3>Queens</h3>
-            <p align="center">
-            Queens gather royal jelly from adjacent broods and convert it into strength. When a Queen is at full strength, it will flash lightly, then trigger a hive-wide celebration. This will empty the resources of all cells in the hive, except for other queens.
+            <p>
+            Queens gather royal jelly from adjacent broods and convert it into strength. When a Queen is at full strength, it will flash lightly, then trigger a hive-wide celebration. This will empty the resources of all cells in the hive, except for other&nbsp;queens.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/honey/images/honey-05.svg" width="116.7" height="41.7" alt=""/>
             </div>
-            <h1 align="center">
-                Win Condition
-            </h1>
-            <p align="center">
-            Honey has no actual win condition. Instead, try to find the most efficient arrangement, or maybe the most visually interesting arrangement. The following arrangement is generating 7 pollen-per-second with only 3 flowers.
+            <h2>Win Condition</h2>
+            <p>
+            Honey has no actual win condition. Instead, try to find the most efficient arrangement, or maybe the most visually interesting arrangement. The following arrangement is generating 7 pollen-per-second with only 3&nbsp;flowers.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/honey/images/honey-06.svg" width="125.3" height="83.1" alt=""/>
             </div>
-            <h1>
+            <h1 class="section">
                 More Information
             </h1>
             <p>
-            Honey is part of the <a href="https://move38.com/products/blinks-solo-challenger-pack">Solo Challenger Pack</a>.
+            Honey is part of the&nbsp;<a href="https://move38.com/products/blinks-solo-challenger-pack">Solo&nbsp;Challenger&nbsp;Pack</a>.
             </p>
-            <h1>
+            <h1 class="section">
                 Credits
             </h1>
             <div class="row">

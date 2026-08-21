@@ -8,7 +8,7 @@
             /* CSS styles */
             body {
                 background-color: #F7F7F7;
-                text-align: center;
+                text-align: left;
                 margin: 0;
             }
 
@@ -19,10 +19,7 @@
             }
 
             p {
-                margin-top: 0;
-                margin-left: 35px;
-                margin-right: 35px;
-                margin-bottom: 10px;
+                margin: 0 35px 12px;
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 16px;
@@ -37,14 +34,20 @@
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 30px;
+                text-align: center;
+            }
+
+            h1.section {
+                border-top: 1px solid #d9d9d9;
+                margin: 48px 35px 0;
+                padding-top: 34px;
             }
 
             h2 {
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 21px;
-                margin-top: 28px;
-                margin-bottom: 10px;
+                margin: 30px 35px 10px;
             }
 
             h3 {
@@ -53,16 +56,7 @@
                 font-size: 15px;
                 letter-spacing: 0.04em;
                 text-transform: uppercase;
-                margin-top: 22px;
-                margin-bottom: 6px;
-            }
-
-            p.left {
-                float: left;
-            }
-
-            p.right {
-                float: right;
+                margin: 24px 35px 6px;
             }
 
             .row {
@@ -73,7 +67,6 @@
                 margin: 0;
                 padding: 12px 35px 0;
                 font-weight: bold;
-                text-align: left;
             }
 
             .row p {
@@ -84,11 +77,18 @@
                 text-align: right;
             }
 
+            .image {
+                text-align: center;
+            }
+
             p.caption {
                 font-family: "Helvetica Neue";
                 color: #888D91;
                 font-size: 10px;
                 max-width: 231px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
             }
 
             img {
@@ -103,88 +103,87 @@
             }
 
             .power {
-                padding-top: 0;
+                padding-top: 18px;
+                padding-left: 35px;
             }
 
             .power h3 {
                 display: inline-block;
-                margin: 0;
+                margin: 0 0 0 8px;
                 vertical-align: middle;
             }
         </style>
     </head>
     <body>
         <div style="clear:left">
-            <h1 align="center">
+            <h1>
                 Instructions
             </h1>
             <h2>Setup</h2>
-            <p align="center">
-            Place Blinks in any arrangement. Any Blink that is connected to two or more tiles becomes a pathway, and any Blink that is connected to only one tile becomes an endpoint. One player plays at each endpoint.
+            <p>
+            Place Blinks in any arrangement. Any Blink that is connected to two or more tiles becomes a pathway, and any Blink that is connected to only one tile becomes an endpoint. One player plays at each&nbsp;endpoint.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/darkball/images/darkball-01.svg" width="190" height="32.6" alt="A simple, 2-player Darkball setup"/>
                 <p class="caption">
-                A simple, 2-player Darkball setup
+                A simple, 2-player Darkball&nbsp;setup
                 </p>
             </div>
             <h2>Gameplay</h2>
-            <p align="center">
-            Any endpoint Blink displaying green has a Darkball. Play begins when one player presses their endpoint Blink to release the Darkball. The ball moves along the pathway. At a fork, it chooses randomly. Clustered pathways are treated as forks, and can produce very chaotic behavior.
+            <p>
+            Any endpoint Blink displaying green has a Darkball. Play begins when one player presses their endpoint Blink to release the Darkball. The ball moves along the pathway. At a fork, it chooses randomly. Clustered pathways are treated as forks, and can produce very chaotic&nbsp;behavior.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/darkball/images/darkball-02.svg" width="163" height="78.8" alt="The first Darkball being released in a 3 player game."/>
                 <p class="caption">
-                The first Darkball being released in a 3 player game.
+                The first Darkball being released in a 3 player&nbsp;game.
                 </p>
             </div>
-            <p align="center">
-            When the Darkball reaches your endpoint, you must press the button to bounce it back. If you click too early, your endpoint will go dark for a moment, and you cannot press again until it brightens. If you press too late, you will take damage, as indicated by red lights on your endpoint.
+            <p>
+            When the Darkball reaches your endpoint, you must press the button to bounce it back. If you click too early, your endpoint will go dark for a moment, and you cannot press again until it brightens. If you press too late, you will take damage, as indicated by red lights on your&nbsp;endpoint.
             </p>
-            <p align="center">
-            You can then release the Darkball by pressing.
+            <p>
+            You can then release the Darkball by&nbsp;pressing.
             </p>
-            <p align="center">
-            The better your timing, the faster the Darkball will be bounced back. Try to launch the ball with maximum speed to surprise and defeat your opponents.
+            <p>
+            The better your timing, the faster the Darkball will be bounced back. Try to launch the ball with maximum speed to surprise and defeat your&nbsp;opponents.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/darkball/images/darkball-03.svg" width="230" height="104.4" alt="Darkballs being bounced back at slow, medium, and fast speeds."/>
                 <p class="caption">
-                Darkballs being bounced back at slow, medium, and fast speeds.
+                Darkballs being bounced back at slow, medium, and fast&nbsp;speeds.
                 </p>
             </div>
-            <h1 align="center">
-                Win Condition
-            </h1>
-            <p align="center">
-            Once a player has missed the Darkball 6 times, their endpoint will explode, and they are out. The last player remaining is the winner.
+            <h2>Win Condition</h2>
+            <p>
+            Once a player has missed the Darkball 6 times, their endpoint will explode, and they are out. The last player remaining is the&nbsp;winner.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/darkball/images/darkball-04.svg" width="196.8" height="43.2" alt="The player on the left has taken 6 damage, making the player on the right the winner."/>
                 <p class="caption">
-                The player on the left has taken 6 damage, making the player on the right the winner.
+                The player on the left has taken 6 damage, making the player on the right the&nbsp;winner.
                 </p>
             </div>
-            <p align="center">
-            To reset, swap your endpoint Blink for another Blink in the cluster, giving yourself full health.
+            <p>
+            To reset, swap your endpoint Blink for another Blink in the cluster, giving yourself full&nbsp;health.
             </p>
             <h3>Solo Variant</h3>
-            <p align="center">
-            Because the Darkball can travel in loops, you can easily create setups with single endpoints. You can use this to test your reflexes or practice your Darkball skills.
+            <p>
+            Because the Darkball can travel in loops, you can easily create setups with single endpoints. You can use this to test your reflexes or practice your Darkball&nbsp;skills.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/darkball/images/darkball-05.svg" width="163.3" height="78.8" alt="An example solo Darkball setup."/>
                 <p class="caption">
-                An example solo Darkball setup.
+                An example solo Darkball&nbsp;setup.
                 </p>
             </div>
-            <h1>
+            <h1 class="section">
                 More Information
             </h1>
             <p>
-            Darkball is part of the <a href="https://move38.com/products/blinks-game-system-9-game-starter-set">Blinks Game System</a>.
+            Darkball is part of the&nbsp;<a href="https://move38.com/products/blinks-game-system-9-game-starter-set">Blinks&nbsp;Game&nbsp;System</a>.
             </p>
-            <h1>
+            <h1 class="section">
                 Credits
             </h1>
             <div class="row">

@@ -8,7 +8,7 @@
             /* CSS styles */
             body {
                 background-color: #F7F7F7;
-                text-align: center;
+                text-align: left;
                 margin: 0;
             }
 
@@ -19,10 +19,7 @@
             }
 
             p {
-                margin-top: 0;
-                margin-left: 35px;
-                margin-right: 35px;
-                margin-bottom: 10px;
+                margin: 0 35px 12px;
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 16px;
@@ -37,14 +34,20 @@
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 30px;
+                text-align: center;
+            }
+
+            h1.section {
+                border-top: 1px solid #d9d9d9;
+                margin: 48px 35px 0;
+                padding-top: 34px;
             }
 
             h2 {
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 21px;
-                margin-top: 28px;
-                margin-bottom: 10px;
+                margin: 30px 35px 10px;
             }
 
             h3 {
@@ -53,16 +56,7 @@
                 font-size: 15px;
                 letter-spacing: 0.04em;
                 text-transform: uppercase;
-                margin-top: 22px;
-                margin-bottom: 6px;
-            }
-
-            p.left {
-                float: left;
-            }
-
-            p.right {
-                float: right;
+                margin: 24px 35px 6px;
             }
 
             .row {
@@ -73,7 +67,6 @@
                 margin: 0;
                 padding: 12px 35px 0;
                 font-weight: bold;
-                text-align: left;
             }
 
             .row p {
@@ -84,11 +77,18 @@
                 text-align: right;
             }
 
+            .image {
+                text-align: center;
+            }
+
             p.caption {
                 font-family: "Helvetica Neue";
                 color: #888D91;
                 font-size: 10px;
                 max-width: 231px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
             }
 
             img {
@@ -103,87 +103,86 @@
             }
 
             .power {
-                padding-top: 0;
+                padding-top: 18px;
+                padding-left: 35px;
             }
 
             .power h3 {
                 display: inline-block;
-                margin: 0;
+                margin: 0 0 0 8px;
                 vertical-align: middle;
             }
         </style>
     </head>
     <body>
         <div style="clear:left">
-            <h1 align="center">
+            <h1>
                 Instructions
             </h1>
             <h2>Setup</h2>
-            <p align="center">
-            Each player starts with a Blink—this is your first Paintbrush. Then selects a unique Paintbrush color by single-clicking their Blink. Connect the remaining Blinks in the center of the play area into a single cluster - these blinks are now the canvas.
+            <p>
+            Each player starts with a Blink—this is your first Paintbrush. Then selects a unique Paintbrush color by single-clicking their Blink. Connect the remaining Blinks in the center of the play area into a single cluster - these blinks are now the&nbsp;canvas.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush-01.svg" width="206.9" height="56.4" alt="Example arrangement for 2 players. For 2 players, use 6+ Blinks. For 3-4 players use 12+ blinks."/>
                 <p class="caption">
-                Example arrangement for 2 players. For 2 players, use 6+ Blinks. For 3-4 players use 12+ blinks.
+                Example arrangement for 2 players. For 2 players, use 6+ Blinks. For 3-4 players use 12+&nbsp;blinks.
                 </p>
             </div>
-            <p align="center">
-            Taking turns, each player places their Paintbrush anywhere against the shape.
+            <p>
+            Taking turns, each player places their Paintbrush anywhere against the&nbsp;shape.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush-02.svg" width="108" height="60.8" alt="Example paintbrush placement for 2 players"/>
                 <p class="caption">
-                Example paintbrush placement for 2 players
+                Example paintbrush placement for 2&nbsp;players
                 </p>
             </div>
             <h2>Gameplay</h2>
-            <p align="center">
-            After the initial paintbrushes have been placed, players continue taking turns, moving one Blink at a time to anywhere else on the board, aiming to create Paintbrushes in their color. A Blink becomes a Paintbrush when it’s been filled entirely with a single color.
+            <p>
+            After the initial paintbrushes have been placed, players continue taking turns, moving one Blink at a time to anywhere else on the board, aiming to create Paintbrushes in their color. A Blink becomes a Paintbrush when it’s been filled entirely with a single&nbsp;color.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush-03.svg" width="141" height="43" alt="From left to right: A blue paintbrush, a blank canvas, and a partially painted canvas."/>
                 <p class="caption">
-                From left to right: A blue paintbrush, a blank canvas, and a partially painted canvas.
+                From left to right: A blue paintbrush, a blank canvas, and a partially painted&nbsp;canvas.
                 </p>
             </div>
-            <p align="center">
-            Any Blink that is not a Paintbrush is a Canvas. A Paintbrush colors any Canvas side that it touches, whether it’s empty or not. Paint on a Canvas also paints any empty Canvas side that it directly touches, but does not affect a Canvas side that has already been painted.
+            <p>
+            Any Blink that is not a Paintbrush is a Canvas. A Paintbrush colors any Canvas side that it touches, whether it’s empty or not. Paint on a Canvas also paints any empty Canvas side that it directly touches, but does not affect a Canvas side that has already been&nbsp;painted.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush-04.svg" width="93.5" height="87.6" alt="A painted canvas spreads paint to a blank canvas"/>
                 <p class="caption">
-                A painted canvas spreads paint to a blank canvas
+                A painted canvas spreads paint to a blank&nbsp;canvas
                 </p>
             </div>
-            <p align="center">
-            If you make a move by accident, you can also double-click a Blink to “undo” the last move, removing the most recent paint that was added.
+            <p>
+            If you make a move by accident, you can also double-click a Blink to “undo” the last move, removing the most recent paint that was&nbsp;added.
             </p>
-            <p align="center">
-            Players can move any Blink, either Paintbrush or Canvas, EXCEPT for any that would separate the shape—the shape cannot be split up into multiple pieces.
+            <p>
+            Players can move any Blink, either Paintbrush or Canvas, EXCEPT for any that would separate the shape—the shape cannot be split up into multiple&nbsp;pieces.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush-05.svg" width="224.2" height="153.8" alt="Separating the cluster into multiple groups is not allowed."/>
                 <p class="caption">
-                Separating the cluster into multiple groups is not allowed.
+                Separating the cluster into multiple groups is not&nbsp;allowed.
                 </p>
             </div>
-            <h1 align="center">
-                Win Condition
-            </h1>
-            <p align="center">
-            Once all the Blinks have been converted to Paintbrushes, the game is over, and whichever player has the most Paintbrushes wins. Alternatively, if any Blink is moved four or more times in a row, the game is over, and the player with the most Paintbrushes wins. In the event of a tie, the player who was first to create the tying-number of Paintbrushes wins.
+            <h2>Win Condition</h2>
+            <p>
+            Once all the Blinks have been converted to Paintbrushes, the game is over, and whichever player has the most Paintbrushes wins. Alternatively, if any Blink is moved four or more times in a row, the game is over, and the player with the most Paintbrushes wins. In the event of a tie, the player who was first to create the tying-number of Paintbrushes&nbsp;wins.
             </p>
-            <p align="center">
-            To reset all Blinks, put them together and triple-click.
+            <p>
+            To reset all Blinks, put them together and&nbsp;triple-click.
             </p>
-            <h1>
+            <h1 class="section">
                 More Information
             </h1>
             <p>
-            Paintbrush is part of the <a href="https://move38.com/products/blinks-game-system-9-game-starter-set">Blinks Game System</a>.
+            Paintbrush is part of the&nbsp;<a href="https://move38.com/products/blinks-game-system-9-game-starter-set">Blinks&nbsp;Game&nbsp;System</a>.
             </p>
-            <h1>
+            <h1 class="section">
                 Credits
             </h1>
             <div class="row">

@@ -8,7 +8,7 @@
             /* CSS styles */
             body {
                 background-color: #F7F7F7;
-                text-align: center;
+                text-align: left;
                 margin: 0;
             }
 
@@ -19,10 +19,7 @@
             }
 
             p {
-                margin-top: 0;
-                margin-left: 35px;
-                margin-right: 35px;
-                margin-bottom: 10px;
+                margin: 0 35px 12px;
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 16px;
@@ -37,14 +34,20 @@
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 30px;
+                text-align: center;
+            }
+
+            h1.section {
+                border-top: 1px solid #d9d9d9;
+                margin: 48px 35px 0;
+                padding-top: 34px;
             }
 
             h2 {
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 21px;
-                margin-top: 28px;
-                margin-bottom: 10px;
+                margin: 30px 35px 10px;
             }
 
             h3 {
@@ -53,16 +56,7 @@
                 font-size: 15px;
                 letter-spacing: 0.04em;
                 text-transform: uppercase;
-                margin-top: 22px;
-                margin-bottom: 6px;
-            }
-
-            p.left {
-                float: left;
-            }
-
-            p.right {
-                float: right;
+                margin: 24px 35px 6px;
             }
 
             .row {
@@ -73,7 +67,6 @@
                 margin: 0;
                 padding: 12px 35px 0;
                 font-weight: bold;
-                text-align: left;
             }
 
             .row p {
@@ -84,11 +77,18 @@
                 text-align: right;
             }
 
+            .image {
+                text-align: center;
+            }
+
             p.caption {
                 font-family: "Helvetica Neue";
                 color: #888D91;
                 font-size: 10px;
                 max-width: 231px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
             }
 
             img {
@@ -103,85 +103,84 @@
             }
 
             .power {
-                padding-top: 0;
+                padding-top: 18px;
+                padding-left: 35px;
             }
 
             .power h3 {
                 display: inline-block;
-                margin: 0;
+                margin: 0 0 0 8px;
                 vertical-align: middle;
             }
         </style>
     </head>
     <body>
         <div style="clear:left">
-            <h1 align="center">
+            <h1>
                 Instructions
             </h1>
             <h2>Setup</h2>
-            <p align="center">
-            Each player starts with 3 blue Blinks in their hand. To change the color of a Blink, click it once.
+            <p>
+            Each player starts with 3 blue Blinks in their hand. To change the color of a Blink, click it&nbsp;once.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/berry/images/berry-01.svg" width="214.5" height="32.6" alt="Blue, Red, Yellow - the Berry color cycle"/>
                 <p class="caption">
-                Blue, Red, Yellow - the Berry color cycle
+                Blue, Red, Yellow - the Berry color&nbsp;cycle
                 </p>
             </div>
             <h2>Gameplay</h2>
-            <p align="center">
-            Players take turns placing Blinks, connecting them together into a cluster. After placing their Blink, a player clicks each adjacent Blink, advancing it to the next color.
+            <p>
+            Players take turns placing Blinks, connecting them together into a cluster. After placing their Blink, a player clicks each adjacent Blink, advancing it to the next&nbsp;color.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/berry/images/berry-02.svg" width="250.1" height="105.2" alt="Placing a Blink with &amp;lt; 3 neighbors"/>
                 <p class="caption">
-                Placing a Blink with &lt; 3 neighbors
+                Placing a Blink with &lt; 3&nbsp;neighbors
                 </p>
             </div>
-            <p align="center">
-            If there are 3 or more adjacent Blinks, the player must also click the Blink they placed.
+            <p>
+            If there are 3 or more adjacent Blinks, the player must also click the Blink they&nbsp;placed.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/berry/images/berry-03.svg" width="244.3" height="96.8" alt="Placing a Blink with &amp;gt; 2 neighbors"/>
                 <p class="caption">
-                Placing a Blink with &gt; 2 neighbors
+                Placing a Blink with &gt; 2&nbsp;neighbors
                 </p>
             </div>
-            <p align="center">
-            After the first 6 turns, players begin each turn not by placing a Blink from their hand, but by removing a Blink from the cluster, then placing it in a new location.
+            <p>
+            After the first 6 turns, players begin each turn not by placing a Blink from their hand, but by removing a Blink from the cluster, then placing it in a new&nbsp;location.
             </p>
-            <p align="center">
-            Not all Blinks can be legally removed from the cluster at the start of a turn. Blinks with neighbors on opposite sides are “locked,” as are Blinks that, if removed, would fracture the cluster into more than 2 pieces.
+            <p>
+            Not all Blinks can be legally removed from the cluster at the start of a turn. Blinks with neighbors on opposite sides are “locked,” as are Blinks that, if removed, would fracture the cluster into more than 2&nbsp;pieces.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/berry/images/berry-04.svg" width="280.9" height="69.8" alt="Locked Blinks"/>
                 <p class="caption">
-                Locked Blinks
+                Locked&nbsp;Blinks
                 </p>
             </div>
             <h2>Scoring</h2>
-            <p align="center">
-            At the end of each turn, the active player earns points for the presence of certain shapes in a singular color. Reference the image below for scoring.
+            <p>
+            At the end of each turn, the active player earns points for the presence of certain shapes in a singular color. Reference the image below for&nbsp;scoring.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/berry/images/berry-05.svg" width="259.2" height="83.2" alt="3 points &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2 points &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2 points &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1 point"/>
                 <p class="caption">
-                3 points &nbsp;&nbsp;&nbsp;&nbsp; 2 points &nbsp;&nbsp;&nbsp;&nbsp; 2 points &nbsp;&nbsp;&nbsp;&nbsp; 1 point
+                3 points &nbsp;&nbsp;&nbsp;&nbsp; 2 points &nbsp;&nbsp;&nbsp;&nbsp; 2 points &nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;point
                 </p>
             </div>
-            <h1 align="center">
-                Win Condition
-            </h1>
-            <p align="center">
-            The first player to score ten or more points is the winner. However, if a player ends their turn with all 6 Blinks set to the same color, they are the winner.
+            <h2>Win Condition</h2>
+            <p>
+            The first player to score ten or more points is the winner. However, if a player ends their turn with all 6 Blinks set to the same color, they are the&nbsp;winner.
             </p>
-            <h1>
+            <h1 class="section">
                 More Information
             </h1>
             <p>
-            Berry is part of the <a href="https://move38.com/products/blinks-master-strategist-pack">Master Strategist Pack</a>.
+            Berry is part of the&nbsp;<a href="https://move38.com/products/blinks-master-strategist-pack">Master&nbsp;Strategist&nbsp;Pack</a>.
             </p>
-            <h1>
+            <h1 class="section">
                 Credits
             </h1>
             <div class="row">

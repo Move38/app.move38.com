@@ -8,7 +8,7 @@
             /* CSS styles */
             body {
                 background-color: #F7F7F7;
-                text-align: center;
+                text-align: left;
                 margin: 0;
             }
 
@@ -19,10 +19,7 @@
             }
 
             p {
-                margin-top: 0;
-                margin-left: 35px;
-                margin-right: 35px;
-                margin-bottom: 10px;
+                margin: 0 35px 12px;
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 16px;
@@ -37,14 +34,20 @@
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 30px;
+                text-align: center;
+            }
+
+            h1.section {
+                border-top: 1px solid #d9d9d9;
+                margin: 48px 35px 0;
+                padding-top: 34px;
             }
 
             h2 {
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 21px;
-                margin-top: 28px;
-                margin-bottom: 10px;
+                margin: 30px 35px 10px;
             }
 
             h3 {
@@ -53,16 +56,7 @@
                 font-size: 15px;
                 letter-spacing: 0.04em;
                 text-transform: uppercase;
-                margin-top: 22px;
-                margin-bottom: 6px;
-            }
-
-            p.left {
-                float: left;
-            }
-
-            p.right {
-                float: right;
+                margin: 24px 35px 6px;
             }
 
             .row {
@@ -73,7 +67,6 @@
                 margin: 0;
                 padding: 12px 35px 0;
                 font-weight: bold;
-                text-align: left;
             }
 
             .row p {
@@ -84,11 +77,18 @@
                 text-align: right;
             }
 
+            .image {
+                text-align: center;
+            }
+
             p.caption {
                 font-family: "Helvetica Neue";
                 color: #888D91;
                 font-size: 10px;
                 max-width: 231px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
             }
 
             img {
@@ -103,127 +103,126 @@
             }
 
             .power {
-                padding-top: 0;
+                padding-top: 18px;
+                padding-left: 35px;
             }
 
             .power h3 {
                 display: inline-block;
-                margin: 0;
+                margin: 0 0 0 8px;
                 vertical-align: middle;
             }
         </style>
     </head>
     <body>
         <div style="clear:left">
-            <h1 align="center">
+            <h1>
                 Instructions
             </h1>
             <h2>Setup</h2>
-            <p align="center">
-            Blinks begin the game as tan-colored “Hull” pieces with 5 Hit Points (HP) and a white “Repair” face. Cluster all the Blinks together, then remove at least 2 Blinks to make them into “Hazard” pieces. To do this, make sure they are alone, then double-click them.
+            <p>
+            Blinks begin the game as tan-colored “Hull” pieces with 5 Hit Points (HP) and a white “Repair” face. Cluster all the Blinks together, then remove at least 2 Blinks to make them into “Hazard” pieces. To do this, make sure they are alone, then double-click&nbsp;them.
             </p>
-            <p align="center">
-            Hazard pieces show a bright red “Y” shape. In games with more than 8 Blinks, you can also turn some Blinks into “Redirector” pieces by double-clicking a Hazard. We recommend that new players start with two Hazard pieces, with the rest of the Blinks being Hull pieces.
+            <p>
+            Hazard pieces show a bright red “Y” shape. In games with more than 8 Blinks, you can also turn some Blinks into “Redirector” pieces by double-clicking a Hazard. We recommend that new players start with two Hazard pieces, with the rest of the Blinks being Hull&nbsp;pieces.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/pirates-lasers/images/pirates-lasers-01.svg" width="136.6" height="102" alt="Example ship with 2 Hazards and 1 Redirector"/>
                 <p class="caption">
-                Example ship with 2 Hazards and 1 Redirector
+                Example ship with 2 Hazards and 1&nbsp;Redirector
                 </p>
             </div>
             <h2>Gameplay</h2>
-            <p align="center">
-            Each turn consists of three phases. Each phase occurs only once, and cannot be skipped or played out of order.
+            <p>
+            Each turn consists of three phases. Each phase occurs only once, and cannot be skipped or played out of&nbsp;order.
             </p>
             <h3>Rearrange</h3>
-            <p align="center">
-            Rearrange the ship by splitting it in two chunks and reconnecting them. You may move any number of contiguous Blinks so long as the ship is never split into more than two chunks at any time.
+            <p>
+            Rearrange the ship by splitting it in two chunks and reconnecting them. You may move any number of contiguous Blinks so long as the ship is never split into more than two chunks at any&nbsp;time.
             </p>
-            <p align="center">
-            There are rules for how a ship can be legally rearranged. If two pieces are connected, they must also share a third neighbor. If they do not, this is considered a “weak link,” and is not a legal move.
+            <p>
+            There are rules for how a ship can be legally rearranged. If two pieces are connected, they must also share a third neighbor. If they do not, this is considered a “weak link,” and is not a legal&nbsp;move.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/pirates-lasers/images/pirates-lasers-02.svg" width="206.7" height="85.9" alt="An illegal link and a legal link."/>
                 <p class="caption">
-                An illegal link and a legal link.
+                An illegal link and a legal&nbsp;link.
                 </p>
             </div>
-            <p align="center">
-            In addition, Hazard and Redirector pieces must always be touching at least one Hull piece.
+            <p>
+            In addition, Hazard and Redirector pieces must always be touching at least one Hull&nbsp;piece.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/pirates-lasers/images/pirates-lasers-03.svg" width="181.9" height="85.9" alt="An illegal Hazard position and a legal Hazard position."/>
                 <p class="caption">
-                An illegal Hazard position and a legal Hazard position.
+                An illegal Hazard position and a legal Hazard&nbsp;position.
                 </p>
             </div>
-            <p align="center">
-            Blinks that are placed in an illegal position will change appearance to help you maintain the rules. The Hull color will change from tan to a deep orange, and the water will change from a slow wave to a spiraling whirlpool.
+            <p>
+            Blinks that are placed in an illegal position will change appearance to help you maintain the rules. The Hull color will change from tan to a deep orange, and the water will change from a slow wave to a spiraling&nbsp;whirlpool.
             </p>
             <h3>Repair &amp; Redirect</h3>
-            <p align="center">
-            You must press one Hull piece of your choice. That piece will lose one HP and transfer it to whatever piece is connected to its Repair Face. If that piece is a Hull Piece with less than 5 HP, it will gain one HP back. Otherwise, the HP is simply lost.
+            <p>
+            You must press one Hull piece of your choice. That piece will lose one HP and transfer it to whatever piece is connected to its Repair Face. If that piece is a Hull Piece with less than 5 HP, it will gain one HP back. Otherwise, the HP is simply&nbsp;lost.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/pirates-lasers/images/pirates-lasers-04.svg" width="173.2" height="58.2" alt="A Hull piece transferring 1 HP to its neighbor"/>
                 <p class="caption">
-                A Hull piece transferring 1 HP to its neighbor
+                A Hull piece transferring 1 HP to its&nbsp;neighbor
                 </p>
             </div>
-            <p align="center">
-            If you are playing with Redirectors, you may also choose to press one Redirector. This will rotate its orientation clockwise by one face.
+            <p>
+            If you are playing with Redirectors, you may also choose to press one Redirector. This will rotate its orientation clockwise by one&nbsp;face.
             </p>
             <h3>Lasers</h3>
-            <p align="center">
-            In whatever order you desire, press each Hazard piece once. Pressing a Hazard will fire lasers outwards in a line from each of its 3 red faces. Each laser will deal 1 HP of damage to each Hull piece in its line of fire. This will also cause the red faces on the Hazard to flip.
+            <p>
+            In whatever order you desire, press each Hazard piece once. Pressing a Hazard will fire lasers outwards in a line from each of its 3 red faces. Each laser will deal 1 HP of damage to each Hull piece in its line of fire. This will also cause the red faces on the Hazard to&nbsp;flip.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/pirates-lasers/images/pirates-lasers-05.svg" width="132.4" height="88.8" alt="Lasers firing from a Hazard piece"/>
                 <p class="caption">
-                Lasers firing from a Hazard piece
+                Lasers firing from a Hazard&nbsp;piece
                 </p>
             </div>
-            <p align="center">
-            Damaged Hull pieces lose a tan face, and reveal the blue waves below.
+            <p>
+            Damaged Hull pieces lose a tan face, and reveal the blue waves&nbsp;below.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/pirates-lasers/images/pirates-lasers-06.svg" width="96.5" height="55.7" alt="A ship with damaged hull pieces."/>
                 <p class="caption">
-                A ship with damaged hull pieces.
+                A ship with damaged hull&nbsp;pieces.
                 </p>
             </div>
-            <p align="center">
-            If a laser hits a Redirector, the path will bend to match it. This also causes the Redirector to rotate its orientation by one face.
+            <p>
+            If a laser hits a Redirector, the path will bend to match it. This also causes the Redirector to rotate its orientation by one&nbsp;face.
             </p>
-            <p align="center">
-            If there are no Hull pieces that have hit zero HP, you may continue to the next turn.
+            <p>
+            If there are no Hull pieces that have hit zero HP, you may continue to the next&nbsp;turn.
             </p>
-            <h1 align="center">
-                Win Condition
-            </h1>
-            <p align="center">
-            When any Hull hits 0 HP, it will become flooded with water and sink the ship, ending the game.
+            <h2>Win Condition</h2>
+            <p>
+            When any Hull hits 0 HP, it will become flooded with water and sink the ship, ending the&nbsp;game.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/pirates-lasers/images/pirates-lasers-07.svg" width="96.5" height="55.7" alt="A ship with a flooded Hull piece"/>
                 <p class="caption">
-                A ship with a flooded Hull piece
+                A ship with a flooded Hull&nbsp;piece
                 </p>
             </div>
-            <p align="center">
-            Count up how many rounds you lasted, and see if you or a friend can do better with whatever initial layout you created. To reset, triple click any piece to restore the HP of all hull pieces.
+            <p>
+            Count up how many rounds you lasted, and see if you or a friend can do better with whatever initial layout you created. To reset, triple click any piece to restore the HP of all hull&nbsp;pieces.
             </p>
             <h3>Multiplayer Variant</h3>
-            <p align="center">
-            Pirates &amp; Lasers can be played as a two player game with a few adjustments. First, the game requires at least 12 Blinks, with at least 2 Hazards and 1 Redirector. The turn structure is the same, and players trade off taking turns. The player who sinks the ship is the loser.
+            <p>
+            Pirates &amp; Lasers can be played as a two player game with a few adjustments. First, the game requires at least 12 Blinks, with at least 2 Hazards and 1 Redirector. The turn structure is the same, and players trade off taking turns. The player who sinks the ship is the&nbsp;loser.
             </p>
-            <h1>
+            <h1 class="section">
                 More Information
             </h1>
             <p>
-            Pirates &amp; Lasers is part of the <a href="https://move38.com/products/blinks-solo-challenger-pack">Solo Challenger Pack</a>.
+            Pirates &amp; Lasers is part of the&nbsp;<a href="https://move38.com/products/blinks-solo-challenger-pack">Solo&nbsp;Challenger&nbsp;Pack</a>.
             </p>
-            <h1>
+            <h1 class="section">
                 Credits
             </h1>
             <div class="row">

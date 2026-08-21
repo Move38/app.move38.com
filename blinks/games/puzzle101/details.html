@@ -8,7 +8,7 @@
             /* CSS styles */
             body {
                 background-color: #F7F7F7;
-                text-align: center;
+                text-align: left;
                 margin: 0;
             }
 
@@ -19,10 +19,7 @@
             }
 
             p {
-                margin-top: 0;
-                margin-left: 35px;
-                margin-right: 35px;
-                margin-bottom: 10px;
+                margin: 0 35px 12px;
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 16px;
@@ -37,14 +34,20 @@
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 30px;
+                text-align: center;
+            }
+
+            h1.section {
+                border-top: 1px solid #d9d9d9;
+                margin: 48px 35px 0;
+                padding-top: 34px;
             }
 
             h2 {
                 font-family: "Helvetica Neue";
                 color: #2b2b2b;
                 font-size: 21px;
-                margin-top: 28px;
-                margin-bottom: 10px;
+                margin: 30px 35px 10px;
             }
 
             h3 {
@@ -53,16 +56,7 @@
                 font-size: 15px;
                 letter-spacing: 0.04em;
                 text-transform: uppercase;
-                margin-top: 22px;
-                margin-bottom: 6px;
-            }
-
-            p.left {
-                float: left;
-            }
-
-            p.right {
-                float: right;
+                margin: 24px 35px 6px;
             }
 
             .row {
@@ -73,7 +67,6 @@
                 margin: 0;
                 padding: 12px 35px 0;
                 font-weight: bold;
-                text-align: left;
             }
 
             .row p {
@@ -84,11 +77,18 @@
                 text-align: right;
             }
 
+            .image {
+                text-align: center;
+            }
+
             p.caption {
                 font-family: "Helvetica Neue";
                 color: #888D91;
                 font-size: 10px;
                 max-width: 231px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
             }
 
             img {
@@ -103,84 +103,83 @@
             }
 
             .power {
-                padding-top: 0;
+                padding-top: 18px;
+                padding-left: 35px;
             }
 
             .power h3 {
                 display: inline-block;
-                margin: 0;
+                margin: 0 0 0 8px;
                 vertical-align: middle;
             }
         </style>
     </head>
     <body>
         <div style="clear:left">
-            <h1 align="center">
+            <h1>
                 Instructions
             </h1>
             <h2>Setup</h2>
-            <p align="center">
-            Puzzle 101 is played with six Blinks — no more, no less. Blinks begin in setup mode, showing a dim white pattern. To begin, surround one Blink with 5 neighbors. This will begin a sparkling animation.
+            <p>
+            Puzzle 101 is played with six Blinks — no more, no less. Blinks begin in setup mode, showing a dim white pattern. To begin, surround one Blink with 5 neighbors. This will begin a sparkling&nbsp;animation.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/puzzle101/images/puzzle101-01.svg" width="79" height="69.8" alt="The starting arrangement"/>
                 <p class="caption">
-                The starting arrangement
+                The starting&nbsp;arrangement
                 </p>
             </div>
-            <p align="center">
-            Double-click the sparkling Blink to generate a puzzle. When all sparkling stops, the puzzle is ready.
+            <p>
+            Double-click the sparkling Blink to generate a puzzle. When all sparkling stops, the puzzle is&nbsp;ready.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/puzzle101/images/puzzle101-02.svg" width="281.4" height="81.8" alt="Puzzle creation"/>
                 <p class="caption">
-                Puzzle creation
+                Puzzle&nbsp;creation
                 </p>
             </div>
-            <p align="center">
-            Separate all pieces to begin.
+            <p>
+            Separate all pieces to&nbsp;begin.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/puzzle101/images/puzzle101-03.svg" width="147" height="98.8" alt="Puzzle pieces separated"/>
                 <p class="caption">
-                Puzzle pieces separated
+                Puzzle pieces&nbsp;separated
                 </p>
             </div>
             <h2>Gameplay</h2>
-            <p align="center">
-            Puzzle pieces must be assembled so that all colored sides of a piece are touching the side of another piece with a matching color. A side with no light will have no neighboring piece on that face.
+            <p>
+            Puzzle pieces must be assembled so that all colored sides of a piece are touching the side of another piece with a matching color. A side with no light will have no neighboring piece on that&nbsp;face.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/puzzle101/images/puzzle101-04.svg" width="253.7" height="70.2" alt="Correct and incorrect connection examples"/>
                 <p class="caption">
-                Correct and incorrect connection examples
+                Correct and incorrect connection&nbsp;examples
                 </p>
             </div>
-            <p align="center">
-            To help a player determine if they’ve placed a piece correctly, the lights will pulse on and off when correctly aligned. Unsolved faces will remain fully lit.
+            <p>
+            To help a player determine if they’ve placed a piece correctly, the lights will pulse on and off when correctly aligned. Unsolved faces will remain fully&nbsp;lit.
             </p>
-            <p align="center">
-            When the puzzle has been solved, or if the player wants to give up on the current puzzle, bring all the pieces together and double-click any Blink to go back into setup.
+            <p>
+            When the puzzle has been solved, or if the player wants to give up on the current puzzle, bring all the pieces together and double-click any Blink to go back into&nbsp;setup.
             </p>
-            <h1 align="center">
-                Win Condition
-            </h1>
-            <p align="center">
-            The puzzle is solved when all sides have been correctly matched and the Blinks are pulsing in sync.
+            <h2>Win Condition</h2>
+            <p>
+            The puzzle is solved when all sides have been correctly matched and the Blinks are pulsing in&nbsp;sync.
             </p>
-            <div align="center" class="image">
+            <div class="image">
                 <img src="https://app.move38.com/blinks/games/puzzle101/images/puzzle101-05.svg" width="96.5" height="78.8" alt="Fully solved puzzle"/>
                 <p class="caption">
-                Fully solved puzzle
+                Fully solved&nbsp;puzzle
                 </p>
             </div>
-            <h1>
+            <h1 class="section">
                 More Information
             </h1>
             <p>
-            Puzzle 101 is part of the <a href="https://move38.com/products/blinks-game-system-9-game-starter-set">Blinks Game System</a>.
+            Puzzle 101 is part of the&nbsp;<a href="https://move38.com/products/blinks-game-system-9-game-starter-set">Blinks&nbsp;Game&nbsp;System</a>.
             </p>
-            <h1>
+            <h1 class="section">
                 Credits
             </h1>
             <div class="row">
