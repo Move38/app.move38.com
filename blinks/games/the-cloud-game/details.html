@@ -2,100 +2,119 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
-                <title>Game Name</title>
-                <style type="text/css">
-                    /* CSS styles */
-                    
-                    body {
-                        background-color: #F7F7F7;
-                        text-align: center;
-                        margin-top: 35px;
-                        margin-bottom: 35px;
-                    }
-                    
-                    a {
-                        display: inline-block;
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 14px;
-                        font-weight: bold;
-                        text-decoration: underline;
-                    }
-                    
-                    p {
-                        margin: 0;
-                        margin-left: 35px;
-                        margin-right: 35px;
-                        margin-bottom: 10px;
-                    }
-                    
-                    div {
-                        clear: left;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    
-                    h1 {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 30px;
-                    }
-                    
-                    p {
-                        font-family: "Helvetica Neue";
-                        color: #2b2b2b;
-                        font-size: 16px;
-                    }
-                    
-                    p.left {
-                        float: left;
-                    }
-                    
-                    p.right {
-                        float: right;
-                    }
-                    
-                    .row {
-                        margin: 0px;
-                        font-weight: bold;
-                    }
-                    
-                    p.caption {
-                        font-family: "Helvetica Neue";
-                        color: #888D91;
-                        font-size: 10px;
-                        max-width: 231px;
-                    }
-                    
-                    img {
-                        display: inline-block;
-                        max-width: 289px;
-                    }
-                    
-                </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+        <title>The Cloud Game</title>
+        <style type="text/css">
+            /* CSS styles */
+            body {
+                background-color: #F7F7F7;
+                text-align: center;
+                margin: 0;
+            }
+
+            a {
+                color: #EB4A23;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 0;
+                margin-left: 35px;
+                margin-right: 35px;
+                margin-bottom: 10px;
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 16px;
+            }
+
+            div {
+                clear: left;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 30px;
+            }
+
+            h2 {
+                font-family: "Helvetica Neue";
+                color: #2b2b2b;
+                font-size: 21px;
+                margin-top: 28px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                font-family: "Helvetica Neue";
+                color: #EB4A23;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin-top: 22px;
+                margin-bottom: 6px;
+            }
+
+            p.left {
+                float: left;
+            }
+
+            p.right {
+                float: right;
+            }
+
+            .row {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
+                font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
+            }
+
+            p.caption {
+                font-family: "Helvetica Neue";
+                color: #888D91;
+                font-size: 10px;
+                max-width: 231px;
+            }
+
+            img {
+                display: inline-block;
+                max-width: 100%;
+                height: auto;
+            }
+
+            img.icon {
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .power {
+                padding-top: 0;
+            }
+
+            .power h3 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
+            }
+        </style>
     </head>
     <body>
-        <div class="row">
-            <p class="left cell">
-            Game Designer
-            </p>
-            <p class="right cell">
-            Move38
-            </p>
-        </div>
-        <div class="row">
-            <p style="float:left">
-            Artist
-            </p>
-            <p style="float:right">
-            Elizabeth Yuan
-            </p>
-            <p style="float:right">
-            Jude Pinto
-            </p>
-        </div>
-        <div style="clear:both">
+        <div style="clear:left">
             <h1 align="center">
                 Instructions
             </h1>
@@ -103,11 +122,10 @@
             SETUP
             The game will automatically load into its starting state:
             a clear, blue sky. Begin by clicking any Blink to create
-            a cloud.      </p>
+            a cloud.
+            </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/the-cloud-game/images/the-cloud-game-01.png"/>
-                <p class="caption">
-                </p>
+                <img src="https://app.move38.com/blinks/games/the-cloud-game/images/the-cloud-game-01.png" width="157" height="76.5" alt=""/>
             </div>
             <p align="center">
             GAMEPLAY
@@ -115,18 +133,20 @@
             The Cloud Game.
             Click a Blink to switch between two states: Cloud
             (white) and Sky (blue). Clicking a Sky Blink will change
-            it to a Cloud Blink and vice-versa.     </p>
-            
+            it to a Cloud Blink and vice-versa.
+            </p>
             <p align="center">
             When clicking a Blink to change its state, all adjacent
-            Blinks will also switch states.            </p>
+            Blinks will also switch states.
+            </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/the-cloud-game/images/the-cloud-game-02.png"/>
+                <img src="https://app.move38.com/blinks/games/the-cloud-game/images/the-cloud-game-02.png" width="160" height="88.5" alt="Adjacent blinks will shift states"/>
                 <p class="caption">
-                Adjacent blinks will shift states    </p>
+                Adjacent blinks will shift states
+                </p>
             </div>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/the-cloud-game/images/the-cloud-game-03.png"/>
+                <img src="https://app.move38.com/blinks/games/the-cloud-game/images/the-cloud-game-03.png" width="160" height="89" alt=""/>
             </div>
             <h1 align="center">
                 Win Conditions
@@ -134,27 +154,40 @@
             <p align="center">
             The game is won when the sky is full of clouds- when
             all Blinks on the board are white.
-
             Solve the puzzle and silver lining appears, and orange
             sunspots begin to sparkle through.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/the-cloud-game/images/the-cloud-game-04.png"/>
+                <img src="https://app.move38.com/blinks/games/the-cloud-game/images/the-cloud-game-04.png" width="157" height="111" alt="Winning display"/>
                 <p class="caption">
-                Winning display </p>
+                Winning display
+                </p>
             </div>
             <h1>
                 More Information
             </h1>
             <p>
-            The Cloud Game is part of the Puzzle Wizard Pack.
+            The Cloud Game is part of the <a href="https://move38.com/products/blinks-puzzle-wizard-pack">Puzzle Wizard Pack</a>.
             </p>
-            <div>
+            <h1>
+                Credits
+            </h1>
+            <div class="row">
                 <p>
-                <a href="https://move38.com/products/blinks-puzzle-wizard-pack">BUY PHYSICAL HERE</a>
+                Game Designer
+                </p>
+                <p>
+                Move38
                 </p>
             </div>
-            
+            <div class="row">
+                <p>
+                Artists
+                </p>
+                <p>
+                Elizabeth Yuan<br/>Jude Pinto
+                </p>
+            </div>
         </div>
     </body>
 </html>
