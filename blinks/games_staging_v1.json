@@ -69,8 +69,7 @@
     },
     "identifier" : "battle-balloons",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/battle-balloons/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/battle-balloons/images/image-2.png"
+      "https://app.move38.com/blinks/games/battle-balloons/images/Battle-Balloons-1.jpg"
     ],
     "name" : "Battle Balloons",
     "numPlayers" : "2+",
@@ -95,8 +94,8 @@
     },
     "identifier" : "berry",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/berry/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/berry/images/image-2.png"
+      "https://app.move38.com/blinks/games/berry/images/Berry-1.jpg",
+      "https://app.move38.com/blinks/games/berry/images/Berry-2.jpg"
     ],
     "name" : "Berry",
     "numPlayers" : "2",
@@ -121,8 +120,8 @@
     },
     "identifier" : "bomb-brigade",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/bomb-brigade/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/bomb-brigade/images/image-2.png"
+      "https://app.move38.com/blinks/games/bomb-brigade/images/Bomb-Brigade-1.jpg",
+      "https://app.move38.com/blinks/games/bomb-brigade/images/Bomb-Brigade-2.jpg"
     ],
     "name" : "Bomb Brigade",
     "numPlayers" : "1-10",
@@ -147,8 +146,8 @@
     },
     "identifier" : "crownfall",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/crownfall/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/crownfall/images/image-2.png"
+      "https://app.move38.com/blinks/games/crownfall/images/Crownfall-1.jpg",
+      "https://app.move38.com/blinks/games/crownfall/images/Crownfall-2.jpg"
     ],
     "name" : "Crownfall",
     "numPlayers" : "2-4",
@@ -198,8 +197,8 @@
     },
     "identifier" : "dynamo",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/dynamo/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/dynamo/images/image-2.png"
+      "https://app.move38.com/blinks/games/dynamo/images/Dynamo-1.jpg",
+      "https://app.move38.com/blinks/games/dynamo/images/Dynamo-2.jpg"
     ],
     "name" : "Dynamo",
     "numPlayers" : "1+",
@@ -223,8 +222,8 @@
     },
     "identifier" : "flic-flop",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/flic-flop/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/flic-flop/images/image-2.png"
+      "https://app.move38.com/blinks/games/flic-flop/images/Flic-Flop-1.jpg",
+      "https://app.move38.com/blinks/games/flic-flop/images/Flic-Flop-2.jpg"
     ],
     "name" : "Flic Flop",
     "numPlayers" : "2-3",
@@ -248,8 +247,8 @@
     },
     "identifier" : "fracture",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/fracture/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/fracture/images/image-2.png"
+      "https://app.move38.com/blinks/games/fracture/images/Fracture-1.jpg",
+      "https://app.move38.com/blinks/games/fracture/images/Fracture-2.jpg"
     ],
     "name" : "Fracture",
     "numPlayers" : "2-6",
@@ -275,8 +274,8 @@
     },
     "identifier" : "ghost-hunters",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/ghost-hunters/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/ghost-hunters/images/image-2.png"
+      "https://app.move38.com/blinks/games/ghost-hunters/images/Ghost-Hunters-1.jpg",
+      "https://app.move38.com/blinks/games/ghost-hunters/images/Ghost-Hunters-2.jpg"
     ],
     "name" : "Ghost Hunters",
     "numPlayers" : "2-4",
@@ -302,8 +301,8 @@
     },
     "identifier" : "group-therapy",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/group-therapy/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/group-therapy/images/image-2.png"
+      "https://app.move38.com/blinks/games/group-therapy/images/Group-Therapy-1.jpg",
+      "https://app.move38.com/blinks/games/group-therapy/images/Group-Therapy-2.jpg"
     ],
     "name" : "Group Therapy",
     "numPlayers" : "1+",
@@ -362,7 +361,7 @@
     "identifier" : "honey",
     "imageURLs" : [
       "https://app.move38.com/blinks/games/honey/images/Honey-1.jpg",
-      "https://app.move38.com/blinks/games/honey/images/Honey-2.png"
+      "https://app.move38.com/blinks/games/honey/images/Honey-2.jpg"
     ],
     "name" : "Honey",
     "numPlayers" : "1+",
@@ -387,8 +386,8 @@
     "identifier" : "mortals",
     "imageURLs" : [
       "https://app.move38.com/blinks/games/mortals/images/Mortals-1.jpg",
-      "https://app.move38.com/blinks/games/mortals/images/Mortals-2.png",
-      "https://app.move38.com/blinks/games/mortals/images/Mortals-3.png"
+      "https://app.move38.com/blinks/games/mortals/images/Mortals-2.jpg",
+      "https://app.move38.com/blinks/games/mortals/images/Mortals-3.jpg"
     ],
     "name" : "Mortals",
     "numPlayers" : "1",
@@ -415,7 +414,7 @@
     "identifier" : "paintbrush",
     "imageURLs" : [
       "https://app.move38.com/blinks/games/paintbrush/images/Paintbrush-1.jpg",
-      "https://app.move38.com/blinks/games/paintbrush/images/Paintbrush-2.png"
+      "https://app.move38.com/blinks/games/paintbrush/images/Paintbrush-2.jpg"
     ],
     "name" : "Paintbrush",
     "numPlayers" : "2-4",
@@ -520,8 +519,8 @@
     },
     "identifier" : "reactor",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/reactor/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/reactor/images/image-2.png"
+      "https://app.move38.com/blinks/games/reactor/images/Reactor-1.jpg",
+      "https://app.move38.com/blinks/games/reactor/images/Reactor-2.jpg"
     ],
     "name" : "Reactor",
     "numPlayers" : "2-6",
@@ -546,7 +545,7 @@
     "identifier" : "speed-racer",
     "imageURLs" : [
       "https://app.move38.com/blinks/games/speed-racer/images/Speed-Racer-1.jpg",
-      "https://app.move38.com/blinks/games/speed-racer/images/Speed-Racer-2.png"
+      "https://app.move38.com/blinks/games/speed-racer/images/Speed-Racer-2.jpg"
     ],
     "name" : "Speed Racer",
     "numPlayers" : "1+",
@@ -596,8 +595,9 @@
     },
     "identifier" : "the-dragons-lair",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/the-dragons-lair/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/the-dragons-lair/images/image-2.png"
+      "https://app.move38.com/blinks/games/the-dragons-lair/images/The-Dragons-Lair-1.jpg",
+      "https://app.move38.com/blinks/games/the-dragons-lair/images/The-Dragons-Lair-2.jpg",
+      "https://app.move38.com/blinks/games/the-dragons-lair/images/The-Dragons-Lair-3.jpg"
     ],
     "name" : "The Dragon's Lair",
     "numPlayers" : "1+",
@@ -623,8 +623,8 @@
     },
     "identifier" : "tip-toe-volcano",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/tip-toe-volcano/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/tip-toe-volcano/images/image-2.png"
+      "https://app.move38.com/blinks/games/tip-toe-volcano/images/Tip-Toe-Volcano-1.jpg",
+      "https://app.move38.com/blinks/games/tip-toe-volcano/images/Tip-Toe-Volcano-2.jpg"
     ],
     "name" : "Tip-Toe Volcano",
     "numPlayers" : "2+",
@@ -649,8 +649,7 @@
     },
     "identifier" : "treasure-tumble",
     "imageURLs" : [
-      "https://app.move38.com/blinks/games/treasure-tumble/images/image-1.jpg",
-      "https://app.move38.com/blinks/games/treasure-tumble/images/image-2.png"
+      "https://app.move38.com/blinks/games/treasure-tumble/images/Treasure-Tumble-1.jpg"
     ],
     "name" : "Treasure Tumble",
     "numPlayers" : "1+",
@@ -677,7 +676,7 @@
     "identifier" : "wham",
     "imageURLs" : [
       "https://app.move38.com/blinks/games/wham/images/Wham-1.jpg",
-      "https://app.move38.com/blinks/games/wham/images/Wham-2.png"
+      "https://app.move38.com/blinks/games/wham/images/Wham-2.jpg"
     ],
     "name" : "WHAM!",
     "numPlayers" : "1+",
