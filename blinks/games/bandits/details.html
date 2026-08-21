@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,7 +96,23 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
+            }
+
+            img.icon {
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .power {
+                padding-top: 0;
+            }
+
+            .power h3 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
             }
         </style>
     </head>
@@ -112,7 +142,7 @@
             All Blinks begin as Bandits, which swirl and pulse with their team color. Each player should take a single Bandit from the set of Blinks and set it to their chosen team color. Each time you double-click a Bandit, it will change team.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bandits/images/ban1.png"/>
+                <img src="https://app.move38.com/blinks/games/bandits/images/bandits-01.svg" width="227.1" height="57.2" alt="Double-click to cycle through Bandit colors"/>
                 <p class="caption">
                 Double-click to cycle through Bandit colors
                 </p>
@@ -121,7 +151,7 @@
             Once everyone has a Bandit in their color, take another Bandit and triple-click it: this will transform it into a sparkling diamond. Place the Diamond in the center of the table, then begin the game.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bandits/images/ban2.png"/>
+                <img src="https://app.move38.com/blinks/games/bandits/images/bandits-02.svg" width="89.3" height="63.8" alt="Triple-click to create a Diamond"/>
                 <p class="caption">
                 Triple-click to create a Diamond
                 </p>
@@ -135,7 +165,7 @@
             Each player secretly bids a number between 1 and 3 on their Bandit. To do this, single-click your Bandit to see the current bid. Once it’s revealed, you can single-click again to cycle through the three possible bids. A Bandit will automatically go back into its hidden state if you don’t click it for 2 seconds.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bandits/images/ban3.png"/>
+                <img src="https://app.move38.com/blinks/games/bandits/images/bandits-03.svg" width="153.3" height="57.2" alt="Single-click a Bandit to change its bid"/>
                 <p class="caption">
                 Single-click a Bandit to change its bid
                 </p>
@@ -147,7 +177,7 @@
             On the first turn, all players will attach their Bandits directly to the Diamond. When a Bandit is correctly attached, the face touching the Diamond will sparkle white.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bandits/images/ban4.png"/>
+                <img src="https://app.move38.com/blinks/games/bandits/images/bandits-04.svg" width="108.1" height="80" alt="All Bandits connect to the Diamond, sparkling white on the connected face"/>
                 <p class="caption">
                 All Bandits connect to the Diamond, sparkling white on the connected face
                 </p>
@@ -157,13 +187,13 @@
             After all Bandits have been attached, it’s time to see the results. In Bandits, the highest unique bid is the winner. For example, if one player bids 3, another 2, and another 1, the player who bid 3 would be the winner.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bandits/images/ban5.png"/>
+                <img src="https://app.move38.com/blinks/games/bandits/images/bandits-05.svg" width="106.5" height="48.3" alt=""/>
             </div>
             <p align="center">
             If, though, two players bid 3 and a third player only bids 1, the bid of 1 wins because it is the highest unique bid.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bandits/images/ban6.png"/>
+                <img src="https://app.move38.com/blinks/games/bandits/images/bandits-06.svg" width="106.5" height="48.3" alt=""/>
             </div>
             <p align="center">
             If there is no highest unique bid, no player wins, and the turn moves immediately to cleanup.
@@ -172,7 +202,7 @@
             To see the results, double-click the Diamond, which will begin calculating. After a few seconds, the winning Bandit will sparkle with victory, then receive their points. A Bandit that steals directly from the Diamond receives a number of points equal to 6 minus their bid, so 3 points for a bid of 3, 4 for a bid of 2, and 5 for a bid of 1.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bandits/images/ban7.png"/>
+                <img src="https://app.move38.com/blinks/games/bandits/images/bandits-07.svg" width="242.7" height="157" alt="Double-click the Diamond to calculate results and award points to the winner"/>
                 <p class="caption">
                 Double-click the Diamond to calculate results and award points to the winner
                 </p>
@@ -189,7 +219,7 @@
             During betting, instead of attaching to the Diamond itself, a player can place their Bandit onto the outside edge of the scored Bandit. They must attach directly opposite the Diamond, and their Bandit will sparkle as if attached to the Diamond itself to show that this was done correctly. Because they can only be attached in this way, the number of available faces is always 6, even after multiple Bandits are stacked outward.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bandits/images/ban8.png"/>
+                <img src="https://app.move38.com/blinks/games/bandits/images/bandits-08.svg" width="102" height="83.1" alt="Regular Bandits connected to scored Bandits will sparkle as if connected directly to the Diamond."/>
                 <p class="caption">
                 Regular Bandits connected to scored Bandits will sparkle as if connected directly to the Diamond.
                 </p>
@@ -198,7 +228,7 @@
             If a player wins a round by attaching to another Bandit, they also score differently. Instead of taking points directly from the Diamond, they steal points from the Bandit they attached to equal to half its points, rounded up. For instance, if you win a round while connected to a Bandit that had scored 3 points in a previous round, that Bandit would lose 2 points and you would gain 2. Points will only be stolen from the Bandit on the outside edge, meaning once a Bandit has been stolen from it will keep the remaining points for the rest of the game.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bandits/images/ban9.png"/>
+                <img src="https://app.move38.com/blinks/games/bandits/images/bandits-09.svg" width="194.8" height="32.6" alt="After winning the round, the orange Bandit steals 3 points from the purple Bandit"/>
                 <p class="caption">
                 After winning the round, the orange Bandit steals 3 points from the purple Bandit
                 </p>
@@ -207,7 +237,7 @@
             In a typical game of Bandits, players can only build out to a distance of 3 from the Diamond.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bandits/images/ban10.png"/>
+                <img src="https://app.move38.com/blinks/games/bandits/images/bandits-10.svg" width="190" height="171.4" alt="A full-sized game of Bandits"/>
                 <p class="caption">
                 A full-sized game of Bandits
                 </p>
@@ -222,7 +252,7 @@
             When the game ends, each player adds up the points they scored on each of their scored Bandits. The player (or players) who scored the most points is the winner!
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bandits/images/ban11.png"/>
+                <img src="https://app.move38.com/blinks/games/bandits/images/bandits-11.svg" width="171.5" height="123.2" alt="A completed game of Bandits - Green wins with 9 points scored"/>
                 <p class="caption">
                 A completed game of Bandits - Green wins with 9 points scored
                 </p>
@@ -231,7 +261,7 @@
             Long press any Blink to reset all connected Blinks back to unscored Bandits.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/bandits/images/ban12.png"/>
+                <img src="https://app.move38.com/blinks/games/bandits/images/bandits-12.svg" width="181.3" height="258.9" alt="Long-press any Blink to reset all Blinks to Bandits"/>
                 <p class="caption">
                 Long-press any Blink to reset all Blinks to Bandits
                 </p>

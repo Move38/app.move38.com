@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -128,7 +142,7 @@
             First, build the forest with however many Blinks you’d like, and in any shape you want. The larger the forest, the longer the game will take. The following are some examples of typical setups for 12, 18, and 24 Blinks.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/hexenwood/images/Hex1.png"/>
+                <img src="https://app.move38.com/blinks/games/hexenwood/images/hexenwood-01.svg" width="175.3" height="129.7" alt="Examples setups for 12, 18, and 24 Blinks"/>
                 <p class="caption">
                 Examples setups for 12, 18, and 24 Blinks
                 </p>
@@ -137,7 +151,7 @@
             Once you’re happy with your setup, click any Blink to plant your starting Trees. Single click a Tree to change its species. Each player should choose a different species of Tree and a unique starting position on opposite ends of the forest. There are four species of tree, each with a unique color and leaf pattern.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/hexenwood/images/Hex2.png"/>
+                <img src="https://app.move38.com/blinks/games/hexenwood/images/hexenwood-02.svg" width="196.4" height="57.2" alt="Single-click to cycle through Red Maple, Blue Spruce, Yellow Oak, and Violet Birch"/>
                 <p class="caption">
                 Single-click to cycle through Red Maple, Blue Spruce, Yellow Oak, and Violet Birch
                 </p>
@@ -149,7 +163,7 @@
             After you plant your starting trees, double-click any Blink to start the game. When mapping is complete, the game begins.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/hexenwood/images/Hex3.png"/>
+                <img src="https://app.move38.com/blinks/games/hexenwood/images/hexenwood-03.svg" width="227.2" height="70.1" alt="Double-click to begin mapping - the game automatically begins when mapping is complete."/>
                 <p class="caption">
                 Double-click to begin mapping - the game automatically begins when mapping is complete.
                 </p>
@@ -159,7 +173,7 @@
             Hexenwood is a turn-based game. The board will show which player’s turn it is by pulsing their Trees. If it is your turn, single-click one of your Trees to activate it. Only trees that can make valid moves can be activated.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/hexenwood/images/Hex4.png"/>
+                <img src="https://app.move38.com/blinks/games/hexenwood/images/hexenwood-04.svg" width="109.9" height="102" alt="Single-click to activate a Tree"/>
                 <p class="caption">
                 Single-click to activate a Tree
                 </p>
@@ -172,7 +186,7 @@
             Unclaimed positions adjacent to your Tree will be fully illuminated. If you click it, you will plant a Tree in that spot, and you will capture any neighboring Trees controlled by other players. This is the safest way to expand your territory.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/hexenwood/images/hex5.png"/>
+                <img src="https://app.move38.com/blinks/games/hexenwood/images/hexenwood-05.svg" width="250.7" height="187.6" alt="Click an adjacent position to perform a Spread"/>
                 <p class="caption">
                 Click an adjacent position to perform a Spread
                 </p>
@@ -182,7 +196,7 @@
             Unclaimed positions that are one space away from your tree will show a bright pattern. If you click one of these Blinks, you can Jump to that spot. The Tree you jumped from will uproot itself and take over the new area, also capturing any neighboring Trees controlled by other players. This is a slightly risky way to expand because it leaves holes in your territory.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/hexenwood/images/hex6.png"/>
+                <img src="https://app.move38.com/blinks/games/hexenwood/images/hexenwood-06.svg" width="257.2" height="185.6" alt="Click a distant position to perform Jump"/>
                 <p class="caption">
                 Click a distant position to perform Jump
                 </p>
@@ -216,7 +230,7 @@
             When you are setting up your Hexenwood forest, you should decide which team (or teams) the AI will be playing as. Double-click the AI Blink to change its team color.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/hexenwood/images/HexAI1.png"/>
+                <img src="https://app.move38.com/blinks/games/hexenwood/images/hexenwood-07.svg" width="205.5" height="62.2" alt="Double-click to change the AI species"/>
                 <p class="caption">
                 Double-click to change the AI species
                 </p>
@@ -225,7 +239,7 @@
             Select the difficulty of the AI by single-clicking the Blink. The first click it will display the current level, click again to cycle through the three difficulty levels. Beware - level 3 is very smart.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/hexenwood/images/HexAI2.png"/>
+                <img src="https://app.move38.com/blinks/games/hexenwood/images/hexenwood-08.svg" width="153.3" height="57.2" alt="Single-click to cycle through the 3 difficulty levels"/>
                 <p class="caption">
                 Single-click to cycle through the 3 difficulty levels
                 </p>
@@ -241,7 +255,7 @@
             On a large board, the highest level AI can sometimes take a little bit to make its decision, so don’t worry if it takes a little while. As long as the animation is sparkling, it’s thinking.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/hexenwood/images/HexAI3.png"/>
+                <img src="https://app.move38.com/blinks/games/hexenwood/images/hexenwood-09.svg" width="116.5" height="78.8" alt="An AI Blink thinking about its next move"/>
                 <p class="caption">
                 An AI Blink thinking about its next move
                 </p>

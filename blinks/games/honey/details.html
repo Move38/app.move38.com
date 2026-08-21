@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -105,7 +119,7 @@
     <body>
         <div class="row">
             <p class="left cell">
-            Game Designer
+            Game Designers
             </p>
             <p class="right cell">
             Daniel King<br/>Junege Hong
@@ -132,7 +146,7 @@
             All Blinks begin as flowers. Flowers generate pollen when clicked. In addition, any Flower attached to a Worker will automatically generate pollen over time. The more Workers a flower is attached to, the faster it will produce pollen.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/honey/images/hon1.png"/>
+                <img src="https://app.move38.com/blinks/games/honey/images/honey-01.png" width="198.3" height="56.4" alt="Automatic pollen generation examples"/>
                 <p class="caption">
                 Automatic pollen generation examples
                 </p>
@@ -141,7 +155,7 @@
             When a flower is full of pollen, it will transfer its resources to an adjacent worker.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/honey/images/hon2.png"/>
+                <img src="https://app.move38.com/blinks/games/honey/images/honey-02.svg" width="110.6" height="37.8" alt="A flower transferring pollen to a worker"/>
                 <p class="caption">
                 A flower transferring pollen to a worker
                 </p>
@@ -151,7 +165,7 @@
             Workers gather pollen from adjacent flowers and converts it into honey. When a worker is full of honey, it will transfer its resources to an adjacent brood.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/honey/images/hon3.png"/>
+                <img src="https://app.move38.com/blinks/games/honey/images/honey-03.svg" width="110.6" height="37.6" alt="A worker transferring honey to a brood"/>
                 <p class="caption">
                 A worker transferring honey to a brood
                 </p>
@@ -161,7 +175,7 @@
             Broods gather honey from adjacent workers and converts it into royal jelly. When a brood is full of honey, it will transfer its resources to an adjacent queen.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/honey/images/hon4.png"/>
+                <img src="https://app.move38.com/blinks/games/honey/images/honey-04.svg" width="112.4" height="36.7" alt="A brood transferring royal jelly to a queen"/>
                 <p class="caption">
                 A brood transferring royal jelly to a queen
                 </p>
@@ -171,7 +185,7 @@
             Queens gather royal jelly from adjacent broods and convert it into strength. When a Queen is at full strength, it will flash lightly, then trigger a hive-wide celebration. This will empty the resources of all cells in the hive, except for other queens.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/honey/images/hon5.png"/>
+                <img src="https://app.move38.com/blinks/games/honey/images/honey-05.svg" width="116.7" height="41.7" alt=""/>
             </div>
             <h1 align="center">
                 Win Condition
@@ -180,7 +194,7 @@
             Honey has no actual win condition. Instead, try to find the most efficient arrangement, or maybe the most visually interesting arrangement. The following arrangement is generating 7 pollen-per-second with only 3 flowers.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/honey/images/hon6.png"/>
+                <img src="https://app.move38.com/blinks/games/honey/images/honey-06.svg" width="125.3" height="83.1" alt=""/>
             </div>
             <h1>
                 More Information

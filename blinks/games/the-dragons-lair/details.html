@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -105,7 +119,7 @@
     <body>
         <div class="row">
             <p class="left cell">
-            Game Designer
+            Game Designers
             </p>
             <p class="right cell">
             Spencer Jenik<br/>Francisco Javier
@@ -128,7 +142,7 @@
             All Blinks start as part of the dragon’s lair, with pieces of gold, emeralds, or rubies shining on any exposed faces. Each player removes a Blink from the lair and double clicks it to turn it into a treasure hunter. A treasure hunter Blink has a gold, emerald, and ruby collecting faces. You can also double-click a treasure hunter blink to turn it back into a lair blink as well.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/Dragon_Diagram_1.png"/>
+                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/the-dragons-lair-01.svg" width="117.4" height="41.8" alt="Creating a treasure hunter Blink"/>
                 <p class="caption">
                 Creating a treasure hunter Blink
                 </p>
@@ -140,7 +154,7 @@
             To begin the game, triple click one of the Blinks in the lair to turn it into the dragon, which writhes and spins atop its treasure.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/Dragon_Diagram_2.png"/>
+                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/the-dragons-lair-02.svg" width="189.2" height="83.1" alt="Creating a Dragon"/>
                 <p class="caption">
                 Creating a Dragon
                 </p>
@@ -150,7 +164,7 @@
             During gameplay, your goal is to mine as much treasure as possible before running out of luck. To collect treasure, take your player Blink and match the correct treasure collecting face to any lair piece with treasure on it. For example, if you want to mine rubies off of a lair piece, attach your player Blink’s ruby colored face to the lair.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/Dragon_Diagram_3.png"/>
+                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/the-dragons-lair-03.svg" width="148" height="62.2" alt="Mining a ruby with the treasure hunter"/>
                 <p class="caption">
                 Mining a ruby with the treasure hunter
                 </p>
@@ -169,21 +183,21 @@
             A huge blast of orange flame engulfs the lair. Any player touching a lair piece loses 1 luck.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/Dragon_Diagram_4.png"/>
+                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/the-dragons-lair-04.svg" width="78.9" height="83.1" alt=""/>
             </div>
             <h3>Poison Smoke</h3>
             <p align="center">
             A dense cloud of green acidic poison slowly fills the cavern. Any player touching a lair piece filled with smoke loses 1 luck.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/Dragon_Diagram_5.png"/>
+                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/the-dragons-lair-05.svg" width="78.9" height="83.1" alt=""/>
             </div>
             <h3>Void</h3>
             <p align="center">
             The dragon covers the cave entrance and the lair is plunged into darkness. You must mine for treasure by memory alone, if you incorrectly mine a piece of treasure you will lose 1 luck.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/Dragon_Diagram_6.png"/>
+                <img src="https://app.move38.com/blinks/games/the-dragons-lair/images/the-dragons-lair-06.svg" width="78.9" height="83.1" alt=""/>
             </div>
             <p align="center">
             Before each attack, you will see the dragon blink flicker with energy. Keep an eye out for these flickers to avoid being hit. As you play, dragon attacks will become more frequent and with less warning, so be vigilant and mine as much treasure as possible before your luck runs out.

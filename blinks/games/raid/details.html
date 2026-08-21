@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -105,7 +119,7 @@
     <body>
         <div class="row">
             <p class="left cell">
-            Game Designer
+            Game Designers
             </p>
             <p class="right cell">
             Mark Mayer<br/>Justin Baker
@@ -129,7 +143,7 @@
             Join at least 6 blinks together and long press any one of them to reset them. The blinks should turn a mottled green. They now form the island that you and your fellow vikings will be fighting to control.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/raid/images/raid_1.png"/>
+                <img src="https://app.move38.com/blinks/games/raid/images/raid-01.svg" width="188" height="102" alt="Long-press to set the island"/>
                 <p class="caption">
                 Long-press to set the island
                 </p>
@@ -139,7 +153,7 @@
             Remove a Blink from the island’s edge and double tap it. This will be the player’s viking longship. If you have enough Blinks, each player can remove a Blink and create their own Longship, or you can pass-and-play with a single Longship.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/raid/images/raid_2.png"/>
+                <img src="https://app.move38.com/blinks/games/raid/images/raid-02.svg" width="184.9" height="72.8" alt="Double click to create a longship and cycle through the 4 available player colors."/>
                 <p class="caption">
                 Double click to create a longship and cycle through the 4 available player colors.
                 </p>
@@ -160,7 +174,7 @@
             When you make a valid landing, the shoreline will flash your player color. Any invalid attacks, either on an already occupied shoreline, or multiple attacks by the same color, will cause the Blink to flash red.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/raid/images/raid_3.png"/>
+                <img src="https://app.move38.com/blinks/games/raid/images/raid-03.svg" width="114.3" height="94.3" alt="A yellow longship lands on the island"/>
                 <p class="caption">
                 A yellow longship lands on the island
                 </p>
@@ -173,7 +187,7 @@
             Once all players have moved, everyone should open their eyes. Double tap any blink on the island. The island will display each player’s new move over a few seconds, showing where that player landed their longship this turn.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/raid/images/raid_4.png"/>
+                <img src="https://app.move38.com/blinks/games/raid/images/raid-04.svg" width="114.6" height="97.4" alt="The results of one round of landings"/>
                 <p class="caption">
                 The results of one round of landings
                 </p>
@@ -188,7 +202,7 @@
             Occupied spaces will then spread their player’s armies outwards. When spreading, armies capture unoccupied neighbors on the island, so long as a majority of that neighbor’s edges are unoccupied or owned by a single player. Some spaces will be contested by multiple neighbors and will remain unclaimed.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/raid/images/raid_5.png"/>
+                <img src="https://app.move38.com/blinks/games/raid/images/raid-05.svg" width="104.3" height="66.6" alt="Armies spreading to uncontested territory"/>
                 <p class="caption">
                 Armies spreading to uncontested territory
                 </p>

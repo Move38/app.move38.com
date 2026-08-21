@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -128,7 +142,7 @@
             Blinks will begin in the level select phase, where each Blink will show the level currently selected by the number of faces illuminated. Arrange your blinks in any configuration to be the mansion floor and single click any Blink to toggle through the level options. First-time players should definitely start at level 1.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_1.png"/>
+                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/ghost-hunters-01.svg" width="240.5" height="37.6" alt="Single-click to change level from 1-6"/>
                 <p class="caption">
                 Single-click to change level from 1-6
                 </p>
@@ -137,7 +151,7 @@
             Once you’ve selected a level, each player should remove a Blink from the mansion floor and double click it to turn it into a gadget.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_2.png"/>
+                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/ghost-hunters-02.svg" width="116.6" height="44.3" alt="A Blink becomes a gadget"/>
                 <p class="caption">
                 A Blink becomes a gadget
                 </p>
@@ -146,7 +160,7 @@
             To begin play, double click any Blink connected to the mansion floor.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_3.png"/>
+                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/ghost-hunters-03.svg" width="125.7" height="97.4" alt="All connected Blinks turn into the dark mansion floor"/>
                 <p class="caption">
                 All connected Blinks turn into the dark mansion floor
                 </p>
@@ -156,7 +170,7 @@
             During gameplay, you must blast ghostly apparitions with your gadget and stop them from overtaking the mansion. To zap an apparition, attach your gadget to any exposed side of the mansion - a beam of energy will automatically shoot out in a straight line into the mansion, destroying any spirits in its path.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_4.png"/>
+                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/ghost-hunters-04.svg" width="168.1" height="43" alt="A gadget shoots a line of light into the mansion."/>
                 <p class="caption">
                 A gadget shoots a line of light into the mansion.
                 </p>
@@ -165,7 +179,7 @@
             Your gadget has 3 different functions. To switch between them, single-click your gadget.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_5.png"/>
+                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/ghost-hunters-05.svg" width="167.4" height="37.6" alt="Single-click to cycle between the 3 gadget functions"/>
                 <p class="caption">
                 Single-click to cycle between the 3 gadget functions
                 </p>
@@ -178,7 +192,7 @@
             Ghosts appear white, and can be destroyed with the white flashlight.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_4.png"/>
+                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/ghost-hunters-06.svg" width="168.1" height="43" alt="A flashlight destroys a ghost"/>
                 <p class="caption">
                 A flashlight destroys a ghost
                 </p>
@@ -188,7 +202,7 @@
             Ghouls appear red, and can be destroyed with the red laser.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_6.png"/>
+                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/ghost-hunters-07.svg" width="168.1" height="43" alt="A laser destroys a ghoul"/>
                 <p class="caption">
                 A laser destroys a ghoul
                 </p>
@@ -198,7 +212,7 @@
             Poltergeists appear blue, and can be destroyed with the blue GeistLight.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_7.png"/>
+                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/ghost-hunters-08.svg" width="168.1" height="43" alt="A GeistLight destroys a poltergeist"/>
                 <p class="caption">
                 A GeistLight destroys a poltergeist
                 </p>
@@ -208,7 +222,7 @@
             Goblins appear green, and are only destroyed when they are hit with two different-colored beams at once.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_8.png"/>
+                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/ghost-hunters-09.svg" width="203.7" height="43" alt="A flashlight and a laser combine to destroy a goblin"/>
                 <p class="caption">
                 A flashlight and a laser combine to destroy a goblin
                 </p>
@@ -220,7 +234,7 @@
             If an apparition fully materializes in the mansion before you zap it, the mansion will become infested with demons and you lose the level.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_9.png"/>
+                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/ghost-hunters-10.svg" width="121.9" height="88" alt="A mansion overrun with spirits"/>
                 <p class="caption">
                 A mansion overrun with spirits
                 </p>
@@ -229,7 +243,7 @@
             However, if you are able to ward off spirits for a whole minute then the house will be cleansed and glow with a holy yellow light.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/GhostHunters_Diagram_10.png"/>
+                <img src="https://app.move38.com/blinks/games/ghost-hunters/images/ghost-hunters-11.svg" width="121.9" height="88" alt="A mansion successfully exorcised!"/>
                 <p class="caption">
                 A mansion successfully exorcised!
                 </p>

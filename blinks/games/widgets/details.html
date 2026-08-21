@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -133,7 +147,7 @@
             The dice widget simulates the roll of a six-sided die. Single-click any Blink to begin rolling attached dice. The result is represented by a number of red lights.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/widgets/images/wid1.png"/>
+                <img src="https://app.move38.com/blinks/games/widgets/images/widgets-01.svg" width="199.3" height="29.7" alt="Dice faces: 1 - 6"/>
                 <p class="caption">
                 Dice faces: 1 - 6
                 </p>
@@ -143,21 +157,21 @@
             Spinners can be used to choose a direction, a color, or both. Single-click any Blink to begin spinning all attached spinners.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/widgets/images/wid2.png"/>
+                <img src="https://app.move38.com/blinks/games/widgets/images/widgets-02.png" width="234.5" height="85.9" alt=""/>
             </div>
             <h3>Coin</h3>
             <p align="center">
             Use the coin widget to simulate the flip of one or many coins. Single-click any Blink to begin flipping coins to either Heads (gold) or Tails (silver).
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/widgets/images/wid3.png"/>
+                <img src="https://app.move38.com/blinks/games/widgets/images/widgets-03.svg" width="228.6" height="87.9" alt=""/>
             </div>
             <h3>Timer</h3>
             <p align="center">
             The timer operates differently than the other widgets. They begin in “setting” mode, indicating the length of the timer with colored lights. Single-click to increment the number of minutes from 1 - 5.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/widgets/images/wid4.png"/>
+                <img src="https://app.move38.com/blinks/games/widgets/images/widgets-04.svg" width="183.9" height="29.7" alt="Timer settings: 1 - 5 minutes"/>
                 <p class="caption">
                 Timer settings: 1 - 5 minutes
                 </p>
@@ -186,7 +200,7 @@
             Each turn, both players predict how many coins will flip to their color by speaking it aloud, ie “5 Gold” or “3 Silver”. Single-click any Blink to flip all coins.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/widgets/images/flip1.png"/>
+                <img src="https://app.move38.com/blinks/games/widgets/images/widgets-05.svg" width="215.4" height="123.7" alt=""/>
             </div>
             <p align="center">
             If a player’s prediction is lower than the amount of their color shown, they receive that many points. If their guess was higher than the amount shown, they receive no points. If a player is perfectly accurate, they receive that number of points, and their opponent cannot receive points that turn, even if they would have normally. In the event that both players guess perfectly, both receive their points.
@@ -210,14 +224,14 @@
             One at a time, remove a Spinomino from the unplayed pile and connect it to a Spinomino in play. All connecting sides must be the same color, and one or both must be blinking. If you cannot place a Spinomino, you may single-click to respin it.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/widgets/images/spin1.png"/>
+                <img src="https://app.move38.com/blinks/games/widgets/images/widgets-06.svg" width="253.7" height="70.2" alt=""/>
             </div>
             <h2>Win Condition</h2>
             <p align="center">
             The game ends when all Spinominoes have been connected legally. Attempt to complete the game with the fewest possible respins!
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/widgets/images/spin2.png"/>
+                <img src="https://app.move38.com/blinks/games/widgets/images/widgets-07.svg" width="176.7" height="102" alt="A completed game of Spinomino"/>
                 <p class="caption">
                 A completed game of Spinomino
                 </p>
@@ -236,7 +250,7 @@
             Takeaway Dice is played using Widgets. Place your Blinks together in a cluster and set them all to the Dice Widget. Determine player order, then single-click a Blink to roll all the dice.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/widgets/images/take1.png"/>
+                <img src="https://app.move38.com/blinks/games/widgets/images/widgets-08.svg" width="281.8" height="116.8" alt="Rolling the dice"/>
                 <p class="caption">
                 Rolling the dice
                 </p>
@@ -246,7 +260,7 @@
             On their turn, each player takes the following actions. First, they may (but don’t have to) re-roll all the dice in the cluster. Then they must remove a Blink from the cluster and claim it for their own. Not all Blinks can be legally removed from the cluster at the start of a turn. Blinks with neighbors on opposing faces are “locked,” as are Blinks that, if removed, would fracture the cluster into more than 2 pieces.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/widgets/images/take2.png"/>
+                <img src="https://app.move38.com/blinks/games/widgets/images/widgets-09.svg" width="280.8" height="69.8" alt="Examples of locked Blinks"/>
                 <p class="caption">
                 Examples of locked Blinks
                 </p>
@@ -278,6 +292,12 @@
             <p align="center">
             Take 6 or more widget Blinks and set them to use the Coin widget. Group these Blinks together on a playing surface.
             </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/widgets/images/widgets-10.svg" width="172" height="87.1" alt="Silver (left) stack vertically, Gold (right) stack horizontally"/>
+                <p class="caption">
+                Silver (left) stack vertically, Gold (right) stack horizontally
+                </p>
+            </div>
             <h2>Gameplay</h2>
             <p align="center">
             Players randomize their blinks to determine how to stack them. Gold means that the Blink needs to lay flat, Silver means that it needs to sit vertically on its edge. There are two ways to play, strategic or casual.

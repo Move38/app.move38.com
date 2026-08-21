@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -131,7 +145,7 @@
             Finally, take at least 1 Blink and triple click it. It should now be green with a swirling face. This Blink is your treasure spawner. It will drop one treasure piece whenever it is placed on top of the treasure chamber tower.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_1.png"/>
+                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/treasure-tumble-01.svg" width="152.4" height="46.5" alt="The starting setup for Treasure Tumble"/>
                 <p class="caption">
                 The starting setup for Treasure Tumble
                 </p>
@@ -151,7 +165,7 @@
             Funnels take treasure falling in from any direction and send it in the direction of their darkened face.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_2.png"/>
+                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/treasure-tumble-02.svg" width="104.4" height="40.2" alt="Funnels showing the direction they will drop the treasure"/>
                 <p class="caption">
                 Funnels showing the direction they will drop the treasure
                 </p>
@@ -161,7 +175,7 @@
             Switchers behave like a see-saw. Once they send treasure in the direction of their orange face they switch sides.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_3.png"/>
+                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/treasure-tumble-03.svg" width="89.1" height="29.7" alt="A switcher in both states"/>
                 <p class="caption">
                 A switcher in both states
                 </p>
@@ -171,7 +185,7 @@
             Splitters turn one treasure piece into 3 and drop one piece out of each face on their bottom half.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_4.png"/>
+                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/treasure-tumble-04.svg" width="44.1" height="40.1" alt="A splitter will multiply treasure and drop in all directions"/>
                 <p class="caption">
                 A splitter will multiply treasure and drop in all directions
                 </p>
@@ -181,7 +195,7 @@
             Deathtraps destroy any treasure that is unlucky enough to fall their way.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_5.png"/>
+                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/treasure-tumble-05.svg" width="32.7" height="37.4" alt="A deathtrap destroys any treasure that enters it"/>
                 <p class="caption">
                 A deathtrap destroys any treasure that enters it
                 </p>
@@ -190,7 +204,7 @@
             Once the tower is built, it’s time for the treasure to tumble! In turn, players must first take the spawner off the tower and set it aside, then remove a chunk of 3 Blinks anywhere from the tower. This chunk must be removed with only one hand, and cannot cause the tower to fall.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_6.png"/>
+                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/treasure-tumble-06.svg" width="153.8" height="147.6" alt="Three Blinks and the Spawner are removed from the tower"/>
                 <p class="caption">
                 Three Blinks and the Spawner are removed from the tower
                 </p>
@@ -199,7 +213,7 @@
             Then the player must add those 3 Blinks back to the tower one at a time in any configuration as long as the tower doesn’t collapse, with the goal of building a path that directs treasure to their bucket.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_7.png"/>
+                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/treasure-tumble-07.svg" width="154.4" height="150.9" alt="All three Blinks are reattached, and the spawner is placed at the highest point"/>
                 <p class="caption">
                 All three Blinks are reattached, and the spawner is placed at the highest point
                 </p>
@@ -217,7 +231,7 @@
             When the bucket is full it will turn purple - the first player to fill their bucket with treasure is the winner!
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/TreasureTumble_Diagram_8.png"/>
+                <img src="https://app.move38.com/blinks/games/treasure-tumble/images/treasure-tumble-08.svg" width="175.9" height="41.7" alt="A bucket fills with treasure, then turns purple"/>
                 <p class="caption">
                 A bucket fills with treasure, then turns purple
                 </p>

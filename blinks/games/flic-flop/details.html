@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -105,7 +119,7 @@
     <body>
         <div class="row">
             <p class="left cell">
-            Game Designer
+            Game Designers
             </p>
             <p class="right cell">
             Nick Bentley<br/>Daniel King<br/>Jonathan Bobrow
@@ -128,7 +142,7 @@
             Blinks begin the game as unscored Flickers, which appear as a spinning white light. Set three Blinks aside, then evenly distribute the remaining Flickers to all players. Assign each player one of three colors: magenta, cyan, or yellow.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/flic-flop/images/flic1.png"/>
+                <img src="https://app.move38.com/blinks/games/flic-flop/images/flic-flop-01.svg" width="32.6" height="29.7" alt="One Flicker"/>
                 <p class="caption">
                 One Flicker
                 </p>
@@ -137,7 +151,7 @@
             Take the Blinks you set aside and long press them. This will turn them into Floppers, which appear as fully colored Blinks, periodically cycling magenta, yellow, and cyan. Long pressing a Flopper when alone will return it to a flicker.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/flic-flop/images/flic2.png"/>
+                <img src="https://app.move38.com/blinks/games/flic-flop/images/flic-flop-02.svg" width="183.5" height="72.9" alt="Turning a Flicker into a Flopper"/>
                 <p class="caption">
                 Turning a Flicker into a Flopper
                 </p>
@@ -146,7 +160,7 @@
             Take all three Floppers and combine them into a single cluster. Place the cluster about 3 feet away from the players - the further away you place the Flopper, the more challenging the game will be.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/flic-flop/images/flic3.png"/>
+                <img src="https://app.move38.com/blinks/games/flic-flop/images/flic-flop-03.svg" width="198.8" height="67.8" alt="Creating a cluster of Floppers"/>
                 <p class="caption">
                 Creating a cluster of Floppers
                 </p>
@@ -156,7 +170,7 @@
             Players take turns sliding their Flickers towards the Flopper. Attaching to the Flopper will score the Flicker for the team color being displayed. A scored Flicker that has been connected displays a single dot of its scoring color and an entire half Blink of the current Flopper color. That Blink is now an extension of the Flopper, so Flickers that attach to it will score for the color of the Flopper.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/flic-flop/images/flic4.png"/>
+                <img src="https://app.move38.com/blinks/games/flic-flop/images/flic-flop-04.svg" width="228.4" height="118.9" alt="Flicker connection examples"/>
                 <p class="caption">
                 Flicker connection examples
                 </p>
@@ -168,7 +182,7 @@
             After every Flicker has been thrown, pull the unattached flickers aside, then separate the scored Flickers. This will make them display their scored color. Count the amount of your color and add that to your score tally. Double-click scored flickers to reset them for the next round.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/flic-flop/images/flic5.png"/>
+                <img src="https://app.move38.com/blinks/games/flic-flop/images/flic-flop-05.svg" width="128.7" height="40" alt=""/>
             </div>
             <h1 align="center">
                 Win Condition

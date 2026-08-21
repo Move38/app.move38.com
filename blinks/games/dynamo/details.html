@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -113,7 +127,7 @@
         </div>
         <div class="row">
             <p style="float:left">
-            Artist
+            Artists
             </p>
             <p style="float:right">
             Daniel King<br/>Rebekah West
@@ -128,13 +142,13 @@
             Dynamos are powered by touch, but each charge only lasts about a second. If a Dynamo runs out of power before being recharged, it will burn out and die. Once activated, Dynamos must continue to be recharged by clicking them before they die out.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/dynamo/images/dynamo1.png"/>
+                <img src="https://app.move38.com/blinks/games/dynamo/images/dynamo-01.svg" width="259.8" height="70.9" alt="A Dynamo is single-clicked, flashing white and fading down to the filament"/>
                 <p class="caption">
                 A Dynamo is single-clicked, flashing white and fading down to the filament
                 </p>
             </div>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/dynamo/images/dynamo2.png"/>
+                <img src="https://app.move38.com/blinks/games/dynamo/images/dynamo-02.svg" width="177.5" height="43" alt="A fading Dynamo goes dark, then flashes its color brightly before entering a death state"/>
                 <p class="caption">
                 A fading Dynamo goes dark, then flashes its color brightly before entering a death state
                 </p>
@@ -148,7 +162,7 @@
             Distribute 1 Dynamo Blink to each player. Players should place their Dynamos on a table or other flat surface, keeping a finger on their Dynamo at all times. Players can change the color of their Dynamo by double-clicking it.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/dynamo/images/dynamo3.png"/>
+                <img src="https://app.move38.com/blinks/games/dynamo/images/dynamo-03.svg" width="198.9" height="64.5" alt="Double-clicking a Dynamo in setup mode changes its filament color"/>
                 <p class="caption">
                 Double-clicking a Dynamo in setup mode changes its filament color
                 </p>
@@ -182,7 +196,7 @@
             Gather Dynamo Blinks together into a group. Double press them to put them in the ready state, each with a random color gently pulsing.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/dynamo/images/dynamo4.png"/>
+                <img src="https://app.move38.com/blinks/games/dynamo/images/dynamo-04.svg" width="107.8" height="105.3" alt="A cluster of Dynamos in setup mode, with the first Dynamo being activated"/>
                 <p class="caption">
                 A cluster of Dynamos in setup mode, with the first Dynamo being activated
                 </p>
@@ -214,7 +228,7 @@
             Then they pass the fading Dynamo either to the player next to them or across from them.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/dynamo/images/dynamo5.png"/>
+                <img src="https://app.move38.com/blinks/games/dynamo/images/dynamo-05.svg" width="212.2" height="163.1" alt=""/>
             </div>
             <p align="center">
             Players continue to pass their Dynamos back and forth until one dies. The player responsible for letting the Dynamo die is eliminated from the game.

@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -132,7 +146,7 @@
             There are no “turns” in Astro - all players are free to move and mine as quickly as possible. To move, slide your Ship around the play surface and attach to Asteroids containing ore that matches your mission color. When you attach, you will automatically begin mining. Ore will disappear from the asteroid and appear on your ship. Then you are free to disconnect and continue moving.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/astro/images/ast1.png"/>
+                <img src="https://app.move38.com/blinks/games/astro/images/astro-01.svg" width="178.7" height="82.8" alt="Ore collection example"/>
                 <p class="caption">
                 Ore collection example
                 </p>
@@ -141,7 +155,7 @@
             Your goal is to complete 6 missions by mining the asteroid field for colored ore. The ore color you’re collecting is indicated by the color on your ship, and the number of ore needed to complete the mission is indicated by the number of flashing lights.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/astro/images/ast2.png"/>
+                <img src="https://app.move38.com/blinks/games/astro/images/astro-02.svg" width="252.2" height="43" alt="Example set of missions"/>
                 <p class="caption">
                 Example set of missions
                 </p>
@@ -150,7 +164,7 @@
             As you collect ore, your cargo bay will fill, then celebrate when the mission is complete. After completing each mission, make sure you are separated from any Asteroids, then double-click your Ship to be given a new mission.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/astro/images/ast3.png"/>
+                <img src="https://app.move38.com/blinks/games/astro/images/astro-03.svg" width="130.6" height="48.5" alt="Mission success and reset"/>
                 <p class="caption">
                 Mission success and reset
                 </p>
@@ -159,7 +173,7 @@
             Asteroids will periodically update to display new ore, but only if they are alone. You are allowed to grab onto Asteroids that have connected to each other and separate them.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/astro/images/ast4.png"/>
+                <img src="https://app.move38.com/blinks/games/astro/images/astro-04.svg" width="133" height="83.9" alt="Disconnecting attached Asteroids"/>
                 <p class="caption">
                 Disconnecting attached Asteroids
                 </p>

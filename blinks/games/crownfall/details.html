@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -136,7 +150,7 @@
             Each team clusters their Blinks together and then single-clicks any Blink to swap between the two team colors.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/crownfall/images/crownfall_01.png"/>
+                <img src="https://app.move38.com/blinks/games/crownfall/images/crownfall-01.svg" width="189.1" height="62.1" alt="Single-click a Blink to swap team color in a cluster"/>
                 <p class="caption">
                 Single-click a Blink to swap team color in a cluster
                 </p>
@@ -145,7 +159,7 @@
             To muster an army, triple-click any Blink in the cluster to turn it into a Crown. All other Blinks will become the army. Blinks will assign themselves one of 9 roles depending on how many Blinks they are away from the Crown Blink. As you play, try to find a unique setup formation that creates your perfect strategic army.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/crownfall/images/crownfall_02.png"/>
+                <img src="https://app.move38.com/blinks/games/crownfall/images/crownfall-02.svg" width="127.8" height="66.2" alt="Triple-click a Blink to make a Crown and muster an army"/>
                 <p class="caption">
                 Triple-click a Blink to make a Crown and muster an army
                 </p>
@@ -161,7 +175,7 @@
             Players can also choose to activate the power of one of their army Blinks as an action. Many roles have a power that can be activated with an action, but several have passive powers which do not require an action. All powers are detailed at the end of the rules. If, during play, a Blink connects to another Blink, you must separate the two by 1 inch and rotate them so that they are no longer aligned to each other. Some powers may affect this rule.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/crownfall/images/crownfall_03.png"/>
+                <img src="https://app.move38.com/blinks/games/crownfall/images/crownfall-03.svg" width="158.7" height="37.6" alt="When two Blinks attach, they must be immediately separated"/>
                 <p class="caption">
                 When two Blinks attach, they must be immediately separated
                 </p>
@@ -171,55 +185,55 @@
             </p>
             <h2>Powers</h2>
             <div class="power">
-                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/01_crown.png"/><h3>Crown</h3>
+                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/crownfall-04-crown.svg" width="43" height="38.2" alt=""/><h3>Crown</h3>
             </div>
             <p align="center">
             Whenever it is knocked off the battlefield, double-click it to remove one health, then place it back anywhere on your side of the battlefield.
             </p>
             <div class="power">
-                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/02_knight.png"/><h3>Knight</h3>
+                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/crownfall-05-knight.svg" width="32.7" height="29.7" alt=""/><h3>Knight</h3>
             </div>
             <p align="center">
             If the Knight connects with another Blink in your army, that Blink may be stacked on top of the Knight - that piece is now under the Knight’s protection. You can separate the two if you want to flick either, ending the protection.
             </p>
             <div class="power">
-                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/03_assassin.png"/><h3>Assassin</h3>
+                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/crownfall-06-assassin.svg" width="43" height="38.2" alt=""/><h3>Assassin</h3>
             </div>
             <p align="center">
             You may spend 1 action to place the Assassin anywhere on the battlefield.
             </p>
             <div class="power">
-                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/04_wizard.png"/><h3>Wizard</h3>
+                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/crownfall-07-wizard.svg" width="32.7" height="29.7" alt=""/><h3>Wizard</h3>
             </div>
             <p align="center">
             After you flick the Wizard Blink, you can pick it up and return it to its original position as long as it didn’t hit any other Blinks.
             </p>
             <div class="power">
-                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/05_jester.png"/><h3>Jester</h3>
+                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/crownfall-08-jester.svg" width="32.7" height="29.7" alt=""/><h3>Jester</h3>
             </div>
             <p align="center">
             If the Jester connects to an enemy Blink, they remain connected, either until your opponent uses an action to disconnect them, or you flick the Jester with the enemy Blink still attached, after which they are disconnected.
             </p>
             <div class="power">
-                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/06_cleric.png"/><h3>Cleric</h3>
+                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/crownfall-09-cleric.svg" width="32.7" height="29.7" alt=""/><h3>Cleric</h3>
             </div>
             <p align="center">
             If the Cleric connects to another Blink, it will pass on a spinning white “blessing.” If a Blink with a blessing is knocked off the battlefield, it may be returned to its side of the battlefield, then double-clicked to expend the blessing.
             </p>
             <div class="power">
-                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/07_necromancer.png"/><h3>Necromancer</h3>
+                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/crownfall-10-necromancer.svg" width="37.9" height="38.2" alt=""/><h3>Necromancer</h3>
             </div>
             <p align="center">
             You can use your first action to take a dead Blink from outside the battlefield and place it next to your Necromancer, then use your second action to flick it once. Regardless of the result, that Blink is then removed from play.
             </p>
             <div class="power">
-                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/08_giant.png"/><h3>Giant</h3>
+                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/crownfall-11-giant.svg" width="43" height="43" alt=""/><h3>Giant</h3>
             </div>
             <p align="center">
             If you flick the Giant during your turn, on your opponents next turn you may hold the giant down with your hand, rendering it immovable.
             </p>
             <div class="power">
-                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/09_cavalry.png"/><h3>Cavalry</h3>
+                <img class="icon" src="https://app.move38.com/blinks/games/crownfall/images/crownfall-12-cavalry.svg" width="43" height="33.5" alt=""/><h3>Cavalry</h3>
             </div>
             <p align="center">
             You may use both of your actions to flick the Cavalry. If you do this, you can flick it a third time for free.

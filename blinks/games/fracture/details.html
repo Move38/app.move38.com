@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -105,7 +119,7 @@
     <body>
         <div class="row">
             <p class="left cell">
-            Game Designer
+            Game Designers
             </p>
             <p class="right cell">
             Em Lazer-Walker<br/>Celia Pearce<br/>Jonathan Bobrow
@@ -133,7 +147,7 @@
             Designate a neutral color in addition to your chosen colors.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/fracture/images/frac1.png"/>
+                <img src="https://app.move38.com/blinks/games/fracture/images/fracture-01.svg" width="174.8" height="64.4" alt="Example arrangement for 3 players (left), 2 players (right)"/>
                 <p class="caption">
                 Example arrangement for 3 players (left), 2 players (right)
                 </p>
@@ -143,7 +157,7 @@
             The object of this game is to make your Blinks “happy.” In order for a Blink to be happy, it must be 1) touching at least two other tiles, and 2) not touching a tile of its own color.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/fracture/images/frac2.png"/>
+                <img src="https://app.move38.com/blinks/games/fracture/images/fracture-02.svg" width="210.2" height="63.3" alt="Unhappy and happy Blinks examples"/>
                 <p class="caption">
                 Unhappy and happy Blinks examples
                 </p>
@@ -155,7 +169,7 @@
             The player then reconnects the two clusters in any way they choose. Once a player has finished their move, play passes to the next clockwise player.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/fracture/images/frac3.png"/>
+                <img src="https://app.move38.com/blinks/games/fracture/images/fracture-03.svg" width="253.6" height="75.9" alt="Example turn"/>
                 <p class="caption">
                 Example turn
                 </p>
@@ -164,7 +178,7 @@
             Fractures must be able to be slid into and out of place while remaining flat on the table. They also cannot split the board into more than 2 halves.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/fracture/images/frac4.png"/>
+                <img src="https://app.move38.com/blinks/games/fracture/images/fracture-04.svg" width="112.9" height="107.6" alt="Examples of legal and illegal fractures"/>
                 <p class="caption">
                 Examples of legal and illegal fractures
                 </p>

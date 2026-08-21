@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -113,7 +127,7 @@
         </div>
         <div class="row">
             <p style="float:left">
-            Artist
+            Artists
             </p>
             <p style="float:right">
             Carol Mertz<br/>Mary McKenzie
@@ -128,7 +142,7 @@
             Each player starts with a Blink—this is your first Paintbrush. Then selects a unique Paintbrush color by single-clicking their Blink. Connect the remaining Blinks in the center of the play area into a single cluster - these blinks are now the canvas.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush_1.png"/>
+                <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush-01.svg" width="206.9" height="56.4" alt="Example arrangement for 2 players. For 2 players, use 6+ Blinks. For 3-4 players use 12+ blinks."/>
                 <p class="caption">
                 Example arrangement for 2 players. For 2 players, use 6+ Blinks. For 3-4 players use 12+ blinks.
                 </p>
@@ -137,7 +151,7 @@
             Taking turns, each player places their Paintbrush anywhere against the shape.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush_2.png"/>
+                <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush-02.svg" width="108" height="60.8" alt="Example paintbrush placement for 2 players"/>
                 <p class="caption">
                 Example paintbrush placement for 2 players
                 </p>
@@ -147,7 +161,7 @@
             After the initial paintbrushes have been placed, players continue taking turns, moving one Blink at a time to anywhere else on the board, aiming to create Paintbrushes in their color. A Blink becomes a Paintbrush when it’s been filled entirely with a single color.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush_3.png"/>
+                <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush-03.svg" width="141" height="43" alt="From left to right: A blue paintbrush, a blank canvas, and a partially painted canvas."/>
                 <p class="caption">
                 From left to right: A blue paintbrush, a blank canvas, and a partially painted canvas.
                 </p>
@@ -156,7 +170,7 @@
             Any Blink that is not a Paintbrush is a Canvas. A Paintbrush colors any Canvas side that it touches, whether it’s empty or not. Paint on a Canvas also paints any empty Canvas side that it directly touches, but does not affect a Canvas side that has already been painted.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush_4.png"/>
+                <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush-04.svg" width="93.5" height="87.6" alt="A painted canvas spreads paint to a blank canvas"/>
                 <p class="caption">
                 A painted canvas spreads paint to a blank canvas
                 </p>
@@ -168,7 +182,7 @@
             Players can move any Blink, either Paintbrush or Canvas, EXCEPT for any that would separate the shape—the shape cannot be split up into multiple pieces.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush_5.png"/>
+                <img src="https://app.move38.com/blinks/games/paintbrush/images/paintbrush-05.svg" width="224.2" height="153.8" alt="Separating the cluster into multiple groups is not allowed."/>
                 <p class="caption">
                 Separating the cluster into multiple groups is not allowed.
                 </p>

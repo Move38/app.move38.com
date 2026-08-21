@@ -69,8 +69,22 @@
             }
 
             .row {
-                margin: 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 24px;
+                margin: 0;
+                padding: 12px 35px 0;
                 font-weight: bold;
+                text-align: left;
+            }
+
+            .row p {
+                margin: 0;
+            }
+
+            .row p + p {
+                text-align: right;
             }
 
             p.caption {
@@ -82,11 +96,11 @@
 
             img {
                 display: inline-block;
-                max-width: 289px;
+                max-width: 100%;
+                height: auto;
             }
 
             img.icon {
-                max-width: 54px;
                 vertical-align: middle;
                 margin-right: 6px;
             }
@@ -132,7 +146,7 @@
             When you begin a game, one of your Blinks will turn white, representing your current position on the board. Your air tank, represented by the number of lights on your Blink, has enough air to last for 6 minutes.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/thalassophobia/images/Thalassophobia_Diagram_1.png"/>
+                <img src="https://app.move38.com/blinks/games/thalassophobia/images/thalassophobia-01.svg" width="215.4" height="29.7" alt="The player’s air tank counts down from 6 minutes to 1"/>
                 <p class="caption">
                 The player’s air tank counts down from 6 minutes to 1
                 </p>
@@ -141,7 +155,7 @@
             Any Blink adjacent to your current position will be visible, showing either open water or entangling seaweed.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/thalassophobia/images/Thalassophobia_Diagram_3.png"/>
+                <img src="https://app.move38.com/blinks/games/thalassophobia/images/thalassophobia-02.svg" width="83.1" height="78.9" alt="The player can see the Blinks immediately adjacent, but the rest are murky"/>
                 <p class="caption">
                 The player can see the Blinks immediately adjacent, but the rest are murky
                 </p>
@@ -150,7 +164,7 @@
             Move to an adjacent open water Blink by clicking it. When you do so, new Blinks will be revealed, and the Blinks you are no longer adjacent to will begin to fade into murky darkness.
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/thalassophobia/images/Thalassophobia_Diagram_2.png"/>
+                <img src="https://app.move38.com/blinks/games/thalassophobia/images/thalassophobia-03.svg" width="195" height="78.9" alt="By moving their position, the player lights more of their surroundings"/>
                 <p class="caption">
                 By moving their position, the player lights more of their surroundings
                 </p>
@@ -158,6 +172,12 @@
             <p align="center">
             As you explore, you may see a glimmer of light either in open water or on some seaweed - move onto that space to ascend towards the surface.
             </p>
+            <div align="center" class="image">
+                <img src="https://app.move38.com/blinks/games/thalassophobia/images/thalassophobia-04.svg" width="83.1" height="78.9" alt="The player sees a glimmer of light on nearby open water"/>
+                <p class="caption">
+                The player sees a glimmer of light on nearby open water
+                </p>
+            </div>
             <p align="center">
             Keep in mind that these chances are fleeting, and can only be spotted if a space is visible, so it’s best to explore as much and as quickly as possible. If you find yourself trapped, you can always rearrange your Blinks to find a way out.
             </p>
@@ -168,7 +188,7 @@
             Your goal is to get all the way to the surface and avoid drowning, which requires you to ascend a total of 6 times. Make it all the way to the surface within 6 minutes, and you win the game!
             </p>
             <div align="center" class="image">
-                <img src="https://app.move38.com/blinks/games/thalassophobia/images/Thalassophobia_Diagram_4.png"/>
+                <img src="https://app.move38.com/blinks/games/thalassophobia/images/thalassophobia-05.svg" width="231.2" height="88" alt="A winning game sparkles white, and a losing game flashes red"/>
                 <p class="caption">
                 A winning game sparkles white, and a losing game flashes red
                 </p>
